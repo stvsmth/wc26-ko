@@ -21,6 +21,7 @@ Roster file schema (data/rosters/argentina.toml):
     club = "Aston Villa (ENG)"
     age = 33
     caps = 62
+    value = 28000000          # optional, est. Transfermarkt market value in EUR
     captain = true            # optional, at most one per squad
 """
 
@@ -41,6 +42,18 @@ SQUAD_BLOCK_RE = re.compile(r'<div class="squad-head">.*?</table>', re.S)
 # markup instead of duplicating it. The prefix has no regex metacharacters.
 AVG_PREFIX = '<div class="k">Squad avg age</div><div class="v">'
 AVG_RE = re.compile(rf'({AVG_PREFIX})\s*[\d.]+\s*<small>[^<]*</small>')
+# The complete avg-age fact (after AVG_RE has refreshed it) — used as the anchor
+# to splice the squad-value fact in right after it.
+AVG_FACT_FULL_RE = re.compile(
+    r'(<div class="k">Squad avg age</div><div class="v">\s*[\d.]+\s*'
+    r'<small>[^<]*</small></div></div>)'
+)
+# The squad-value fact this script inserts; removed first each run so re-applying
+# is idempotent rather than stacking duplicates.
+VALUE_FACT_KEY = 'Squad market value'
+VALUE_FACT_RE = re.compile(
+    rf'\s*<div class="fact"><div class="k">{VALUE_FACT_KEY}</div>.*?</div></div>', re.S
+)
 POS_ORDER = {'GK': 0, 'DF': 1, 'MF': 2, 'FW': 3}
 
 
@@ -48,8 +61,35 @@ def esc(value: object) -> str:
     return html.escape(str(value), quote=True)
 
 
+def fmt_value(v: int) -> str:
+    """Compact market-value label, e.g. €1.40bn / €180m / €12.5m / €450k."""
+    if v >= 1_000_000_000:
+        return f'€{v / 1_000_000_000:.2f}bn'
+    if v >= 1_000_000:
+        m = v / 1_000_000
+        return f'€{m:.0f}m' if m >= 100 or m == int(m) else f'€{m:.1f}m'
+    if v >= 1_000:
+        return f'€{round(v / 1_000)}k'
+    return f'€{v}'
+
+
+def value_fact_html(total: int, ncov: int, n: int) -> str:
+    """The 'Squad market value' factstrip block spliced after the avg-age fact."""
+    return (
+        f'\n        <div class="fact"><div class="k">{VALUE_FACT_KEY}</div>'
+        f'<div class="v">{fmt_value(total)}\n'
+        f'          <small>est., {ncov} of {n}</small></div></div>'
+    )
+
+
 def row_html(p: dict[str, Any]) -> str:
     cap = '<span class="cap">(C)</span>' if p.get('captain') else ''
+    v = p.get('value')
+    value_td = (
+        f'<td class="value-cell" data-eur="{v}">{fmt_value(v)}</td>'
+        if v
+        else '<td class="value-cell nodata">—</td>'
+    )
     return (
         '\n              '
         f'<td class="shirt-cell">{p["num"]}</td>'
@@ -58,6 +98,7 @@ def row_html(p: dict[str, Any]) -> str:
         f'<td class="club">{esc(p["club"])}</td>'
         f'<td class="age-cell">{p["age"]}</td>'
         f'<td class="num-cell">{p["caps"]}</td>'
+        f'{value_td}'
     )
 
 
@@ -69,7 +110,7 @@ def squad_block(players: list[dict[str, Any]]) -> str:
         'club at selection · senior caps</span></div>\n'
         '          <table class="squad"><thead><tr>\n'
         '            <th>#</th><th>Pos</th><th>Player</th>'
-        '<th>Club (league)</th><th>Age</th><th>Caps</th>\n'
+        '<th>Club (league)</th><th>Age</th><th>Caps</th><th>Value</th>\n'
         f'          </tr></thead><tbody><tr>{rows}</tr></tbody></table>'
     )
 
@@ -115,9 +156,20 @@ def apply(path: Path) -> str:
     if not hits:
         problems.append("no 'Squad avg age' factstrip to update")
 
+    # Squad market value: remove any prior fact (idempotency), then splice a
+    # fresh one after the avg-age fact when we have at least one valued player.
+    raw = VALUE_FACT_RE.sub('', raw)
+    vals = [p['value'] for p in players if p.get('value')]
+    if vals:
+        fact = value_fact_html(sum(vals), len(vals), n)
+        raw, vhits = AVG_FACT_FULL_RE.subn(lambda m: m.group(1) + fact, raw, count=1)
+        if not vhits:
+            problems.append('could not anchor squad-value factstrip')
+
     target.write_text(raw, encoding='utf-8')
     flag = '  ⚠ ' + '; '.join(problems) if problems else ''
-    print(f'  {slug:14} {n} players  avg {avg:.1f}{flag}')
+    cov = f'  val {len(vals)}/{n}' if vals else ''
+    print(f'  {slug:14} {n} players  avg {avg:.1f}{cov}{flag}')
     return slug
 
 

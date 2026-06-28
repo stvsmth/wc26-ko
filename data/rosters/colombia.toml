@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 # Colombia — 26-man squad, 2026 FIFA World Cup.
 slug = "colombia"
 
@@ -8,6 +9,7 @@ pos = "GK"
 club = "Atlético Nacional (COL)"
 age = 37
 caps = 130
+value = 100000
 
 [[player]]
 num = 12
@@ -16,6 +18,7 @@ pos = "GK"
 club = "Atlas (MEX)"
 age = 36
 caps = 42
+value = 450000
 
 [[player]]
 num = 24
@@ -24,6 +27,7 @@ pos = "GK"
 club = "Vélez Sarsfield (ARG)"
 age = 30
 caps = 12
+value = 2500000
 
 [[player]]
 num = 2
@@ -32,6 +36,7 @@ pos = "DF"
 club = "Crystal Palace (ENG)"
 age = 29
 caps = 46
+value = 22000000
 
 [[player]]
 num = 3
@@ -40,6 +45,7 @@ pos = "DF"
 club = "Bologna (ITA)"
 age = 27
 caps = 37
+value = 22000000
 
 [[player]]
 num = 4
@@ -48,6 +54,7 @@ pos = "DF"
 club = "Independiente (ARG)"
 age = 34
 caps = 68
+value = 1200000
 
 [[player]]
 num = 13
@@ -56,6 +63,7 @@ pos = "DF"
 club = "Cagliari (ITA)"
 age = 31
 caps = 54
+value = 2500000
 
 [[player]]
 num = 14
@@ -64,6 +72,7 @@ pos = "DF"
 club = "Racing Santander (ESP)"
 age = 22
 caps = 6
+value = 10000000
 
 [[player]]
 num = 17
@@ -72,6 +81,7 @@ pos = "DF"
 club = "Mallorca (ESP)"
 age = 33
 caps = 45
+value = 1500000
 
 [[player]]
 num = 18
@@ -80,6 +90,7 @@ pos = "DF"
 club = "Cruz Azul (MEX)"
 age = 27
 caps = 5
+value = 5500000
 
 [[player]]
 num = 22
@@ -88,6 +99,7 @@ pos = "DF"
 club = "Nantes (FRA)"
 age = 32
 caps = 15
+value = 1800000
 
 [[player]]
 num = 23
@@ -96,6 +108,7 @@ pos = "DF"
 club = "Galatasaray (TUR)"
 age = 29
 caps = 79
+value = 16000000
 
 [[player]]
 num = 5
@@ -104,6 +117,7 @@ pos = "MF"
 club = "River Plate (ARG)"
 age = 25
 caps = 25
+value = 5000000
 
 [[player]]
 num = 6
@@ -112,6 +126,7 @@ pos = "MF"
 club = "Benfica (POR)"
 age = 25
 caps = 32
+value = 25000000
 
 [[player]]
 num = 8
@@ -120,6 +135,7 @@ pos = "MF"
 club = "Flamengo (BRA)"
 age = 27
 caps = 24
+value = 13000000
 
 [[player]]
 num = 10
@@ -128,6 +144,7 @@ pos = "MF"
 club = "Minnesota United (USA)"
 age = 34
 caps = 126
+value = 1500000
 captain = true
 
 [[player]]
@@ -137,6 +154,7 @@ pos = "MF"
 club = "Palmeiras (BRA)"
 age = 28
 caps = 38
+value = 15000000
 
 [[player]]
 num = 15
@@ -145,6 +163,7 @@ pos = "MF"
 club = "Athletico Paranaense (BRA)"
 age = 27
 caps = 10
+value = 5000000
 
 [[player]]
 num = 16
@@ -153,6 +172,7 @@ pos = "MF"
 club = "Crystal Palace (ENG)"
 age = 31
 caps = 65
+value = 6000000
 
 [[player]]
 num = 20
@@ -161,6 +181,7 @@ pos = "MF"
 club = "River Plate (ARG)"
 age = 32
 caps = 49
+value = 1800000
 
 [[player]]
 num = 7
@@ -169,6 +190,7 @@ pos = "FW"
 club = "Bayern Munich (GER)"
 age = 29
 caps = 74
+value = 70000000
 
 [[player]]
 num = 9
@@ -177,6 +199,7 @@ pos = "FW"
 club = "Krasnodar (RUS)"
 age = 32
 caps = 21
+value = 10000000
 
 [[player]]
 num = 19
@@ -185,6 +208,7 @@ pos = "FW"
 club = "Real Betis (ESP)"
 age = 26
 caps = 9
+value = 18000000
 
 [[player]]
 num = 21
@@ -193,6 +217,7 @@ pos = "FW"
 club = "Rosario Central (ARG)"
 age = 25
 caps = 10
+value = 5500000
 
 [[player]]
 num = 25
@@ -201,6 +226,7 @@ pos = "FW"
 club = "Sporting CP (POR)"
 age = 28
 caps = 12
+value = 30000000
 
 [[player]]
 num = 26
@@ -209,3 +235,4 @@ pos = "FW"
 club = "Vasco da Gama (BRA)"
 age = 23
 caps = 8
+value = 11000000

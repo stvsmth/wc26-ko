@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 slug = "spain"
 
 [[player]]
@@ -7,6 +8,7 @@ pos = "GK"
 club = "Arsenal (ENG)"
 age = 30
 caps = 13
+value = 30000000
 
 [[player]]
 num = 2
@@ -15,6 +17,7 @@ pos = "DF"
 club = "Atlético Madrid (ESP)"
 age = 22
 caps = 2
+value = 35000000
 
 [[player]]
 num = 3
@@ -23,6 +26,7 @@ pos = "DF"
 club = "Bayer Leverkusen (GER)"
 age = 30
 caps = 14
+value = 20000000
 
 [[player]]
 num = 4
@@ -31,6 +35,7 @@ pos = "DF"
 club = "Barcelona (ESP)"
 age = 25
 caps = 21
+value = 40000000
 
 [[player]]
 num = 5
@@ -39,6 +44,7 @@ pos = "DF"
 club = "Atlético Madrid (ESP)"
 age = 30
 caps = 24
+value = 20000000
 
 [[player]]
 num = 6
@@ -47,6 +53,7 @@ pos = "MF"
 club = "Arsenal (ENG)"
 age = 29
 caps = 43
+value = 25000000
 
 [[player]]
 num = 7
@@ -55,6 +62,7 @@ pos = "FW"
 club = "Barcelona (ESP)"
 age = 25
 caps = 57
+value = 50000000
 
 [[player]]
 num = 8
@@ -63,6 +71,7 @@ pos = "MF"
 club = "Paris Saint-Germain (FRA)"
 age = 29
 caps = 42
+value = 30000000
 
 [[player]]
 num = 9
@@ -71,6 +80,7 @@ pos = "MF"
 club = "Barcelona (ESP)"
 age = 21
 caps = 30
+value = 30000000
 
 [[player]]
 num = 10
@@ -79,6 +89,7 @@ pos = "FW"
 club = "Barcelona (ESP)"
 age = 27
 caps = 50
+value = 60000000
 
 [[player]]
 num = 11
@@ -87,6 +98,7 @@ pos = "FW"
 club = "Crystal Palace (ENG)"
 age = 23
 caps = 23
+value = 30000000
 
 [[player]]
 num = 12
@@ -95,6 +107,7 @@ pos = "DF"
 club = "Tottenham Hotspur (ENG)"
 age = 26
 caps = 18
+value = 35000000
 
 [[player]]
 num = 13
@@ -103,6 +116,7 @@ pos = "GK"
 club = "Barcelona (ESP)"
 age = 24
 caps = 2
+value = 45000000
 
 [[player]]
 num = 14
@@ -111,6 +125,7 @@ pos = "DF"
 club = "Athletic Bilbao (ESP)"
 age = 31
 caps = 46
+value = 8000000
 
 [[player]]
 num = 15
@@ -119,6 +134,7 @@ pos = "MF"
 club = "Atlético Madrid (ESP)"
 age = 24
 caps = 17
+value = 40000000
 
 [[player]]
 num = 16
@@ -127,6 +143,7 @@ pos = "MF"
 club = "Manchester City (ENG)"
 age = 29
 caps = 62
+value = 50000000
 captain = true
 
 [[player]]
@@ -136,6 +153,7 @@ pos = "FW"
 club = "Athletic Bilbao (ESP)"
 age = 23
 caps = 30
+value = 40000000
 
 [[player]]
 num = 18
@@ -144,6 +162,7 @@ pos = "MF"
 club = "Arsenal (ENG)"
 age = 26
 caps = 26
+value = 75000000
 
 [[player]]
 num = 19
@@ -152,6 +171,7 @@ pos = "FW"
 club = "Barcelona (ESP)"
 age = 18
 caps = 25
+value = 200000000
 
 [[player]]
 num = 20
@@ -160,6 +180,7 @@ pos = "MF"
 club = "Barcelona (ESP)"
 age = 23
 caps = 41
+value = 150000000
 
 [[player]]
 num = 21
@@ -168,6 +189,7 @@ pos = "FW"
 club = "Real Sociedad (ESP)"
 age = 28
 caps = 53
+value = 25000000
 
 [[player]]
 num = 22
@@ -176,6 +198,7 @@ pos = "DF"
 club = "Barcelona (ESP)"
 age = 18
 caps = 12
+value = 80000000
 
 [[player]]
 num = 23
@@ -184,6 +207,7 @@ pos = "GK"
 club = "Athletic Bilbao (ESP)"
 age = 28
 caps = 58
+value = 22000000
 
 [[player]]
 num = 24
@@ -192,6 +216,7 @@ pos = "DF"
 club = "Chelsea (ENG)"
 age = 27
 caps = 24
+value = 50000000
 
 [[player]]
 num = 25
@@ -200,6 +225,7 @@ pos = "FW"
 club = "Osasuna (ESP)"
 age = 22
 caps = 2
+value = 30000000
 
 [[player]]
 num = 26
@@ -208,3 +234,4 @@ pos = "FW"
 club = "Celta Vigo (ESP)"
 age = 32
 caps = 8
+value = 2800000

@@ -111,6 +111,37 @@ def conf_label(conf: str) -> str:
     return CONF_LABELS.get(conf, conf.upper())
 
 
+# Market values are Transfermarkt estimates; stamp the snapshot they reflect so
+# the footnote can stay honest about how current the figures are.
+MV_SNAPSHOT = 'Jun 2026'
+
+
+def fmt_value(v: int) -> str:
+    """Compact market-value label, e.g. €1.40bn / €180m / €12.5m / €450k."""
+    if v >= 1_000_000_000:
+        return f'€{v / 1_000_000_000:.2f}bn'
+    if v >= 1_000_000:
+        m = v / 1_000_000
+        return f'€{m:.0f}m' if m >= 100 or m == int(m) else f'€{m:.1f}m'
+    if v >= 1_000:
+        return f'€{round(v / 1_000)}k'
+    return f'€{v}'
+
+
+def squad_value(team: Team) -> tuple[int, int, int]:
+    """(total EUR, players with a value, squad size) — value is omitted where
+    Transfermarkt has no listing, so coverage is reported alongside the total."""
+    players: list[dict[str, Any]] = team.get('players', [])
+    vals = [p['value'] for p in players if p.get('value')]
+    return sum(vals), len(vals), len(players)
+
+
+def mv_cell(tot: int, cov: int, n: int) -> str:
+    """One team's market-value comparison cell: the total with a 'cov of n'
+    coverage note, or '—' when Transfermarkt lists no values for the squad."""
+    return f'{fmt_value(tot)}<small>{cov} of {n}</small>' if cov else '—'
+
+
 def flag(team: Team) -> str:
     code = FLAG_CODES.get(team['slug'])
     if not code:
@@ -210,6 +241,12 @@ def squad_html(team: Team) -> str:
     rows = []
     for p in players:
         cap = '<span class="cap">(C)</span>' if p.get('captain') else ''
+        v = p.get('value')
+        val_cell = (
+            f'<td class="cs-value">{fmt_value(v)}</td>'
+            if v
+            else '<td class="cs-value nodata">—</td>'
+        )
         rows.append(
             '<tr>'
             f'<td class="cs-shirt">{esc(p.get("num", ""))}</td>'
@@ -218,13 +255,15 @@ def squad_html(team: Team) -> str:
             f'<div class="cs-club">{esc(p["club"])}</div></td>'
             f'<td class="cs-age">{esc(p.get("age", ""))}</td>'
             f'<td class="cs-caps">{esc(p.get("caps", 0))}</td>'
+            f'{val_cell}'
             '</tr>'
         )
     return (
         f'<div class="cmp-squad" style="--accent:{accent(team["conf"])}">'
         f'<h2><span class="dot"></span>{esc(team["name"])} · squad ({len(players)})</h2>'
         '<table><thead><tr><th class="th-shirt">#</th><th class="th-pos"></th><th>Player</th>'
-        '<th class="th-num">Age</th><th class="th-num">Caps</th></tr></thead>'
+        '<th class="th-num">Age</th><th class="th-num">Caps</th>'
+        '<th class="th-num">Value</th></tr></thead>'
         f'<tbody>{"".join(rows)}</tbody></table>'
         f'<p class="cmp-profile"><a href="../{esc(team["profile"])}">'
         f'Full {esc(team["name"])} profile →</a></p></div>'
@@ -275,6 +314,27 @@ def render_match(match: Match, teams: Teams, round_name: str, footer: str) -> st
         h2h_row('Squad size', esc(a['squad_size']), esc(b['squad_size'])),
     ]
 
+    # Squad market value: show the row only if at least one side has values, and
+    # only declare a winner when *both* do (comparing against partial data lies).
+    a_tot, a_cov, a_n = squad_value(a)
+    b_tot, b_cov, b_n = squad_value(b)
+    note = ''
+    if a_cov or b_cov:
+        comparable = bool(a_cov and b_cov)
+        rows.append(
+            h2h_row(
+                'Squad market value',
+                mv_cell(a_tot, a_cov, a_n),
+                mv_cell(b_tot, b_cov, b_n),
+                a_win=comparable and a_tot > b_tot,
+                b_win=comparable and b_tot > a_tot,
+            )
+        )
+        note = (
+            '<p class="cmp-note">Player values are Transfermarkt market-value '
+            f'estimates (EUR), as of {MV_SNAPSHOT}. “—” = no public listing.</p>'
+        )
+
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(a['name'])} vs {esc(b['name'])} — {esc(round_name)} · WC2026</title>
@@ -300,6 +360,7 @@ def render_match(match: Match, teams: Teams, round_name: str, footer: str) -> st
   </header>
   <section class="h2h">{''.join(rows)}</section>
   <section class="cmp-squads">{squad_html(a)}{squad_html(b)}</section>
+  {note}
   {footer}
 </div>
 <script defer src="../assets/times.js"></script>

@@ -1,6 +1,7 @@
-# Dev tooling only — the build itself (build.py, scripts/) is stdlib-only.
+# Everything here is run via `uv run`. build.py uses only the stdlib; the
+# scaffolding script scripts/extract_teams.py parses HTML with beautifulsoup4.
 [dependency-groups]
-dev = ["ruff", "ty", "pytest"]
+dev = ["ruff", "ty", "pytest", "beautifulsoup4", "lxml"]
 
 [tool.pytest.ini_options]
 # build.py is at the repo root; scripts/ isn't a package. Put both on the import

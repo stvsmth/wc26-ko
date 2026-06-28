@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 slug = "senegal"
 
 [[player]]
@@ -7,6 +8,7 @@ pos = "GK"
 club = "Nice (FRA)"
 age = 26
 caps = 2
+value = 7000000
 
 [[player]]
 num = 2
@@ -15,6 +17,7 @@ pos = "DF"
 club = "Chelsea (ENG)"
 age = 20
 caps = 8
+value = 22000000
 
 [[player]]
 num = 3
@@ -23,6 +26,7 @@ pos = "DF"
 club = "Al-Hilal (KSA)"
 age = 34
 caps = 103
+value = 4500000
 captain = true
 
 [[player]]
@@ -32,6 +36,7 @@ pos = "DF"
 club = "Maccabi Haifa (ISR)"
 age = 33
 caps = 22
+value = 400000
 
 [[player]]
 num = 5
@@ -40,6 +45,7 @@ pos = "MF"
 club = "Everton (ENG)"
 age = 36
 caps = 131
+value = 500000
 
 [[player]]
 num = 6
@@ -48,6 +54,7 @@ pos = "MF"
 club = "Rayo Vallecano (ESP)"
 age = 31
 caps = 30
+value = 1800000
 
 [[player]]
 num = 7
@@ -56,6 +63,7 @@ pos = "FW"
 club = "Como (ITA)"
 age = 20
 caps = 5
+value = 30000000
 
 [[player]]
 num = 8
@@ -64,6 +72,7 @@ pos = "MF"
 club = "Monaco (FRA)"
 age = 21
 caps = 33
+value = 40000000
 
 [[player]]
 num = 9
@@ -72,6 +81,7 @@ pos = "FW"
 club = "Lorient (FRA)"
 age = 25
 caps = 23
+value = 15000000
 
 [[player]]
 num = 10
@@ -80,6 +90,7 @@ pos = "FW"
 club = "Al-Nassr (KSA)"
 age = 33
 caps = 128
+value = 6000000
 
 [[player]]
 num = 11
@@ -88,6 +99,7 @@ pos = "FW"
 club = "Bayern Munich (GER)"
 age = 24
 caps = 33
+value = 40000000
 
 [[player]]
 num = 12
@@ -96,6 +108,7 @@ pos = "FW"
 club = "Samsunspor (TUR)"
 age = 29
 caps = 19
+value = 5000000
 
 [[player]]
 num = 13
@@ -104,6 +117,7 @@ pos = "FW"
 club = "Everton (ENG)"
 age = 25
 caps = 40
+value = 55000000
 
 [[player]]
 num = 14
@@ -112,6 +126,7 @@ pos = "DF"
 club = "Galatasaray (TUR)"
 age = 26
 caps = 30
+value = 8000000
 
 [[player]]
 num = 15
@@ -120,6 +135,7 @@ pos = "DF"
 club = "Monaco (FRA)"
 age = 26
 caps = 61
+value = 6000000
 
 [[player]]
 num = 16
@@ -128,6 +144,7 @@ pos = "GK"
 club = "Al-Ahli (KSA)"
 age = 33
 caps = 57
+value = 4000000
 
 [[player]]
 num = 17
@@ -136,6 +153,7 @@ pos = "MF"
 club = "Tottenham Hotspur (ENG)"
 age = 23
 caps = 40
+value = 30000000
 
 [[player]]
 num = 18
@@ -144,6 +162,7 @@ pos = "FW"
 club = "Crystal Palace (ENG)"
 age = 27
 caps = 83
+value = 40000000
 
 [[player]]
 num = 19
@@ -152,6 +171,7 @@ pos = "DF"
 club = "Lyon (FRA)"
 age = 29
 caps = 31
+value = 15000000
 
 [[player]]
 num = 20
@@ -160,6 +180,7 @@ pos = "FW"
 club = "Paris Saint-Germain (FRA)"
 age = 17
 caps = 11
+value = 30000000
 
 [[player]]
 num = 21
@@ -168,6 +189,7 @@ pos = "MF"
 club = "Sunderland (ENG)"
 age = 21
 caps = 21
+value = 35000000
 
 [[player]]
 num = 22
@@ -176,6 +198,7 @@ pos = "MF"
 club = "Bayern Munich (GER)"
 age = 18
 caps = 1
+value = 4000000
 
 [[player]]
 num = 23
@@ -184,6 +207,7 @@ pos = "GK"
 club = "Le Havre (FRA)"
 age = 32
 caps = 5
+value = 900000
 
 [[player]]
 num = 24
@@ -192,6 +216,7 @@ pos = "DF"
 club = "Nice (FRA)"
 age = 21
 caps = 7
+value = 10000000
 
 [[player]]
 num = 25
@@ -200,6 +225,7 @@ pos = "DF"
 club = "West Ham United (ENG)"
 age = 21
 caps = 20
+value = 28000000
 
 [[player]]
 num = 26
@@ -208,3 +234,4 @@ pos = "MF"
 club = "Villarreal (ESP)"
 age = 26
 caps = 41
+value = 40000000

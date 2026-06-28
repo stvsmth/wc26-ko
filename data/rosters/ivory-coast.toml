@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 # Ivory Coast — 26-man squad, 2026 FIFA World Cup.
 slug = "ivory-coast"
 
@@ -8,6 +9,7 @@ pos = "GK"
 club = "Çaykur Rizespor (TUR)"
 age = 25
 caps = 35
+value = 5000000
 
 [[player]]
 num = 16
@@ -16,6 +18,7 @@ pos = "GK"
 club = "Charleroi (BEL)"
 age = 24
 caps = 0
+value = 2000000
 
 [[player]]
 num = 23
@@ -24,6 +27,7 @@ pos = "GK"
 club = "Panathinaikos (GRE)"
 age = 27
 caps = 4
+value = 3000000
 
 [[player]]
 num = 2
@@ -32,6 +36,7 @@ pos = "DF"
 club = "Sporting CP (POR)"
 age = 22
 caps = 15
+value = 42000000
 
 [[player]]
 num = 3
@@ -40,6 +45,7 @@ pos = "DF"
 club = "Gil Vicente (POR)"
 age = 30
 caps = 54
+value = 3000000
 
 [[player]]
 num = 5
@@ -48,6 +54,7 @@ pos = "DF"
 club = "Galatasaray (TUR)"
 age = 25
 caps = 34
+value = 23000000
 
 [[player]]
 num = 7
@@ -56,6 +63,7 @@ pos = "DF"
 club = "Atalanta (ITA)"
 age = 25
 caps = 36
+value = 15000000
 
 [[player]]
 num = 13
@@ -64,6 +72,7 @@ pos = "DF"
 club = "İstanbul Başakşehir (TUR)"
 age = 29
 caps = 12
+value = 4000000
 
 [[player]]
 num = 17
@@ -72,6 +81,7 @@ pos = "DF"
 club = "Strasbourg (FRA)"
 age = 23
 caps = 20
+value = 20000000
 
 [[player]]
 num = 20
@@ -80,6 +90,7 @@ pos = "DF"
 club = "Beşiktaş (TUR)"
 age = 28
 caps = 20
+value = 16000000
 
 [[player]]
 num = 21
@@ -88,6 +99,7 @@ pos = "DF"
 club = "Roma (ITA)"
 age = 26
 caps = 28
+value = 35000000
 
 [[player]]
 num = 4
@@ -96,6 +108,7 @@ pos = "MF"
 club = "Maribor (SVN)"
 age = 34
 caps = 65
+value = 100000
 
 [[player]]
 num = 6
@@ -104,6 +117,7 @@ pos = "MF"
 club = "Porto (POR)"
 age = 30
 caps = 33
+value = 8000000
 
 [[player]]
 num = 8
@@ -112,6 +126,7 @@ pos = "MF"
 club = "Al-Ahli (KSA)"
 age = 29
 caps = 102
+value = 12000000
 captain = true
 
 [[player]]
@@ -121,6 +136,7 @@ pos = "MF"
 club = "Nottingham Forest (ENG)"
 age = 28
 caps = 57
+value = 20000000
 
 [[player]]
 num = 25
@@ -129,6 +145,7 @@ pos = "MF"
 club = "Charleroi (BEL)"
 age = 25
 caps = 5
+value = 5000000
 
 [[player]]
 num = 26
@@ -137,6 +154,7 @@ pos = "MF"
 club = "Trabzonspor (TUR)"
 age = 20
 caps = 9
+value = 23000000
 
 [[player]]
 num = 9
@@ -145,6 +163,7 @@ pos = "FW"
 club = "Inter Milan (ITA)"
 age = 22
 caps = 1
+value = 35000000
 
 [[player]]
 num = 10
@@ -153,6 +172,7 @@ pos = "FW"
 club = "Monaco (FRA)"
 age = 24
 caps = 29
+value = 22000000
 
 [[player]]
 num = 11
@@ -161,6 +181,7 @@ pos = "FW"
 club = "RB Leipzig (GER)"
 age = 19
 caps = 10
+value = 90000000
 
 [[player]]
 num = 12
@@ -169,6 +190,7 @@ pos = "FW"
 club = "Nice (FRA)"
 age = 23
 caps = 2
+value = 18000000
 
 [[player]]
 num = 14
@@ -177,6 +199,7 @@ pos = "FW"
 club = "Cercle Brugge (BEL)"
 age = 22
 caps = 30
+value = 5000000
 
 [[player]]
 num = 15
@@ -185,6 +208,7 @@ pos = "FW"
 club = "Manchester United (ENG)"
 age = 24
 caps = 19
+value = 45000000
 
 [[player]]
 num = 19
@@ -193,6 +217,7 @@ pos = "FW"
 club = "Villarreal (ESP)"
 age = 30
 caps = 56
+value = 6000000
 
 [[player]]
 num = 22
@@ -201,6 +226,7 @@ pos = "FW"
 club = "Crystal Palace (ENG)"
 age = 25
 caps = 21
+value = 25000000
 
 [[player]]
 num = 24
@@ -209,3 +235,4 @@ pos = "FW"
 club = "TSG Hoffenheim (GER)"
 age = 20
 caps = 6
+value = 40000000

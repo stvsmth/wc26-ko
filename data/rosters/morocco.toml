@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 # Morocco — 26-man squad, 2026 FIFA World Cup.
 slug = "morocco"
 
@@ -8,6 +9,7 @@ pos = "GK"
 club = "Al-Hilal (KSA)"
 age = 34
 caps = 90
+value = 3000000
 
 [[player]]
 num = 2
@@ -16,6 +18,7 @@ pos = "DF"
 club = "Paris Saint-Germain (FRA)"
 age = 27
 caps = 96
+value = 80000000
 captain = true
 
 [[player]]
@@ -25,6 +28,7 @@ pos = "DF"
 club = "Manchester United (ENG)"
 age = 28
 caps = 45
+value = 18000000
 
 [[player]]
 num = 4
@@ -33,6 +37,7 @@ pos = "MF"
 club = "Real Betis (ESP)"
 age = 29
 caps = 75
+value = 10000000
 
 [[player]]
 num = 5
@@ -41,6 +46,7 @@ pos = "DF"
 club = "Al-Fateh (KSA)"
 age = 33
 caps = 8
+value = 400000
 
 [[player]]
 num = 6
@@ -49,6 +55,7 @@ pos = "MF"
 club = "Lille (FRA)"
 age = 18
 caps = 3
+value = 50000000
 
 [[player]]
 num = 7
@@ -57,6 +64,7 @@ pos = "MF"
 club = "Sunderland (ENG)"
 age = 20
 caps = 5
+value = 25000000
 
 [[player]]
 num = 8
@@ -65,6 +73,7 @@ pos = "MF"
 club = "Girona (ESP)"
 age = 25
 caps = 49
+value = 10000000
 
 [[player]]
 num = 9
@@ -73,6 +82,7 @@ pos = "FW"
 club = "Al Ain (UAE)"
 age = 29
 caps = 37
+value = 6000000
 
 [[player]]
 num = 10
@@ -81,6 +91,7 @@ pos = "FW"
 club = "Real Madrid (ESP)"
 age = 26
 caps = 26
+value = 35000000
 
 [[player]]
 num = 11
@@ -89,6 +100,7 @@ pos = "MF"
 club = "PSV Eindhoven (NED)"
 age = 24
 caps = 30
+value = 40000000
 
 [[player]]
 num = 12
@@ -97,6 +109,7 @@ pos = "GK"
 club = "RS Berkane (MAR)"
 age = 36
 caps = 52
+value = 600000
 
 [[player]]
 num = 13
@@ -105,6 +118,7 @@ pos = "DF"
 club = "Genk (BEL)"
 age = 24
 caps = 3
+value = 17000000
 
 [[player]]
 num = 14
@@ -113,6 +127,7 @@ pos = "DF"
 club = "Fulham (ENG)"
 age = 28
 caps = 4
+value = 8000000
 
 [[player]]
 num = 15
@@ -121,6 +136,7 @@ pos = "MF"
 club = "Strasbourg (FRA)"
 age = 20
 caps = 4
+value = 22000000
 
 [[player]]
 num = 16
@@ -129,6 +145,7 @@ pos = "MF"
 club = "Strasbourg (FRA)"
 age = 20
 caps = 4
+value = 12000000
 
 [[player]]
 num = 17
@@ -137,6 +154,7 @@ pos = "FW"
 club = "Angers (FRA)"
 age = 25
 caps = 2
+value = 4000000
 
 [[player]]
 num = 18
@@ -145,6 +163,7 @@ pos = "DF"
 club = "Crystal Palace (ENG)"
 age = 22
 caps = 6
+value = 15000000
 
 [[player]]
 num = 19
@@ -153,6 +172,7 @@ pos = "DF"
 club = "Al Ahly (EGY)"
 age = 27
 caps = 18
+value = 1200000
 
 [[player]]
 num = 20
@@ -161,6 +181,7 @@ pos = "FW"
 club = "Olympiacos (GRE)"
 age = 32
 caps = 71
+value = 4500000
 
 [[player]]
 num = 21
@@ -169,6 +190,7 @@ pos = "FW"
 club = "Eintracht Frankfurt (GER)"
 age = 21
 caps = 2
+value = 10000000
 
 [[player]]
 num = 22
@@ -177,6 +199,7 @@ pos = "GK"
 club = "AS FAR (MAR)"
 age = 29
 caps = 3
+value = 1000000
 
 [[player]]
 num = 23
@@ -185,6 +208,7 @@ pos = "MF"
 club = "VfB Stuttgart (GER)"
 age = 21
 caps = 37
+value = 35000000
 
 [[player]]
 num = 24
@@ -193,6 +217,7 @@ pos = "MF"
 club = "Roma (ITA)"
 age = 24
 caps = 16
+value = 23000000
 
 [[player]]
 num = 25
@@ -201,6 +226,7 @@ pos = "DF"
 club = "Mechelen (BEL)"
 age = 22
 caps = 3
+value = 5000000
 
 [[player]]
 num = 26
@@ -209,3 +235,4 @@ pos = "DF"
 club = "PSV Eindhoven (NED)"
 age = 23
 caps = 9
+value = 12000000

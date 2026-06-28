@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 # DR Congo — 26-man squad, 2026 FIFA World Cup.
 slug = "congo-dr"
 
@@ -8,6 +9,7 @@ pos = "GK"
 club = "Le Havre (FRA)"
 age = 31
 caps = 29
+value = 400000
 
 [[player]]
 num = 16
@@ -16,6 +18,7 @@ pos = "GK"
 club = "Noah (ARM)"
 age = 26
 caps = 3
+value = 800000
 
 [[player]]
 num = 21
@@ -24,6 +27,7 @@ pos = "GK"
 club = "Standard Liège (BEL)"
 age = 20
 caps = 1
+value = 8000000
 
 [[player]]
 num = 2
@@ -32,6 +36,7 @@ pos = "DF"
 club = "West Ham United (ENG)"
 age = 28
 caps = 12
+value = 15000000
 
 [[player]]
 num = 3
@@ -40,6 +45,7 @@ pos = "DF"
 club = "Widzew Łódź (POL)"
 age = 27
 caps = 4
+value = 2500000
 
 [[player]]
 num = 4
@@ -48,6 +54,7 @@ pos = "DF"
 club = "Burnley (ENG)"
 age = 28
 caps = 14
+value = 5000000
 
 [[player]]
 num = 5
@@ -56,6 +63,7 @@ pos = "DF"
 club = "AEL (GRE)"
 age = 29
 caps = 14
+value = 600000
 
 [[player]]
 num = 12
@@ -64,6 +72,7 @@ pos = "DF"
 club = "Genk (BEL)"
 age = 31
 caps = 26
+value = 2000000
 
 [[player]]
 num = 22
@@ -72,6 +81,7 @@ pos = "DF"
 club = "Lille (FRA)"
 age = 31
 caps = 109
+value = 2000000
 captain = true
 
 [[player]]
@@ -81,6 +91,7 @@ pos = "DF"
 club = "Aris Limassol (CYP)"
 age = 28
 caps = 28
+value = 1000000
 
 [[player]]
 num = 26
@@ -89,6 +100,7 @@ pos = "DF"
 club = "Lens (FRA)"
 age = 32
 caps = 45
+value = 2000000
 
 [[player]]
 num = 6
@@ -97,6 +109,7 @@ pos = "MF"
 club = "Lille (FRA)"
 age = 21
 caps = 14
+value = 15000000
 
 [[player]]
 num = 7
@@ -105,6 +118,7 @@ pos = "MF"
 club = "Montpellier (FRA)"
 age = 23
 caps = 19
+value = 2000000
 
 [[player]]
 num = 8
@@ -113,6 +127,7 @@ pos = "MF"
 club = "Atromitos (GRE)"
 age = 29
 caps = 58
+value = 1200000
 
 [[player]]
 num = 10
@@ -121,6 +136,7 @@ pos = "MF"
 club = "Spartak Moscow (RUS)"
 age = 30
 caps = 38
+value = 3000000
 
 [[player]]
 num = 14
@@ -129,6 +145,7 @@ pos = "MF"
 club = "Sunderland (ENG)"
 age = 21
 caps = 20
+value = 35000000
 
 [[player]]
 num = 15
@@ -137,6 +154,7 @@ pos = "MF"
 club = "Kilmarnock (SCO)"
 age = 30
 caps = 17
+value = 150000
 
 [[player]]
 num = 18
@@ -145,6 +163,7 @@ pos = "MF"
 club = "Espanyol (ESP)"
 age = 28
 caps = 34
+value = 2500000
 
 [[player]]
 num = 25
@@ -153,6 +172,7 @@ pos = "MF"
 club = "Watford (ENG)"
 age = 27
 caps = 43
+value = 4000000
 
 [[player]]
 num = 9
@@ -161,6 +181,7 @@ pos = "FW"
 club = "Castellón (ESP)"
 age = 27
 caps = 8
+value = 2000000
 
 [[player]]
 num = 11
@@ -169,6 +190,7 @@ pos = "FW"
 club = "AEL (GRE)"
 age = 34
 caps = 31
+value = 250000
 
 [[player]]
 num = 13
@@ -177,6 +199,7 @@ pos = "FW"
 club = "Alanyaspor (TUR)"
 age = 28
 caps = 69
+value = 1500000
 
 [[player]]
 num = 17
@@ -185,6 +208,7 @@ pos = "FW"
 club = "Real Betis (ESP)"
 age = 34
 caps = 70
+value = 1200000
 
 [[player]]
 num = 19
@@ -193,6 +217,7 @@ pos = "FW"
 club = "Pyramids (EGY)"
 age = 31
 caps = 37
+value = 1800000
 
 [[player]]
 num = 20
@@ -201,6 +226,7 @@ pos = "FW"
 club = "Newcastle United (ENG)"
 age = 29
 caps = 38
+value = 25000000
 
 [[player]]
 num = 23
@@ -209,3 +235,4 @@ pos = "FW"
 club = "Al Jazira (UAE)"
 age = 29
 caps = 15
+value = 10000000

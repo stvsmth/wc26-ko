@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 # Sweden — 26-man squad, 2026 FIFA World Cup.
 # Source: en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads (section: Sweden).
 slug = "sweden"
@@ -9,6 +10,7 @@ pos = "GK"
 club = "Derby County (ENG)"
 age = 27
 caps = 3
+value = 2500000
 
 [[player]]
 num = 2
@@ -17,6 +19,7 @@ pos = "DF"
 club = "Braga (POR)"
 age = 26
 caps = 11
+value = 10000000
 
 [[player]]
 num = 3
@@ -25,6 +28,7 @@ pos = "DF"
 club = "Aston Villa (ENG)"
 age = 31
 caps = 76
+value = 5000000
 captain = true
 
 [[player]]
@@ -34,6 +38,7 @@ pos = "DF"
 club = "Atalanta (ITA)"
 age = 27
 caps = 29
+value = 22000000
 
 [[player]]
 num = 5
@@ -42,6 +47,7 @@ pos = "DF"
 club = "Leeds United (ENG)"
 age = 27
 caps = 24
+value = 20000000
 
 [[player]]
 num = 6
@@ -50,6 +56,7 @@ pos = "DF"
 club = "FC Dallas (USA)"
 age = 28
 caps = 3
+value = 1800000
 
 [[player]]
 num = 7
@@ -58,6 +65,7 @@ pos = "MF"
 club = "Tottenham Hotspur (ENG)"
 age = 20
 caps = 10
+value = 35000000
 
 [[player]]
 num = 8
@@ -66,6 +74,7 @@ pos = "DF"
 club = "Borussia Dortmund (GER)"
 age = 24
 caps = 13
+value = 22000000
 
 [[player]]
 num = 9
@@ -74,6 +83,7 @@ pos = "FW"
 club = "Liverpool (ENG)"
 age = 26
 caps = 58
+value = 85000000
 
 [[player]]
 num = 10
@@ -82,6 +92,7 @@ pos = "MF"
 club = "Celtic (SCO)"
 age = 25
 caps = 11
+value = 14000000
 
 [[player]]
 num = 11
@@ -90,6 +101,7 @@ pos = "FW"
 club = "Newcastle United (ENG)"
 age = 24
 caps = 30
+value = 32000000
 
 [[player]]
 num = 12
@@ -98,6 +110,7 @@ pos = "GK"
 club = "Stoke City (ENG)"
 age = 27
 caps = 12
+value = 12000000
 
 [[player]]
 num = 13
@@ -106,6 +119,7 @@ pos = "MF"
 club = "Pafos (CYP)"
 age = 32
 caps = 33
+value = 800000
 
 [[player]]
 num = 14
@@ -114,6 +128,7 @@ pos = "DF"
 club = "Burnley (ENG)"
 age = 27
 caps = 13
+value = 5000000
 
 [[player]]
 num = 15
@@ -122,6 +137,7 @@ pos = "DF"
 club = "Celta Vigo (ESP)"
 age = 31
 caps = 18
+value = 4500000
 
 [[player]]
 num = 16
@@ -130,6 +146,7 @@ pos = "MF"
 club = "Udinese (ITA)"
 age = 31
 caps = 25
+value = 4000000
 
 [[player]]
 num = 17
@@ -138,6 +155,7 @@ pos = "FW"
 club = "Arsenal (ENG)"
 age = 27
 caps = 33
+value = 65000000
 
 [[player]]
 num = 18
@@ -146,6 +164,7 @@ pos = "MF"
 club = "Brighton & Hove Albion (ENG)"
 age = 22
 caps = 21
+value = 35000000
 
 [[player]]
 num = 19
@@ -154,6 +173,7 @@ pos = "MF"
 club = "VfL Wolfsburg (GER)"
 age = 27
 caps = 41
+value = 8000000
 
 [[player]]
 num = 20
@@ -162,6 +182,7 @@ pos = "DF"
 club = "FC St. Pauli (GER)"
 age = 29
 caps = 2
+value = 5000000
 
 [[player]]
 num = 21
@@ -170,6 +191,7 @@ pos = "DF"
 club = "Holstein Kiel (GER)"
 age = 27
 caps = 11
+value = 3000000
 
 [[player]]
 num = 22
@@ -178,6 +200,7 @@ pos = "MF"
 club = "Union Saint-Gilloise (BEL)"
 age = 23
 caps = 8
+value = 6000000
 
 [[player]]
 num = 23
@@ -186,6 +209,7 @@ pos = "GK"
 club = "AIK (SWE)"
 age = 36
 caps = 21
+value = 175000
 
 [[player]]
 num = 24
@@ -194,6 +218,7 @@ pos = "DF"
 club = "Mjällby AIF (SWE)"
 age = 23
 caps = 1
+value = 5000000
 
 [[player]]
 num = 25
@@ -202,6 +227,7 @@ pos = "FW"
 club = "Club Brugge (BEL)"
 age = 28
 caps = 10
+value = 1800000
 
 [[player]]
 num = 26
@@ -210,3 +236,4 @@ pos = "FW"
 club = "Malmö FF (SWE)"
 age = 27
 caps = 2
+value = 1500000

@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 # Bosnia and Herzegovina
 slug = "bosnia"
 
@@ -8,6 +9,7 @@ pos = "GK"
 club = "FC St. Pauli (GER)"
 age = 30
 caps = 26
+value = 4500000
 
 [[player]]
 num = 2
@@ -16,6 +18,7 @@ pos = "DF"
 club = "Gaziantep F.K. (TUR)"
 age = 27
 caps = 12
+value = 1200000
 
 [[player]]
 num = 3
@@ -24,6 +27,7 @@ pos = "DF"
 club = "UC Sampdoria (ITA)"
 age = 27
 caps = 32
+value = 1200000
 
 [[player]]
 num = 4
@@ -32,6 +36,7 @@ pos = "DF"
 club = "US Sassuolo Calcio (ITA)"
 age = 22
 caps = 14
+value = 25000000
 
 [[player]]
 num = 5
@@ -40,6 +45,7 @@ pos = "DF"
 club = "Atalanta BC (ITA)"
 age = 32
 caps = 65
+value = 4000000
 
 [[player]]
 num = 6
@@ -48,6 +54,7 @@ pos = "MF"
 club = "Brøndby IF (DEN)"
 age = 22
 caps = 28
+value = 4500000
 
 [[player]]
 num = 7
@@ -56,6 +63,7 @@ pos = "DF"
 club = "S.L. Benfica (POR)"
 age = 23
 caps = 28
+value = 16000000
 
 [[player]]
 num = 8
@@ -64,6 +72,7 @@ pos = "MF"
 club = "BSC Young Boys (SUI)"
 age = 23
 caps = 20
+value = 2500000
 
 [[player]]
 num = 9
@@ -72,6 +81,7 @@ pos = "FW"
 club = "Jagiellonia Białystok (POL)"
 age = 21
 caps = 13
+value = 1500000
 
 [[player]]
 num = 10
@@ -80,6 +90,7 @@ pos = "FW"
 club = "VfB Stuttgart (GER)"
 age = 27
 caps = 40
+value = 22000000
 
 [[player]]
 num = 11
@@ -88,6 +99,7 @@ pos = "FW"
 club = "FC Schalke 04 (GER)"
 age = 39
 caps = 148
+value = 1000000
 captain = true
 
 [[player]]
@@ -97,6 +109,7 @@ pos = "GK"
 club = "FK Borac Banja Luka (BIH)"
 age = 18
 caps = 0
+value = 700000
 
 [[player]]
 num = 13
@@ -105,6 +118,7 @@ pos = "MF"
 club = "FC Astana (KAZ)"
 age = 23
 caps = 17
+value = 1500000
 
 [[player]]
 num = 14
@@ -113,6 +127,7 @@ pos = "MF"
 club = "Pafos FC (CYP)"
 age = 29
 caps = 11
+value = 2000000
 
 [[player]]
 num = 15
@@ -121,6 +136,7 @@ pos = "MF"
 club = "FC Viktoria Plzeň (CZE)"
 age = 24
 caps = 13
+value = 4500000
 
 [[player]]
 num = 16
@@ -129,6 +145,7 @@ pos = "MF"
 club = "Hull City A.F.C. (ENG)"
 age = 28
 caps = 36
+value = 4000000
 
 [[player]]
 num = 17
@@ -137,6 +154,7 @@ pos = "MF"
 club = "Karlsruher SC (GER)"
 age = 27
 caps = 20
+value = 1200000
 
 [[player]]
 num = 18
@@ -145,6 +163,7 @@ pos = "DF"
 club = "FC Schalke 04 (GER)"
 age = 29
 caps = 17
+value = 1800000
 
 [[player]]
 num = 19
@@ -153,6 +172,7 @@ pos = "FW"
 club = "FC Red Bull Salzburg (AUT)"
 age = 18
 caps = 10
+value = 22000000
 
 [[player]]
 num = 20
@@ -161,6 +181,7 @@ pos = "FW"
 club = "PSV Eindhoven (NED)"
 age = 20
 caps = 16
+value = 8000000
 
 [[player]]
 num = 21
@@ -169,6 +190,7 @@ pos = "DF"
 club = "HNK Rijeka (CRO)"
 age = 28
 caps = 5
+value = 2800000
 
 [[player]]
 num = 22
@@ -177,6 +199,7 @@ pos = "GK"
 club = "HNK Rijeka (CRO)"
 age = 27
 caps = 3
+value = 2000000
 
 [[player]]
 num = 23
@@ -185,6 +208,7 @@ pos = "FW"
 club = "Borussia Mönchengladbach (GER)"
 age = 31
 caps = 10
+value = 3500000
 
 [[player]]
 num = 24
@@ -193,6 +217,7 @@ pos = "DF"
 club = "SK Sturm Graz (AUT)"
 age = 20
 caps = 8
+value = 1800000
 
 [[player]]
 num = 25
@@ -201,6 +226,7 @@ pos = "FW"
 club = "FC Universitatea Cluj (ROU)"
 age = 27
 caps = 3
+value = 2200000
 
 [[player]]
 num = 26
@@ -209,3 +235,4 @@ pos = "MF"
 club = "FC Slovan Liberec (CZE)"
 age = 20
 caps = 2
+value = 5000000

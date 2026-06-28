@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 # England — 26-man squad, 2026 FIFA World Cup.
 # Source: en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads (section: England).
 slug = "england"
@@ -9,6 +10,7 @@ pos = "GK"
 club = "Everton (ENG)"
 age = 31
 caps = 84
+value = 13000000
 
 [[player]]
 num = 2
@@ -17,6 +19,7 @@ pos = "DF"
 club = "Aston Villa (ENG)"
 age = 28
 caps = 20
+value = 40000000
 
 [[player]]
 num = 3
@@ -25,6 +28,7 @@ pos = "DF"
 club = "Manchester City (ENG)"
 age = 20
 caps = 5
+value = 70000000
 
 [[player]]
 num = 4
@@ -33,6 +37,7 @@ pos = "MF"
 club = "Arsenal (ENG)"
 age = 26
 caps = 73
+value = 120000000
 
 [[player]]
 num = 5
@@ -41,6 +46,7 @@ pos = "DF"
 club = "Manchester City (ENG)"
 age = 31
 caps = 89
+value = 12000000
 
 [[player]]
 num = 6
@@ -49,6 +55,7 @@ pos = "DF"
 club = "Manchester City (ENG)"
 age = 25
 caps = 29
+value = 70000000
 
 [[player]]
 num = 7
@@ -57,6 +64,7 @@ pos = "FW"
 club = "Arsenal (ENG)"
 age = 24
 caps = 49
+value = 110000000
 
 [[player]]
 num = 8
@@ -65,6 +73,7 @@ pos = "MF"
 club = "Nottingham Forest (ENG)"
 age = 23
 caps = 9
+value = 75000000
 
 [[player]]
 num = 9
@@ -73,6 +82,7 @@ pos = "FW"
 club = "Bayern Munich (GER)"
 age = 32
 caps = 114
+value = 60000000
 captain = true
 
 [[player]]
@@ -82,6 +92,7 @@ pos = "MF"
 club = "Real Madrid (ESP)"
 age = 22
 caps = 48
+value = 130000000
 
 [[player]]
 num = 11
@@ -90,6 +101,7 @@ pos = "FW"
 club = "Barcelona (ESP)"
 age = 28
 caps = 72
+value = 40000000
 
 [[player]]
 num = 12
@@ -98,6 +110,7 @@ pos = "DF"
 club = "Chelsea (ENG)"
 age = 26
 caps = 1
+value = 40000000
 
 [[player]]
 num = 13
@@ -106,6 +119,7 @@ pos = "GK"
 club = "Crystal Palace (ENG)"
 age = 28
 caps = 5
+value = 28000000
 
 [[player]]
 num = 14
@@ -114,6 +128,7 @@ pos = "MF"
 club = "Brentford (ENG)"
 age = 35
 caps = 90
+value = 1200000
 
 [[player]]
 num = 15
@@ -122,6 +137,7 @@ pos = "DF"
 club = "Newcastle United (ENG)"
 age = 33
 caps = 8
+value = 4000000
 
 [[player]]
 num = 16
@@ -130,6 +146,7 @@ pos = "MF"
 club = "Manchester United (ENG)"
 age = 20
 caps = 14
+value = 70000000
 
 [[player]]
 num = 17
@@ -138,6 +155,7 @@ pos = "MF"
 club = "Aston Villa (ENG)"
 age = 23
 caps = 15
+value = 90000000
 
 [[player]]
 num = 18
@@ -146,6 +164,7 @@ pos = "FW"
 club = "Newcastle United (ENG)"
 age = 24
 caps = 19
+value = 65000000
 
 [[player]]
 num = 19
@@ -154,6 +173,7 @@ pos = "FW"
 club = "Aston Villa (ENG)"
 age = 30
 caps = 22
+value = 25000000
 
 [[player]]
 num = 20
@@ -162,6 +182,7 @@ pos = "FW"
 club = "Arsenal (ENG)"
 age = 23
 caps = 11
+value = 50000000
 
 [[player]]
 num = 21
@@ -170,6 +191,7 @@ pos = "MF"
 club = "Arsenal (ENG)"
 age = 27
 caps = 17
+value = 65000000
 
 [[player]]
 num = 22
@@ -178,6 +200,7 @@ pos = "FW"
 club = "Al-Ahli (KSA)"
 age = 29
 caps = 8
+value = 20000000
 
 [[player]]
 num = 23
@@ -186,6 +209,7 @@ pos = "GK"
 club = "Manchester City (ENG)"
 age = 23
 caps = 2
+value = 25000000
 
 [[player]]
 num = 24
@@ -194,6 +218,7 @@ pos = "DF"
 club = "Chelsea (ENG)"
 age = 26
 caps = 24
+value = 60000000
 
 [[player]]
 num = 25
@@ -202,6 +227,7 @@ pos = "DF"
 club = "Tottenham Hotspur (ENG)"
 age = 25
 caps = 6
+value = 30000000
 
 [[player]]
 num = 26
@@ -210,3 +236,4 @@ pos = "DF"
 club = "Bayer Leverkusen (GER)"
 age = 22
 caps = 3
+value = 45000000

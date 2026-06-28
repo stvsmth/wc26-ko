@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 slug = "australia"
 
 [[player]]
@@ -7,6 +8,7 @@ pos = "GK"
 club = "Levante (ESP)"
 age = 34
 caps = 104
+value = 1800000
 captain = true
 
 [[player]]
@@ -16,6 +18,7 @@ pos = "DF"
 club = "APOEL (CYP)"
 age = 31
 caps = 57
+value = 450000
 
 [[player]]
 num = 3
@@ -24,6 +27,7 @@ pos = "DF"
 club = "Parma (ITA)"
 age = 22
 caps = 13
+value = 12000000
 
 [[player]]
 num = 4
@@ -32,6 +36,7 @@ pos = "DF"
 club = "Grazer AK (AUT)"
 age = 24
 caps = 5
+value = 600000
 
 [[player]]
 num = 5
@@ -40,6 +45,7 @@ pos = "DF"
 club = "Feyenoord (NED)"
 age = 23
 caps = 27
+value = 12000000
 
 [[player]]
 num = 6
@@ -48,6 +54,7 @@ pos = "DF"
 club = "Albirex Niigata (JPN)"
 age = 32
 caps = 14
+value = 350000
 
 [[player]]
 num = 7
@@ -56,6 +63,7 @@ pos = "FW"
 club = "Melbourne City (AUS)"
 age = 34
 caps = 80
+value = 300000
 
 [[player]]
 num = 8
@@ -64,6 +72,7 @@ pos = "MF"
 club = "FC St. Pauli (GER)"
 age = 26
 caps = 36
+value = 1500000
 
 [[player]]
 num = 9
@@ -72,6 +81,7 @@ pos = "FW"
 club = "Norwich City (ENG)"
 age = 21
 caps = 10
+value = 8000000
 
 [[player]]
 num = 10
@@ -80,6 +90,7 @@ pos = "FW"
 club = "Heracles Almelo (NED)"
 age = 29
 caps = 37
+value = 600000
 
 [[player]]
 num = 11
@@ -88,6 +99,7 @@ pos = "FW"
 club = "Castellón (ESP)"
 age = 30
 caps = 38
+value = 500000
 
 [[player]]
 num = 12
@@ -96,6 +108,7 @@ pos = "GK"
 club = "Randers (DEN)"
 age = 30
 caps = 4
+value = 500000
 
 [[player]]
 num = 13
@@ -104,6 +117,7 @@ pos = "MF"
 club = "New York City FC (USA)"
 age = 27
 caps = 31
+value = 3000000
 
 [[player]]
 num = 14
@@ -112,6 +126,7 @@ pos = "MF"
 club = "Heart of Midlothian (SCO)"
 age = 27
 caps = 5
+value = 2000000
 
 [[player]]
 num = 15
@@ -120,6 +135,7 @@ pos = "DF"
 club = "New York City FC (USA)"
 age = 24
 caps = 6
+value = 1800000
 
 [[player]]
 num = 16
@@ -128,6 +144,7 @@ pos = "DF"
 club = "Melbourne City (AUS)"
 age = 35
 caps = 84
+value = 250000
 
 [[player]]
 num = 17
@@ -136,6 +153,7 @@ pos = "FW"
 club = "Watford (ENG)"
 age = 19
 caps = 15
+value = 8000000
 
 [[player]]
 num = 18
@@ -144,6 +162,7 @@ pos = "GK"
 club = "Melbourne City (AUS)"
 age = 22
 caps = 2
+value = 1000000
 
 [[player]]
 num = 19
@@ -152,6 +171,7 @@ pos = "DF"
 club = "Leicester City (ENG)"
 age = 27
 caps = 38
+value = 3500000
 
 [[player]]
 num = 20
@@ -160,6 +180,7 @@ pos = "FW"
 club = "Sassuolo (ITA)"
 age = 22
 caps = 1
+value = 10000000
 
 [[player]]
 num = 21
@@ -168,6 +189,7 @@ pos = "DF"
 club = "Swansea City (WAL)"
 age = 30
 caps = 27
+value = 1500000
 
 [[player]]
 num = 22
@@ -176,6 +198,7 @@ pos = "MF"
 club = "FC St. Pauli (GER)"
 age = 32
 caps = 82
+value = 1000000
 
 [[player]]
 num = 23
@@ -184,6 +207,7 @@ pos = "FW"
 club = "Melbourne Victory (AUS)"
 age = 24
 caps = 7
+value = 650000
 
 [[player]]
 num = 24
@@ -192,6 +216,7 @@ pos = "MF"
 club = "Sydney FC (AUS)"
 age = 20
 caps = 6
+value = 1200000
 
 [[player]]
 num = 25
@@ -200,6 +225,7 @@ pos = "DF"
 club = "Colorado Rapids (USA)"
 age = 18
 caps = 4
+value = 4500000
 
 [[player]]
 num = 26
@@ -208,3 +234,4 @@ pos = "FW"
 club = "Machida Zelvia (JPN)"
 age = 25
 caps = 1
+value = 450000

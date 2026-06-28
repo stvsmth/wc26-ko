@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 # Paraguay — 26-man squad, 2026 FIFA World Cup.
 slug = "paraguay"
 
@@ -8,6 +9,7 @@ pos = "GK"
 club = "Cerro Porteño (PAR)"
 age = 37
 caps = 31
+value = 100000
 
 [[player]]
 num = 2
@@ -16,6 +18,7 @@ pos = "DF"
 club = "Cerro Porteño (PAR)"
 age = 34
 caps = 13
+value = 400000
 
 [[player]]
 num = 3
@@ -24,6 +27,7 @@ pos = "DF"
 club = "Sunderland (ENG)"
 age = 29
 caps = 36
+value = 13000000
 
 [[player]]
 num = 4
@@ -32,6 +36,7 @@ pos = "DF"
 club = "Dynamo Moscow (RUS)"
 age = 25
 caps = 17
+value = 5000000
 
 [[player]]
 num = 5
@@ -40,6 +45,7 @@ pos = "DF"
 club = "Grêmio (BRA)"
 age = 34
 caps = 48
+value = 900000
 
 [[player]]
 num = 6
@@ -48,6 +54,7 @@ pos = "DF"
 club = "Atlético Mineiro (BRA)"
 age = 32
 caps = 71
+value = 1500000
 
 [[player]]
 num = 7
@@ -56,6 +63,7 @@ pos = "MF"
 club = "Palmeiras (BRA)"
 age = 26
 caps = 29
+value = 10000000
 
 [[player]]
 num = 8
@@ -64,6 +72,7 @@ pos = "MF"
 club = "Brighton & Hove Albion (ENG)"
 age = 22
 caps = 24
+value = 25000000
 
 [[player]]
 num = 9
@@ -72,6 +81,7 @@ pos = "FW"
 club = "Cremonese (ITA)"
 age = 29
 caps = 48
+value = 1800000
 
 [[player]]
 num = 10
@@ -80,6 +90,7 @@ pos = "MF"
 club = "Atlanta United (USA)"
 age = 31
 caps = 76
+value = 7000000
 
 [[player]]
 num = 11
@@ -88,6 +99,7 @@ pos = "MF"
 club = "Palmeiras (BRA)"
 age = 24
 caps = 3
+value = 15000000
 
 [[player]]
 num = 12
@@ -96,6 +108,7 @@ pos = "GK"
 club = "San Lorenzo (ARG)"
 age = 25
 caps = 6
+value = 6000000
 
 [[player]]
 num = 13
@@ -104,6 +117,7 @@ pos = "DF"
 club = "Lanús (ARG)"
 age = 29
 caps = 2
+value = 2200000
 
 [[player]]
 num = 14
@@ -112,6 +126,7 @@ pos = "MF"
 club = "Vancouver Whitecaps (CAN)"
 age = 29
 caps = 33
+value = 4500000
 
 [[player]]
 num = 15
@@ -120,6 +135,7 @@ pos = "DF"
 club = "Palmeiras (BRA)"
 age = 32
 caps = 89
+value = 3500000
 captain = true
 
 [[player]]
@@ -129,6 +145,7 @@ pos = "MF"
 club = "São Paulo (BRA)"
 age = 24
 caps = 19
+value = 6000000
 
 [[player]]
 num = 17
@@ -137,6 +154,7 @@ pos = "FW"
 club = "Al Ain (UAE)"
 age = 30
 caps = 33
+value = 4500000
 
 [[player]]
 num = 18
@@ -145,6 +163,7 @@ pos = "FW"
 club = "Independiente Rivadavia (ARG)"
 age = 30
 caps = 15
+value = 3500000
 
 [[player]]
 num = 19
@@ -153,6 +172,7 @@ pos = "FW"
 club = "Strasbourg (FRA)"
 age = 21
 caps = 32
+value = 25000000
 
 [[player]]
 num = 20
@@ -161,6 +181,7 @@ pos = "MF"
 club = "Orlando City (USA)"
 age = 25
 caps = 17
+value = 3500000
 
 [[player]]
 num = 21
@@ -169,6 +190,7 @@ pos = "FW"
 club = "Independiente (ARG)"
 age = 34
 caps = 23
+value = 750000
 
 [[player]]
 num = 22
@@ -177,6 +199,7 @@ pos = "GK"
 club = "Olimpia (PAR)"
 age = 32
 caps = 1
+value = 500000
 
 [[player]]
 num = 23
@@ -185,6 +208,7 @@ pos = "MF"
 club = "Atlanta United (USA)"
 age = 23
 caps = 15
+value = 3000000
 
 [[player]]
 num = 24
@@ -193,6 +217,7 @@ pos = "MF"
 club = "Portsmouth (ENG)"
 age = 24
 caps = 2
+value = 1000000
 
 [[player]]
 num = 25
@@ -201,6 +226,7 @@ pos = "FW"
 club = "Red Bull Bragantino (BRA)"
 age = 26
 caps = 5
+value = 7500000
 
 [[player]]
 num = 26
@@ -209,3 +235,4 @@ pos = "DF"
 club = "Talleres (ARG)"
 age = 20
 caps = 2
+value = 2500000

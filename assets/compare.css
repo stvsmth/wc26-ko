@@ -84,6 +84,8 @@
 .cmp-squad .cs-club{color:var(--ink-dim);font-size:12px;font-weight:400}
 .cmp-squad .cs-age{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink-dim)}
 .cmp-squad .cs-caps{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink)}
+.cmp-squad .cs-value{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink)}
+.cmp-note{margin:18px 0 0;font-size:12px;color:var(--ink-faint);letter-spacing:.02em}
 .cmp-profile{margin-top:12px;font-size:12px;letter-spacing:.04em}
 .cmp-profile a{color:var(--ink-dim);text-decoration:underline;text-underline-offset:2px}
 

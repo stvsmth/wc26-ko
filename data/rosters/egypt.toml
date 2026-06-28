@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 # Egypt — 26-man squad, 2026 FIFA World Cup.
 # Source: en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads (section: Egypt).
 slug = "egypt"
@@ -9,6 +10,7 @@ pos = "GK"
 club = "Al Ahly (EGY)"
 age = 37
 caps = 76
+value = 500000
 
 [[player]]
 num = 2
@@ -17,6 +19,7 @@ pos = "DF"
 club = "Al Ahly (EGY)"
 age = 33
 caps = 17
+value = 275000
 
 [[player]]
 num = 3
@@ -25,6 +28,7 @@ pos = "DF"
 club = "Al Ahly (EGY)"
 age = 30
 caps = 42
+value = 1500000
 
 [[player]]
 num = 4
@@ -33,6 +37,7 @@ pos = "DF"
 club = "Zamalek (EGY)"
 age = 25
 caps = 13
+value = 2000000
 
 [[player]]
 num = 5
@@ -41,6 +46,7 @@ pos = "DF"
 club = "Al Ain (UAE)"
 age = 33
 caps = 44
+value = 600000
 
 [[player]]
 num = 6
@@ -49,6 +55,7 @@ pos = "DF"
 club = "Nice (FRA)"
 age = 27
 caps = 36
+value = 2500000
 
 [[player]]
 num = 7
@@ -57,6 +64,7 @@ pos = "FW"
 club = "Al Ahly (EGY)"
 age = 32
 caps = 96
+value = 4500000
 
 [[player]]
 num = 8
@@ -65,6 +73,7 @@ pos = "MF"
 club = "Al Ahly (EGY)"
 age = 28
 caps = 29
+value = 4000000
 
 [[player]]
 num = 9
@@ -73,6 +82,7 @@ pos = "FW"
 club = "Barcelona B (ESP)"
 age = 18
 caps = 2
+value = 1500000
 
 [[player]]
 num = 10
@@ -81,6 +91,7 @@ pos = "FW"
 club = "Liverpool (ENG)"
 age = 34
 caps = 116
+value = 22000000
 captain = true
 
 [[player]]
@@ -90,6 +101,7 @@ pos = "MF"
 club = "Pyramids (EGY)"
 age = 29
 caps = 2
+value = 1800000
 
 [[player]]
 num = 12
@@ -98,6 +110,7 @@ pos = "FW"
 club = "Oviedo (ESP)"
 age = 24
 caps = 4
+value = 3500000
 
 [[player]]
 num = 13
@@ -106,6 +119,7 @@ pos = "DF"
 club = "Zamalek (EGY)"
 age = 28
 caps = 39
+value = 1000000
 
 [[player]]
 num = 14
@@ -114,6 +128,7 @@ pos = "MF"
 club = "Al-Wakrah (QAT)"
 age = 32
 caps = 63
+value = 1800000
 
 [[player]]
 num = 15
@@ -122,6 +137,7 @@ pos = "DF"
 club = "Pyramids (EGY)"
 age = 30
 caps = 9
+value = 700000
 
 [[player]]
 num = 16
@@ -130,6 +146,7 @@ pos = "GK"
 club = "Zamalek (EGY)"
 age = 39
 caps = 0
+value = 150000
 
 [[player]]
 num = 17
@@ -138,6 +155,7 @@ pos = "MF"
 club = "Pyramids (EGY)"
 age = 30
 caps = 23
+value = 3000000
 
 [[player]]
 num = 18
@@ -146,6 +164,7 @@ pos = "MF"
 club = "Al-Najma (KSA)"
 age = 30
 caps = 12
+value = 1000000
 
 [[player]]
 num = 19
@@ -154,6 +173,7 @@ pos = "MF"
 club = "Al Ahly (EGY)"
 age = 28
 caps = 34
+value = 4000000
 
 [[player]]
 num = 20
@@ -162,6 +182,7 @@ pos = "FW"
 club = "Nordsjælland (DEN)"
 age = 25
 caps = 24
+value = 2500000
 
 [[player]]
 num = 21
@@ -170,6 +191,7 @@ pos = "MF"
 club = "ZED (EGY)"
 age = 25
 caps = 15
+value = 1500000
 
 [[player]]
 num = 22
@@ -178,6 +200,7 @@ pos = "FW"
 club = "Manchester City (ENG)"
 age = 27
 caps = 50
+value = 50000000
 
 [[player]]
 num = 23
@@ -186,6 +209,7 @@ pos = "GK"
 club = "Al Ahly (EGY)"
 age = 26
 caps = 9
+value = 1200000
 
 [[player]]
 num = 24
@@ -194,6 +218,7 @@ pos = "DF"
 club = "ZED (EGY)"
 age = 24
 caps = 3
+value = 250000
 
 [[player]]
 num = 25
@@ -202,6 +227,7 @@ pos = "FW"
 club = "Al Ahly (EGY)"
 age = 30
 caps = 63
+value = 3500000
 
 [[player]]
 num = 26
@@ -210,3 +236,4 @@ pos = "GK"
 club = "El Gouna (EGY)"
 age = 27
 caps = 0
+value = 1200000

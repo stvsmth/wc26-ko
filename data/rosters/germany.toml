@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 # Germany — 26-man squad, 2026 FIFA World Cup.
 # Source: en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads (section: Germany).
 slug = "germany"
@@ -9,6 +10,7 @@ pos = "GK"
 club = "Bayern Munich (GER)"
 age = 39
 caps = 124
+value = 4000000
 
 [[player]]
 num = 2
@@ -17,6 +19,7 @@ pos = "DF"
 club = "Real Madrid (ESP)"
 age = 32
 caps = 82
+value = 6000000
 
 [[player]]
 num = 3
@@ -25,6 +28,7 @@ pos = "DF"
 club = "Borussia Dortmund (GER)"
 age = 29
 caps = 13
+value = 18000000
 
 [[player]]
 num = 4
@@ -33,6 +37,7 @@ pos = "DF"
 club = "Bayern Munich (GER)"
 age = 29
 caps = 47
+value = 28000000
 
 [[player]]
 num = 5
@@ -41,6 +46,7 @@ pos = "MF"
 club = "Bayern Munich (GER)"
 age = 21
 caps = 11
+value = 90000000
 
 [[player]]
 num = 6
@@ -49,6 +55,7 @@ pos = "DF"
 club = "Bayern Munich (GER)"
 age = 30
 caps = 110
+value = 35000000
 captain = true
 
 [[player]]
@@ -58,6 +65,7 @@ pos = "FW"
 club = "Arsenal (ENG)"
 age = 26
 caps = 58
+value = 55000000
 
 [[player]]
 num = 8
@@ -66,6 +74,7 @@ pos = "MF"
 club = "Bayern Munich (GER)"
 age = 30
 caps = 70
+value = 12000000
 
 [[player]]
 num = 9
@@ -74,6 +83,7 @@ pos = "MF"
 club = "VfB Stuttgart (GER)"
 age = 24
 caps = 5
+value = 40000000
 
 [[player]]
 num = 10
@@ -82,6 +92,7 @@ pos = "MF"
 club = "Bayern Munich (GER)"
 age = 22
 caps = 42
+value = 100000000
 
 [[player]]
 num = 11
@@ -90,6 +101,7 @@ pos = "FW"
 club = "Newcastle United (ENG)"
 age = 23
 caps = 11
+value = 55000000
 
 [[player]]
 num = 12
@@ -98,6 +110,7 @@ pos = "GK"
 club = "TSG Hoffenheim (GER)"
 age = 35
 caps = 13
+value = 2500000
 
 [[player]]
 num = 13
@@ -106,6 +119,7 @@ pos = "MF"
 club = "Brighton & Hove Albion (ENG)"
 age = 34
 caps = 18
+value = 2500000
 
 [[player]]
 num = 14
@@ -114,6 +128,7 @@ pos = "FW"
 club = "Borussia Dortmund (GER)"
 age = 23
 caps = 9
+value = 40000000
 
 [[player]]
 num = 15
@@ -122,6 +137,7 @@ pos = "DF"
 club = "Borussia Dortmund (GER)"
 age = 26
 caps = 27
+value = 55000000
 
 [[player]]
 num = 16
@@ -130,6 +146,7 @@ pos = "MF"
 club = "VfB Stuttgart (GER)"
 age = 24
 caps = 8
+value = 45000000
 
 [[player]]
 num = 17
@@ -138,6 +155,7 @@ pos = "MF"
 club = "Liverpool (ENG)"
 age = 22
 caps = 41
+value = 100000000
 
 [[player]]
 num = 18
@@ -146,6 +164,7 @@ pos = "DF"
 club = "Eintracht Frankfurt (GER)"
 age = 22
 caps = 5
+value = 40000000
 
 [[player]]
 num = 19
@@ -154,6 +173,7 @@ pos = "MF"
 club = "Galatasaray (TUR)"
 age = 29
 caps = 76
+value = 20000000
 
 [[player]]
 num = 20
@@ -162,6 +182,7 @@ pos = "MF"
 club = "Mainz 05 (GER)"
 age = 29
 caps = 11
+value = 17000000
 
 [[player]]
 num = 21
@@ -170,6 +191,7 @@ pos = "GK"
 club = "VfB Stuttgart (GER)"
 age = 29
 caps = 3
+value = 12000000
 
 [[player]]
 num = 22
@@ -178,6 +200,7 @@ pos = "DF"
 club = "RB Leipzig (GER)"
 age = 27
 caps = 37
+value = 25000000
 
 [[player]]
 num = 23
@@ -186,6 +209,7 @@ pos = "MF"
 club = "Borussia Dortmund (GER)"
 age = 25
 caps = 8
+value = 50000000
 
 [[player]]
 num = 24
@@ -194,6 +218,7 @@ pos = "DF"
 club = "Newcastle United (ENG)"
 age = 24
 caps = 5
+value = 45000000
 
 [[player]]
 num = 25
@@ -202,6 +227,7 @@ pos = "MF"
 club = "RB Leipzig (GER)"
 age = 19
 caps = 1
+value = 28000000
 
 [[player]]
 num = 26
@@ -210,3 +236,4 @@ pos = "FW"
 club = "VfB Stuttgart (GER)"
 age = 29
 caps = 9
+value = 22000000

@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 # Argentina — 26-man squad, 2026 FIFA World Cup.
 # Source: en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads (section: Argentina).
 # Ages as of 11 Jun 2026; caps senior international caps at squad submission.
@@ -10,6 +11,7 @@ pos = "GK"
 club = "Atlético Madrid (ESP)"
 age = 31
 caps = 4
+value = 3000000
 
 [[player]]
 num = 12
@@ -18,6 +20,7 @@ pos = "GK"
 club = "Marseille (FRA)"
 age = 33
 caps = 8
+value = 6000000
 
 [[player]]
 num = 23
@@ -26,6 +29,7 @@ pos = "GK"
 club = "Aston Villa (ENG)"
 age = 33
 caps = 59
+value = 12000000
 
 [[player]]
 num = 2
@@ -34,6 +38,7 @@ pos = "DF"
 club = "Bournemouth (ENG)"
 age = 28
 caps = 3
+value = 25000000
 
 [[player]]
 num = 3
@@ -42,6 +47,7 @@ pos = "DF"
 club = "Lyon (FRA)"
 age = 33
 caps = 76
+value = 4000000
 
 [[player]]
 num = 4
@@ -50,6 +56,7 @@ pos = "DF"
 club = "River Plate (ARG)"
 age = 28
 caps = 39
+value = 4500000
 
 [[player]]
 num = 6
@@ -58,6 +65,7 @@ pos = "DF"
 club = "Manchester United (ENG)"
 age = 28
 caps = 28
+value = 40000000
 
 [[player]]
 num = 13
@@ -66,6 +74,7 @@ pos = "DF"
 club = "Tottenham Hotspur (ENG)"
 age = 27
 caps = 51
+value = 45000000
 
 [[player]]
 num = 19
@@ -74,6 +83,7 @@ pos = "DF"
 club = "Benfica (POR)"
 age = 37
 caps = 132
+value = 1000000
 
 [[player]]
 num = 25
@@ -82,6 +92,7 @@ pos = "DF"
 club = "Marseille (FRA)"
 age = 26
 caps = 9
+value = 18000000
 
 [[player]]
 num = 26
@@ -90,6 +101,7 @@ pos = "DF"
 club = "Atlético Madrid (ESP)"
 age = 27
 caps = 58
+value = 15000000
 
 [[player]]
 num = 5
@@ -98,6 +110,7 @@ pos = "MF"
 club = "Boca Juniors (ARG)"
 age = 31
 caps = 77
+value = 5000000
 
 [[player]]
 num = 7
@@ -106,6 +119,7 @@ pos = "MF"
 club = "Inter Miami CF (USA)"
 age = 31
 caps = 87
+value = 14000000
 
 [[player]]
 num = 8
@@ -114,6 +128,7 @@ pos = "MF"
 club = "Strasbourg (FRA)"
 age = 21
 caps = 4
+value = 40000000
 
 [[player]]
 num = 11
@@ -122,6 +137,7 @@ pos = "MF"
 club = "Real Betis (ESP)"
 age = 30
 caps = 67
+value = 8000000
 
 [[player]]
 num = 14
@@ -130,6 +146,7 @@ pos = "MF"
 club = "Bayer Leverkusen (GER)"
 age = 27
 caps = 40
+value = 25000000
 
 [[player]]
 num = 15
@@ -138,6 +155,7 @@ pos = "MF"
 club = "Atlético Madrid (ESP)"
 age = 27
 caps = 51
+value = 22000000
 
 [[player]]
 num = 20
@@ -146,6 +164,7 @@ pos = "MF"
 club = "Liverpool (ENG)"
 age = 27
 caps = 46
+value = 70000000
 
 [[player]]
 num = 24
@@ -154,6 +173,7 @@ pos = "MF"
 club = "Chelsea (ENG)"
 age = 25
 caps = 42
+value = 90000000
 
 [[player]]
 num = 9
@@ -162,6 +182,7 @@ pos = "FW"
 club = "Atlético Madrid (ESP)"
 age = 26
 caps = 51
+value = 100000000
 
 [[player]]
 num = 10
@@ -170,6 +191,7 @@ pos = "FW"
 club = "Inter Miami CF (USA)"
 age = 38
 caps = 199
+value = 15000000
 captain = true
 
 [[player]]
@@ -179,6 +201,7 @@ pos = "FW"
 club = "Atlético Madrid (ESP)"
 age = 24
 caps = 16
+value = 15000000
 
 [[player]]
 num = 17
@@ -187,6 +210,7 @@ pos = "FW"
 club = "Atlético Madrid (ESP)"
 age = 23
 caps = 13
+value = 40000000
 
 [[player]]
 num = 18
@@ -195,6 +219,7 @@ pos = "FW"
 club = "Como (ITA)"
 age = 21
 caps = 9
+value = 80000000
 
 [[player]]
 num = 21
@@ -203,6 +228,7 @@ pos = "FW"
 club = "Palmeiras (BRA)"
 age = 25
 caps = 5
+value = 25000000
 
 [[player]]
 num = 22
@@ -211,3 +237,4 @@ pos = "FW"
 club = "Inter Milan (ITA)"
 age = 28
 caps = 77
+value = 85000000

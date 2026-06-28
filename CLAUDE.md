@@ -6,26 +6,33 @@ repository.
 ## What this is
 
 A static site for the 2026 FIFA World Cup knockout stage: side-by-side match
-comparison pages plus a bracket index. Pure stdlib Python generators (3.11+ for
-`tomllib`) — no third-party runtime dependencies. Output is committed to the repo
-and served via GitHub Pages at `compare/index.html`.
+comparison pages plus a bracket index. Python generators run on 3.11+ (for
+`tomllib`). Output is committed to the repo and served via GitHub Pages at
+`compare/index.html`.
+
+This is a toy project with a single developer; expect it to sit idle for a few
+years at a stretch (between the men's and women's World Cups). Optimize for "easy
+to pick back up cold," not for breadth of contributors or runtime portability —
+there is no CI and nothing runs this code but its author, on a machine with `uv`.
 
 ## Commands
 
 ```sh
-python3 build.py                      # regenerate compare/ from data/ (the build)
-python3 scripts/apply_rosters.py      # write rosters into teams/*.html squad blocks
-python3 scripts/extract_teams.py      # re-scaffold data/teams.toml from teams/*.html
-ruff format <files>                   # format (line-length 99, single quotes; see pyproject.toml)
-ruff check <files>                    # lint
-ty check                              # type-check (dev dependency; see pyproject.toml)
-pytest                                # run the test suite (dev dependency; tests/)
+python3 build.py                          # regenerate compare/ from data/ (the build)
+python3 scripts/apply_rosters.py          # write rosters into teams/*.html squad blocks
+uv run python scripts/extract_teams.py    # re-scaffold data/teams.toml from teams/*.html
+uv run ruff format <files>                # format (line-length 99, single quotes; see pyproject.toml)
+uv run ruff check <files>                 # lint
+uv run ty check                           # type-check
+uv run pytest                             # run the test suite (tests/)
 ```
 
-The build/scripts are stdlib-only and run under plain `python3`. The dev tooling
-(`ruff`/`ty`/`pytest`) lives in the `[dependency-groups]` dev group and is run via
-`uv` — e.g. `uv run pytest`, `uv run ruff check`, `uv run ty check`. `uv.lock` is
-committed so that toolchain resolves identically across machines and CI.
+`build.py` and `apply_rosters.py` are stdlib-only and run under plain `python3`.
+Everything else needs the `[dependency-groups]` dev group and so runs via `uv
+run`: `extract_teams.py` parses HTML with `beautifulsoup4`/`lxml`, and the tooling
+(`ruff`/`ty`/`pytest`) lives there too. `uv.lock` is committed so the whole set
+resolves identically across machines. (`uv run python …` works for the
+stdlib-only scripts as well; bare `python3` is just the no-uv fallback for them.)
 
 Tests live in `tests/` and cover only the logic ty can't see and the
 data-quality systems don't own: the apply_rosters↔extract_teams HTML contract,
@@ -51,7 +58,7 @@ data/teams.toml + data/rounds/*.toml  ──build.py──►  compare/*.html + 
 So the full refresh sequence after editing a roster is:
 
 ```sh
-python3 scripts/apply_rosters.py && python3 scripts/extract_teams.py && python3 build.py
+python3 scripts/apply_rosters.py && uv run python scripts/extract_teams.py && python3 build.py
 ```
 
 Ownership rules that are easy to get wrong:
@@ -104,8 +111,13 @@ is specifically about generated markup or layout.
 
 - Code style is enforced by ruff (`pyproject.toml`): 99-column lines, single
   quotes for regular strings, double quotes preserved for docstrings.
-- Stdlib only for anything that runs in the build — do not add runtime
-  dependencies. (`ruff`/`ty` are dev-time tooling only.)
+- Keep `build.py` and `apply_rosters.py` stdlib-only so the build proper stays
+  runnable under bare `python3`. Other scripts may use the dev-group deps:
+  `extract_teams.py` uses `beautifulsoup4`/`lxml` to parse the team HTML (it's a
+  read-only scaffolder, where a parser beats brittle regex; don't reach for one
+  in `apply_rosters.py`, which surgically *rewrites* HTML in place and would be
+  mangled by a parser's normalization). Add a dep only when it clearly pays for
+  itself — this is a small, rarely-touched project.
 - Roster TOML (`data/rosters/<slug>.toml`) expects exactly 26 players, unique
   shirt numbers, exactly one `captain = true`, and `pos` in GK/DF/MF/FW;
   `apply_rosters.py` warns (⚠) on violations rather than failing.

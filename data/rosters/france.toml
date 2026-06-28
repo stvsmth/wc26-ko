@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 # France — 26-man squad, 2026 FIFA World Cup.
 # Source: en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads (section: France).
 slug = "france"
@@ -9,6 +10,7 @@ pos = "GK"
 club = "Stade Rennais (FRA)"
 age = 31
 caps = 4
+value = 7000000
 
 [[player]]
 num = 2
@@ -17,6 +19,7 @@ pos = "DF"
 club = "Chelsea (ENG)"
 age = 22
 caps = 11
+value = 35000000
 
 [[player]]
 num = 3
@@ -25,6 +28,7 @@ pos = "DF"
 club = "Aston Villa (ENG)"
 age = 32
 caps = 58
+value = 6000000
 
 [[player]]
 num = 4
@@ -33,6 +37,7 @@ pos = "DF"
 club = "Bayern Munich (GER)"
 age = 27
 caps = 38
+value = 70000000
 
 [[player]]
 num = 5
@@ -41,6 +46,7 @@ pos = "DF"
 club = "Barcelona (ESP)"
 age = 27
 caps = 48
+value = 60000000
 
 [[player]]
 num = 6
@@ -49,6 +55,7 @@ pos = "MF"
 club = "Roma (ITA)"
 age = 24
 caps = 14
+value = 50000000
 
 [[player]]
 num = 7
@@ -57,6 +64,7 @@ pos = "FW"
 club = "Paris Saint-Germain (FRA)"
 age = 28
 caps = 59
+value = 100000000
 
 [[player]]
 num = 8
@@ -65,6 +73,7 @@ pos = "MF"
 club = "Real Madrid (ESP)"
 age = 25
 caps = 46
+value = 70000000
 
 [[player]]
 num = 9
@@ -73,6 +82,7 @@ pos = "FW"
 club = "Inter Milan (ITA)"
 age = 28
 caps = 34
+value = 50000000
 
 [[player]]
 num = 10
@@ -81,6 +91,7 @@ pos = "FW"
 club = "Real Madrid (ESP)"
 age = 27
 caps = 98
+value = 180000000
 captain = true
 
 [[player]]
@@ -90,6 +101,7 @@ pos = "FW"
 club = "Bayern Munich (GER)"
 age = 24
 caps = 17
+value = 150000000
 
 [[player]]
 num = 12
@@ -98,6 +110,7 @@ pos = "FW"
 club = "Paris Saint-Germain (FRA)"
 age = 23
 caps = 20
+value = 70000000
 
 [[player]]
 num = 13
@@ -106,6 +119,7 @@ pos = "MF"
 club = "Fenerbahçe (TUR)"
 age = 34
 caps = 69
+value = 4000000
 
 [[player]]
 num = 14
@@ -114,6 +128,7 @@ pos = "MF"
 club = "AC Milan (ITA)"
 age = 30
 caps = 59
+value = 18000000
 
 [[player]]
 num = 15
@@ -122,6 +137,7 @@ pos = "DF"
 club = "Liverpool (ENG)"
 age = 26
 caps = 28
+value = 45000000
 
 [[player]]
 num = 16
@@ -130,6 +146,7 @@ pos = "GK"
 club = "AC Milan (ITA)"
 age = 30
 caps = 40
+value = 20000000
 
 [[player]]
 num = 17
@@ -138,6 +155,7 @@ pos = "DF"
 club = "Arsenal (ENG)"
 age = 24
 caps = 32
+value = 100000000
 
 [[player]]
 num = 18
@@ -146,6 +164,7 @@ pos = "MF"
 club = "Paris Saint-Germain (FRA)"
 age = 19
 caps = 11
+value = 80000000
 
 [[player]]
 num = 19
@@ -154,6 +173,7 @@ pos = "DF"
 club = "Al Hilal (KSA)"
 age = 28
 caps = 44
+value = 20000000
 
 [[player]]
 num = 20
@@ -162,6 +182,7 @@ pos = "FW"
 club = "Paris Saint-Germain (FRA)"
 age = 20
 caps = 7
+value = 120000000
 
 [[player]]
 num = 21
@@ -170,6 +191,7 @@ pos = "DF"
 club = "Paris Saint-Germain (FRA)"
 age = 29
 caps = 42
+value = 18000000
 
 [[player]]
 num = 22
@@ -178,6 +200,7 @@ pos = "FW"
 club = "Crystal Palace (ENG)"
 age = 28
 caps = 4
+value = 30000000
 
 [[player]]
 num = 23
@@ -186,6 +209,7 @@ pos = "GK"
 club = "Lens (FRA)"
 age = 21
 caps = 0
+value = 30000000
 
 [[player]]
 num = 24
@@ -194,6 +218,7 @@ pos = "MF"
 club = "Manchester City (ENG)"
 age = 22
 caps = 7
+value = 90000000
 
 [[player]]
 num = 25
@@ -202,6 +227,7 @@ pos = "MF"
 club = "Monaco (FRA)"
 age = 23
 caps = 9
+value = 50000000
 
 [[player]]
 num = 26
@@ -210,3 +236,4 @@ pos = "DF"
 club = "Crystal Palace (ENG)"
 age = 25
 caps = 4
+value = 50000000

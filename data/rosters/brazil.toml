@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 # Brazil
 slug = "brazil"
 
@@ -8,6 +9,7 @@ pos = "GK"
 club = "Liverpool (ENG)"
 age = 33
 caps = 78
+value = 15000000
 
 [[player]]
 num = 2
@@ -16,6 +18,7 @@ pos = "MF"
 club = "Atalanta (ITA)"
 age = 26
 caps = 3
+value = 45000000
 
 [[player]]
 num = 3
@@ -24,6 +27,7 @@ pos = "DF"
 club = "Arsenal (ENG)"
 age = 28
 caps = 17
+value = 75000000
 
 [[player]]
 num = 4
@@ -32,6 +36,7 @@ pos = "DF"
 club = "Paris Saint-Germain (FRA)"
 age = 31
 caps = 105
+value = 28000000
 captain = true
 
 [[player]]
@@ -41,6 +46,7 @@ pos = "MF"
 club = "Manchester United (ENG)"
 age = 33
 caps = 86
+value = 6000000
 
 [[player]]
 num = 6
@@ -49,6 +55,7 @@ pos = "DF"
 club = "Flamengo (BRA)"
 age = 34
 caps = 45
+value = 1000000
 
 [[player]]
 num = 7
@@ -57,6 +64,7 @@ pos = "FW"
 club = "Real Madrid (ESP)"
 age = 25
 caps = 49
+value = 140000000
 
 [[player]]
 num = 8
@@ -65,6 +73,7 @@ pos = "MF"
 club = "Newcastle United (ENG)"
 age = 28
 caps = 43
+value = 70000000
 
 [[player]]
 num = 9
@@ -73,6 +82,7 @@ pos = "FW"
 club = "Manchester United (ENG)"
 age = 26
 caps = 23
+value = 75000000
 
 [[player]]
 num = 10
@@ -81,6 +91,7 @@ pos = "FW"
 club = "Santos (BRA)"
 age = 33
 caps = 128
+value = 8000000
 
 [[player]]
 num = 11
@@ -89,6 +100,7 @@ pos = "FW"
 club = "Barcelona (ESP)"
 age = 29
 caps = 39
+value = 70000000
 
 [[player]]
 num = 12
@@ -97,6 +109,7 @@ pos = "GK"
 club = "Grêmio (BRA)"
 age = 38
 caps = 11
+value = 700000
 
 [[player]]
 num = 13
@@ -105,6 +118,7 @@ pos = "DF"
 club = "Flamengo (BRA)"
 age = 34
 caps = 70
+value = 2000000
 
 [[player]]
 num = 14
@@ -113,6 +127,7 @@ pos = "DF"
 club = "Juventus (ITA)"
 age = 28
 caps = 8
+value = 35000000
 
 [[player]]
 num = 15
@@ -121,6 +136,7 @@ pos = "DF"
 club = "Flamengo (BRA)"
 age = 29
 caps = 4
+value = 12000000
 
 [[player]]
 num = 16
@@ -129,6 +145,7 @@ pos = "DF"
 club = "Zenit Saint Petersburg (RUS)"
 age = 31
 caps = 7
+value = 7500000
 
 [[player]]
 num = 17
@@ -137,6 +154,7 @@ pos = "MF"
 club = "Al-Ittihad (KSA)"
 age = 32
 caps = 33
+value = 12000000
 
 [[player]]
 num = 18
@@ -145,6 +163,7 @@ pos = "MF"
 club = "Botafogo (BRA)"
 age = 24
 caps = 4
+value = 32000000
 
 [[player]]
 num = 19
@@ -153,6 +172,7 @@ pos = "FW"
 club = "Lyon (FRA)"
 age = 19
 caps = 17
+value = 40000000
 
 [[player]]
 num = 20
@@ -161,6 +181,7 @@ pos = "MF"
 club = "Flamengo (BRA)"
 age = 28
 caps = 63
+value = 32000000
 
 [[player]]
 num = 21
@@ -169,6 +190,7 @@ pos = "FW"
 club = "Zenit Saint Petersburg (RUS)"
 age = 24
 caps = 15
+value = 24000000
 
 [[player]]
 num = 22
@@ -177,6 +199,7 @@ pos = "FW"
 club = "Arsenal (ENG)"
 age = 24
 caps = 23
+value = 45000000
 
 [[player]]
 num = 23
@@ -185,6 +208,7 @@ pos = "GK"
 club = "Fenerbahçe (TUR)"
 age = 32
 caps = 32
+value = 10000000
 
 [[player]]
 num = 24
@@ -193,6 +217,7 @@ pos = "DF"
 club = "Al-Ahli (KSA)"
 age = 27
 caps = 7
+value = 18000000
 
 [[player]]
 num = 25
@@ -201,6 +226,7 @@ pos = "FW"
 club = "Brentford (ENG)"
 age = 24
 caps = 4
+value = 65000000
 
 [[player]]
 num = 26
@@ -209,3 +235,4 @@ pos = "FW"
 club = "Bournemouth (ENG)"
 age = 19
 caps = 2
+value = 60000000

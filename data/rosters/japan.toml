@@ -1,3 +1,4 @@
+# market values: Transfermarkt estimates, snapshot 2026-06-28 (scripts/fetch_market_values.py)
 # Japan — 26-man squad, 2026 FIFA World Cup.
 slug = "japan"
 
@@ -8,6 +9,7 @@ pos = "GK"
 club = "Parma (ITA)"
 age = 23
 caps = 24
+value = 20000000
 
 [[player]]
 num = 12
@@ -16,6 +18,7 @@ pos = "GK"
 club = "Sanfrecce Hiroshima (JPN)"
 age = 26
 caps = 11
+value = 2000000
 
 [[player]]
 num = 23
@@ -24,6 +27,7 @@ pos = "GK"
 club = "Kashima Antlers (JPN)"
 age = 26
 caps = 4
+value = 2000000
 
 [[player]]
 num = 2
@@ -32,6 +36,7 @@ pos = "DF"
 club = "Werder Bremen (GER)"
 age = 25
 caps = 21
+value = 5500000
 
 [[player]]
 num = 3
@@ -40,6 +45,7 @@ pos = "DF"
 club = "Sint-Truiden (BEL)"
 age = 34
 caps = 38
+value = 750000
 
 [[player]]
 num = 4
@@ -48,6 +54,7 @@ pos = "DF"
 club = "Ajax (NED)"
 age = 29
 caps = 40
+value = 8000000
 captain = true
 
 [[player]]
@@ -57,6 +64,7 @@ pos = "DF"
 club = "FC Tokyo (JPN)"
 age = 39
 caps = 145
+value = 100000
 
 [[player]]
 num = 16
@@ -65,6 +73,7 @@ pos = "DF"
 club = "Feyenoord (NED)"
 age = 28
 caps = 11
+value = 10000000
 
 [[player]]
 num = 20
@@ -73,6 +82,7 @@ pos = "DF"
 club = "Le Havre (FRA)"
 age = 25
 caps = 14
+value = 5000000
 
 [[player]]
 num = 21
@@ -81,6 +91,7 @@ pos = "DF"
 club = "Bayern Munich (GER)"
 age = 26
 caps = 24
+value = 18000000
 
 [[player]]
 num = 22
@@ -89,6 +100,7 @@ pos = "DF"
 club = "Ajax (NED)"
 age = 27
 caps = 43
+value = 5000000
 
 [[player]]
 num = 25
@@ -97,6 +109,7 @@ pos = "DF"
 club = "Copenhagen (DEN)"
 age = 22
 caps = 6
+value = 3500000
 
 [[player]]
 num = 7
@@ -105,6 +118,7 @@ pos = "MF"
 club = "Leeds United (ENG)"
 age = 27
 caps = 38
+value = 13000000
 
 [[player]]
 num = 8
@@ -113,6 +127,7 @@ pos = "MF"
 club = "Real Sociedad (ESP)"
 age = 24
 caps = 49
+value = 20000000
 
 [[player]]
 num = 10
@@ -121,6 +136,7 @@ pos = "MF"
 club = "Eintracht Frankfurt (GER)"
 age = 27
 caps = 65
+value = 17000000
 
 [[player]]
 num = 11
@@ -129,6 +145,7 @@ pos = "MF"
 club = "Celtic (SCO)"
 age = 28
 caps = 27
+value = 13000000
 
 [[player]]
 num = 13
@@ -137,6 +154,7 @@ pos = "MF"
 club = "Reims (FRA)"
 age = 25
 caps = 25
+value = 10000000
 
 [[player]]
 num = 14
@@ -145,6 +163,7 @@ pos = "MF"
 club = "Genk (BEL)"
 age = 32
 caps = 69
+value = 3000000
 
 [[player]]
 num = 15
@@ -153,6 +172,7 @@ pos = "MF"
 club = "Crystal Palace (ENG)"
 age = 29
 caps = 49
+value = 10000000
 
 [[player]]
 num = 17
@@ -161,6 +181,7 @@ pos = "MF"
 club = "SC Freiburg (GER)"
 age = 24
 caps = 6
+value = 24000000
 
 [[player]]
 num = 24
@@ -169,6 +190,7 @@ pos = "MF"
 club = "Mainz 05 (GER)"
 age = 25
 caps = 13
+value = 40000000
 
 [[player]]
 num = 6
@@ -177,6 +199,7 @@ pos = "FW"
 club = "Borussia Mönchengladbach (GER)"
 age = 26
 caps = 14
+value = 4000000
 
 [[player]]
 num = 9
@@ -185,6 +208,7 @@ pos = "FW"
 club = "Sint-Truiden (BEL)"
 age = 20
 caps = 4
+value = 10000000
 
 [[player]]
 num = 18
@@ -193,6 +217,7 @@ pos = "FW"
 club = "Feyenoord (NED)"
 age = 27
 caps = 39
+value = 17000000
 
 [[player]]
 num = 19
@@ -201,6 +226,7 @@ pos = "FW"
 club = "NEC Nijmegen (NED)"
 age = 28
 caps = 15
+value = 2000000
 
 [[player]]
 num = 26
@@ -209,3 +235,4 @@ pos = "FW"
 club = "VfL Wolfsburg (GER)"
 age = 20
 caps = 2
+value = 8000000
