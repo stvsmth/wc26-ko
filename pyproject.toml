@@ -1,6 +1,12 @@
 # Dev tooling only — the build itself (build.py, scripts/) is stdlib-only.
 [dependency-groups]
-dev = ["ruff", "ty"]
+dev = ["ruff", "ty", "pytest"]
+
+[tool.pytest.ini_options]
+# build.py is at the repo root; scripts/ isn't a package. Put both on the import
+# path so `import build` / `import apply_rosters` / `import extract_teams` resolve.
+# Mirror of [tool.ty.environment] extra-paths below.
+pythonpath = [".", "scripts"]
 
 [tool.ruff]
 line-length = 99
@@ -12,3 +18,6 @@ quote-style = "single"
 [tool.ty.environment]
 # Minimum supported runtime (tomllib lands in 3.11).
 python-version = "3.11"
+# scripts/ isn't a package; mirror the pytest pythonpath above so ty can resolve
+# `import apply_rosters` / `import extract_teams` from the tests.
+extra-paths = ["scripts"]

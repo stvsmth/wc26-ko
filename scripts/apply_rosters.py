@@ -36,10 +36,11 @@ TEAMS_DIR = ROOT / 'teams'
 ROSTERS_DIR = ROOT / 'data' / 'rosters'
 
 SQUAD_BLOCK_RE = re.compile(r'<div class="squad-head">.*?</table>', re.S)
-AVG_RE = re.compile(
-    r'(<div class="k">Squad avg age</div><div class="v">)\s*[\d.]+\s*'
-    r'<small>[^<]*</small>'
-)
+# The factstrip key/value wrapper that the avg-age substitution rebuilds (via
+# m.group(1) below). Exposed as a constant so tests can assert against the real
+# markup instead of duplicating it. The prefix has no regex metacharacters.
+AVG_PREFIX = '<div class="k">Squad avg age</div><div class="v">'
+AVG_RE = re.compile(rf'({AVG_PREFIX})\s*[\d.]+\s*<small>[^<]*</small>')
 POS_ORDER = {'GK': 0, 'DF': 1, 'MF': 2, 'FW': 3}
 
 

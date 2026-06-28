@@ -19,11 +19,17 @@ python3 scripts/extract_teams.py      # re-scaffold data/teams.toml from teams/*
 ruff format <files>                   # format (line-length 99, single quotes; see pyproject.toml)
 ruff check <files>                    # lint
 ty check                              # type-check (dev dependency; see pyproject.toml)
+pytest                                # run the test suite (dev dependency; tests/)
 ```
 
-There is no test suite. Validation is built into the generators: they `sys.exit`
-with a `<file>: error:` message on bad/missing data rather than producing broken
-pages. After a build, open `compare/index.html` in a browser to verify.
+Tests live in `tests/` and cover only the logic ty can't see and the
+data-quality systems don't own: the apply_rosters↔extract_teams HTML contract,
+`parse_kickoff`/`validate` branching, and the `FLAG_CODES` completeness
+invariant. They deliberately do *not* assert exact rendered HTML (treat
+`compare/` as compiled output to spot-check) or roster *data* accuracy. Beyond
+that, validation is built into the generators: they `sys.exit` with a `<file>:
+error:` message on bad/missing data rather than producing broken pages. After a
+build, open `compare/index.html` in a browser to verify.
 
 ## The data flow (the key thing to understand)
 
