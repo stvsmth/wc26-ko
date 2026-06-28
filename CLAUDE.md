@@ -59,6 +59,13 @@ Ownership rules that are easy to get wrong:
   table key and referenced by `home`/`away` in round files. Keeping slugs
   consistent across all three layers is what holds the pipeline together.
 
+When reviewing a diff, focus on the non-HTML sources (`build.py`, `scripts/*.py`,
+`assets/*.js`, `style.css`, the TOML data) — the bulk of any diff is `compare/`
+and the squad blocks in `teams/*.html`, which are essentially compiled output and
+will show the same change repeated across dozens of files. Spot-check the rendered
+output rather than reviewing it file by file; only read it closely when the change
+is specifically about generated markup or layout.
+
 ## build.py specifics
 
 - `FLAG_CODES` maps each team slug → flag-icons code (ISO 3166-1 alpha-2). It must
