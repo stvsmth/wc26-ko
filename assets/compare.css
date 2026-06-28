@@ -1,0 +1,94 @@
+/* ===== Match comparison + bracket pages =====
+   Generated pages link ../style.css (shared tokens/components) THEN this file.
+   Reuses --conf-*, --card, --line, .display, .pos-* from style.css. */
+
+/* ---- Bracket / round index ---- */
+.bracket-head{padding:48px 0 8px}
+.bracket-head .kicker{font-size:12px;letter-spacing:.34em;text-transform:uppercase;
+  color:var(--ink-faint);margin-bottom:16px;display:flex;align-items:center;gap:14px}
+.bracket-head .kicker .bar{height:3px;width:46px;border-radius:3px;
+  background:linear-gradient(90deg,var(--red) 0 33%,var(--green) 33% 66%,var(--blue) 66% 100%)}
+.bracket-head h1{font-size:clamp(40px,8vw,92px)}
+.bracket-head .sub{margin-top:16px;color:var(--ink-dim);max-width:64ch;font-size:15px}
+
+/* The bracket index carries light cards, so let it use more width than the
+   default 1120px wrap and keep the cards wide (scoped to this page via :has). */
+.wrap:has(.match-grid){max-width:1280px}
+.match-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));
+  gap:16px;margin:30px 0 10px}
+.match-card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);
+  border-radius:14px;padding:18px;transition:transform .15s ease,border-color .15s ease,background .15s ease}
+.match-card:hover{transform:translateY(-3px);border-color:var(--line-2);background:#1a2552}
+.match-card:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.mc-teams{display:grid;grid-template-columns:1fr auto 1fr;align-items:start;gap:10px}
+.mc-side{min-width:0;display:flex;flex-direction:column}
+.mc-side.right{text-align:right;align-items:flex-end}
+.mc-bar{height:4px;width:40px;border-radius:3px;background:var(--accent,var(--blue))}
+.mc-rank{margin-top:11px;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint)}
+.mc-name{margin-top:5px;font-size:22px;line-height:1.05;overflow-wrap:break-word}
+.mc-vs{align-self:center;font-family:"Arial Narrow",sans-serif;font-weight:800;font-size:15px;
+  color:var(--ink-faint);letter-spacing:.08em}
+.mc-when{margin-top:auto;padding-top:14px;border-top:1px solid var(--line);
+  font-size:12px;color:var(--ink-dim)}
+.mc-when .tbd{color:var(--ink-faint)}
+
+/* ---- Comparison page ---- */
+.cmp-top{padding:30px 0 24px;border-bottom:1px solid var(--line)}
+.cmp-round{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink-faint)}
+.cmp-title{display:grid;grid-template-columns:1fr auto 1fr;align-items:end;gap:18px;margin-top:14px}
+.cmp-title .side{min-width:0}
+.cmp-title .side.right{text-align:right}
+.cmp-title .accentbar{height:5px;width:72px;border-radius:4px;background:var(--accent);margin-bottom:14px}
+.cmp-title .side.right .accentbar{margin-left:auto}
+.cmp-title h1{font-size:clamp(30px,6vw,62px);line-height:.95;overflow-wrap:break-word}
+.cmp-title .conf{font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--accent);font-weight:700;margin-top:8px}
+.cmp-title .vs{font-family:"Arial Narrow",sans-serif;font-weight:800;font-size:26px;
+  color:var(--ink-faint);padding-bottom:10px}
+
+.cmp-when{margin:18px 0 0;display:flex;flex-wrap:wrap;gap:6px 18px;align-items:baseline;
+  font-size:13px;color:var(--ink-dim)}
+.cmp-when .kickoff{font-weight:600;color:var(--ink)}
+.cmp-when .kickoff .tznote{font-weight:400;font-size:11px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--ink-faint);margin-left:4px}
+.cmp-when .venue{color:var(--ink-faint)}
+.cmp-when .tbd{color:var(--ink-faint)}
+
+/* head-to-head stat rows */
+.h2h{margin:34px 0 0;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.h2h-row{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;
+  background:var(--night-2);border-bottom:1px solid var(--line)}
+.h2h-row:last-child{border-bottom:0}
+.h2h-k{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);
+  padding:0 16px;text-align:center;white-space:nowrap}
+.h2h-a,.h2h-b{padding:13px 18px;font-size:15px;font-weight:600;font-variant-numeric:tabular-nums}
+.h2h-b{text-align:right}
+.h2h-a.win,.h2h-b.win{color:var(--gold)}
+.h2h-a small,.h2h-b small{display:block;font-size:11.5px;font-weight:400;color:var(--ink-dim);margin-top:2px}
+
+/* side-by-side key players */
+.cmp-squads{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:30px 0 0}
+.cmp-squad h2{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-dim);
+  font-weight:700;margin:0 0 12px;display:flex;align-items:center;gap:10px}
+.cmp-squad h2 .dot{width:9px;height:9px;border-radius:50%;background:var(--accent)}
+.cmp-squad table{width:100%;border-collapse:collapse;font-size:13.5px}
+.cmp-squad thead th{text-align:left;font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-faint);font-weight:600;padding:0 10px 8px;border-bottom:1px solid var(--line-2)}
+.cmp-squad thead .th-num{text-align:right}
+.cmp-squad td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+.cmp-squad tbody tr:last-child td{border-bottom:0}
+.cmp-squad tr:hover{background:rgba(255,255,255,.03)}
+.cmp-squad .cs-name{font-weight:600}
+.cmp-squad .cs-name .cap{font-size:10px;color:var(--gold);letter-spacing:.1em;margin-left:5px}
+.cmp-squad .cs-club{color:var(--ink-dim);font-size:12px;font-weight:400}
+.cmp-squad .cs-age{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink-dim)}
+.cmp-squad .cs-caps{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink)}
+.cmp-profile{margin-top:12px;font-size:12px;letter-spacing:.04em}
+.cmp-profile a{color:var(--ink-dim);text-decoration:underline;text-underline-offset:2px}
+
+@media(max-width:720px){
+  .cmp-squads{grid-template-columns:1fr}
+  .cmp-title h1{font-size:30px}
+  .h2h-a,.h2h-b{font-size:14px;padding:11px 12px}
+  .h2h-k{padding:0 8px}
+}

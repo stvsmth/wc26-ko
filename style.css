@@ -1,0 +1,151 @@
+:root{
+  --night:#0a1230;
+  --night-2:#111a3f;
+  --card:#16204a;
+  --line:rgba(255,255,255,.10);
+  --line-2:rgba(255,255,255,.18);
+  --ink:#eef1fb;
+  --ink-dim:#9aa6cf;
+  --ink-faint:#6b78a8;
+  --red:#e3402f;
+  --green:#1fa463;
+  --blue:#3d7bf0;
+  --gold:#e8b54a;
+  --conf-uefa:#3d7bf0;
+  --conf-conmebol:#e8b54a;
+  --conf-concacaf:#e3402f;
+  --conf-caf:#1fa463;
+  --conf-afc:#9b59d0;
+  --conf-ofc:#16b6c4;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(61,123,240,.15), transparent 60%),
+    radial-gradient(900px 500px at 0% 0%, rgba(31,164,99,.10), transparent 55%),
+    var(--night);
+  color:var(--ink);
+  font-family:"Inter","Helvetica Neue",Arial,sans-serif;
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  letter-spacing:.01em;
+}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+a{color:inherit;text-decoration:none}
+
+/* ---- Display type ---- */
+.display{
+  font-family:"Arial Narrow","Helvetica Neue Condensed",sans-serif;
+  font-weight:800;
+  text-transform:uppercase;
+  letter-spacing:.02em;
+  line-height:.95;
+}
+
+/* ---- Masthead ---- */
+.mast{padding:64px 0 36px;border-bottom:1px solid var(--line)}
+.kicker{
+  font-size:12px;letter-spacing:.34em;text-transform:uppercase;
+  color:var(--ink-faint);margin-bottom:18px;
+  display:flex;align-items:center;gap:14px;
+}
+.kicker .bar{height:3px;width:46px;border-radius:3px;
+  background:linear-gradient(90deg,var(--red) 0 33%,var(--green) 33% 66%,var(--blue) 66% 100%)}
+.mast h1{font-size:clamp(44px,9vw,118px);letter-spacing:-.01em}
+.mast h1 .yr{color:var(--gold)}
+.mast .sub{margin-top:20px;color:var(--ink-dim);max-width:64ch;font-size:15px}
+.mast .meta{margin-top:24px;display:flex;flex-wrap:wrap;gap:10px 26px;
+  font-size:12.5px;color:var(--ink-faint);letter-spacing:.02em}
+.mast .meta b{color:var(--ink-dim);font-weight:600}
+
+/* ---- Confederation legend ---- */
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 4px}
+.legend .chip{font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  padding:5px 11px;border:1px solid var(--line-2);border-radius:999px;color:var(--ink-dim)}
+.legend .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;vertical-align:middle}
+
+/* ---- Index grid ---- */
+.section-label{font-size:12px;letter-spacing:.28em;text-transform:uppercase;
+  color:var(--ink-faint);margin:54px 0 18px;display:flex;align-items:center;gap:16px}
+.section-label::after{content:"";flex:1;height:1px;background:var(--line)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:14px}
+.team-card{
+  position:relative;display:block;background:var(--card);
+  border:1px solid var(--line);border-radius:14px;padding:18px 18px 16px;
+  transition:transform .15s ease,border-color .15s ease,background .15s ease;
+  overflow:hidden;
+}
+.team-card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent,var(--blue))}
+.team-card:hover{transform:translateY(-3px);border-color:var(--line-2);background:#1a2552}
+.team-card:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.tc-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.tc-rank{font-size:11px;letter-spacing:.1em;color:var(--ink-faint);text-transform:uppercase}
+.tc-rank b{color:var(--ink);font-size:13px;font-weight:700}
+.tc-conf{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent,var(--blue));font-weight:700}
+.tc-name{margin:14px 0 2px;font-size:30px}
+.tc-match{font-size:12px;color:var(--ink-dim)}
+.tc-match .vs{color:var(--ink-faint)}
+.tc-status{margin-top:12px;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase}
+.s-ready{color:var(--green)}
+.s-pending{color:var(--ink-faint)}
+
+/* ---- Footer ---- */
+footer{margin:70px 0 50px;padding-top:22px;border-top:1px solid var(--line);
+  color:var(--ink-faint);font-size:12.5px;line-height:1.7}
+footer a{color:var(--ink-dim);text-decoration:underline;text-underline-offset:2px}
+
+/* ===== TEAM PAGE ===== */
+.back{display:inline-flex;align-items:center;gap:8px;margin:30px 0 0;
+  font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint)}
+.back:hover{color:var(--ink)}
+.team-hero{padding:22px 0 30px;border-bottom:1px solid var(--line)}
+.team-hero>.wrap{display:grid!important;grid-template-columns:1fr auto;gap:26px;align-items:end}
+.team-hero .accentbar{height:5px;width:78px;border-radius:4px;background:var(--accent);margin-bottom:18px}
+.team-hero h1{font-size:clamp(46px,11vw,120px)}
+.team-hero .conf{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-top:14px}
+.rankbadge{text-align:right}
+.rankbadge .lab{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-faint)}
+.rankbadge .num{font-family:"Arial Narrow",sans-serif;font-weight:800;font-size:74px;line-height:.9;color:var(--gold)}
+.rankbadge .num small{font-size:26px;color:var(--ink-dim);vertical-align:super}
+
+.factstrip{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;
+  overflow:hidden;margin:30px 0 8px}
+.fact{background:var(--night-2);padding:16px 18px}
+.fact .k{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint)}
+.fact .v{margin-top:6px;font-size:17px;font-weight:600}
+.fact .v small{display:block;font-size:12px;color:var(--ink-dim);font-weight:400;margin-top:3px}
+
+.squad-head{margin:44px 0 14px;display:flex;align-items:baseline;gap:14px}
+.squad-head h2{font-size:13px;letter-spacing:.26em;text-transform:uppercase;color:var(--ink-dim);font-weight:700}
+.squad-head .note{font-size:12px;color:var(--ink-faint)}
+
+table.squad{width:100%;border-collapse:collapse;font-size:14px}
+table.squad thead th{text-align:left;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-faint);font-weight:600;padding:0 14px 10px;border-bottom:1px solid var(--line-2)}
+table.squad td{padding:11px 14px;border-bottom:1px solid var(--line)}
+table.squad tbody tr:hover{background:rgba(255,255,255,.03)}
+.pos{display:inline-block;min-width:30px;font-size:10px;font-weight:700;letter-spacing:.08em;
+  padding:3px 7px;border-radius:5px;text-align:center}
+.pos-GK{background:rgba(232,181,74,.16);color:var(--gold)}
+.pos-DF{background:rgba(61,123,240,.16);color:#7fa6f6}
+.pos-MF{background:rgba(31,164,99,.16);color:#56c892}
+.pos-FW{background:rgba(227,64,47,.16);color:#f08070}
+.pname{font-weight:600}
+.pname .cap{font-size:10px;color:var(--gold);letter-spacing:.1em;margin-left:6px}
+.club{color:var(--ink-dim)}
+.num-cell{font-variant-numeric:tabular-nums;color:var(--ink)}
+.age-cell{font-variant-numeric:tabular-nums;color:var(--ink-dim)}
+
+.pending-box{margin:30px 0;padding:26px;border:1px dashed var(--line-2);border-radius:14px;
+  background:var(--night-2);color:var(--ink-dim);font-size:14px}
+.pending-box b{color:var(--ink)}
+
+@media(max-width:620px){
+  .team-hero>.wrap{grid-template-columns:1fr}
+  .rankbadge{text-align:left}
+  table.squad{font-size:13px}
+  table.squad td,table.squad thead th{padding-left:8px;padding-right:8px}
+}

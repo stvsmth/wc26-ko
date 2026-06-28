@@ -1,0 +1,1144 @@
+# Per-team comparable stats + squads, scaffolded from teams/*.html by
+# scripts/extract_teams.py. Hand-editable; build.py only reads this file.
+
+[algeria]
+name        = "Algeria"
+conf        = "caf"
+fifa_rank   = 28
+coach       = "Vladimir Petković"
+coach_since = "Since Feb 2024"
+group_result= "Group J (3rd place)"
+avg_age     = 27.0
+squad_size  = 26
+profile     = "teams/algeria.html"
+blurb       = "The Desert Foxes return to the World Cup after a 12-year absence under ex-Switzerland boss Petković. Captain Mahrez, 35, leads at what he's called his last World Cup; Amoura provides the goal threat. Advanced as a best third-place team after a 3-3 thriller with Austria — a rematch awaits with Petković's old side, Switzerland."
+players = [
+  { name = "Luca Zidane", pos = "GK", club = "Granada (ESP)", age = 27, caps = 8 },
+  { name = "Oussama Benbot", pos = "GK", club = "USM Alger (ALG)", age = 31, caps = 6 },
+  { name = "Rayan Aït-Nouri", pos = "DF", club = "Manchester City (ENG)", age = 24, caps = 34 },
+  { name = "Ramy Bensebaïni", pos = "DF", club = "Borussia Dortmund (GER)", age = 31, caps = 52 },
+  { name = "Aïssa Mandi", pos = "DF", club = "Lille (FRA)", age = 34, caps = 116 },
+  { name = "Rafik Belghali", pos = "DF", club = "Hellas Verona (ITA)", age = 23, caps = 12 },
+  { name = "Jaouen Hadjam", pos = "DF", club = "Young Boys (SUI)", age = 23, caps = 14 },
+  { name = "Mohamed Amine Tougaï", pos = "DF", club = "Espérance (TUN)", age = 25, caps = 16 },
+  { name = "Achref Abada", pos = "DF", club = "USM Alger (ALG)", age = 24, caps = 6 },
+  { name = "Houssem Aouar", pos = "MF", club = "Al-Ittihad (KSA)", age = 28, caps = 24 },
+  { name = "Nabil Bentaleb", pos = "MF", club = "Lille (FRA)", age = 31, caps = 48 },
+  { name = "Hicham Boudaoui", pos = "MF", club = "Nice (FRA)", age = 26, caps = 30 },
+  { name = "Farès Chaïbi", pos = "MF", club = "Eintracht Frankfurt (GER)", age = 23, caps = 24 },
+  { name = "Ibrahim Maza", pos = "MF", club = "Bayer Leverkusen (GER)", age = 20, caps = 12 },
+  { name = "Ramiz Zerrouki", pos = "MF", club = "FC Twente (NED)", age = 27, caps = 28 },
+  { name = "Riyad Mahrez", pos = "FW", club = "Al-Ahli (KSA)", age = 35, caps = 113, captain = true },
+  { name = "Mohamed Amoura", pos = "FW", club = "VfL Wolfsburg (GER)", age = 25, caps = 34 },
+  { name = "Amine Gouiri", pos = "FW", club = "Marseille (FRA)", age = 26, caps = 30 },
+  { name = "Anis Hadj Moussa", pos = "FW", club = "Feyenoord (NED)", age = 23, caps = 14 },
+  { name = "Adil Boulbina", pos = "FW", club = "Al-Duhail (QAT)", age = 26, caps = 10 },
+]
+
+[argentina]
+name        = "Argentina"
+conf        = "conmebol"
+fifa_rank   = 1
+coach       = "Lionel Scaloni"
+coach_since = "Since Aug 2018"
+group_result= "Group J (winners)"
+avg_age     = 29.0
+squad_size  = 26
+profile     = "teams/argentina.html"
+blurb       = "Defending champions, chasing the first back-to-back title since Brazil 1962. Seventeen of the 26 are Qatar 2022 winners; Messi plays a record sixth World Cup."
+players = [
+  { name = "Emiliano Martínez", pos = "GK", club = "Aston Villa (ENG)", age = 33, caps = 62 },
+  { name = "Gerónimo Rulli", pos = "GK", club = "Marseille (FRA)", age = 34, caps = 6 },
+  { name = "Nahuel Molina", pos = "DF", club = "Atlético Madrid (ESP)", age = 28, caps = 47 },
+  { name = "Cristian Romero", pos = "DF", club = "Tottenham (ENG)", age = 28, caps = 54, captain = true },
+  { name = "Lisandro Martínez", pos = "DF", club = "Manchester United (ENG)", age = 28, caps = 34 },
+  { name = "Nicolás Otamendi", pos = "DF", club = "Benfica (POR)", age = 38, caps = 126 },
+  { name = "Nicolás Tagliafico", pos = "DF", club = "Lyon (FRA)", age = 33, caps = 63 },
+  { name = "Gonzalo Montiel", pos = "DF", club = "River Plate (ARG)", age = 29, caps = 33 },
+  { name = "Leonardo Balerdi", pos = "DF", club = "Marseille (FRA)", age = 27, caps = 5 },
+  { name = "Rodrigo De Paul", pos = "MF", club = "Inter Miami (USA)", age = 32, caps = 75 },
+  { name = "Alexis Mac Allister", pos = "MF", club = "Liverpool (ENG)", age = 27, caps = 42 },
+  { name = "Enzo Fernández", pos = "MF", club = "Chelsea (ENG)", age = 25, caps = 42 },
+  { name = "Leandro Paredes", pos = "MF", club = "Boca Juniors (ARG)", age = 31, caps = 74 },
+  { name = "Giovani Lo Celso", pos = "MF", club = "Real Betis (ESP)", age = 30, caps = 50 },
+  { name = "Exequiel Palacios", pos = "MF", club = "Bayer Leverkusen (GER)", age = 27, caps = 38 },
+  { name = "Lionel Messi", pos = "FW", club = "Inter Miami (USA)", age = 38, caps = 198, captain = true },
+  { name = "Lautaro Martínez", pos = "FW", club = "Inter Milan (ITA)", age = 28, caps = 71 },
+  { name = "Julián Álvarez", pos = "FW", club = "Atlético Madrid (ESP)", age = 26, caps = 45 },
+  { name = "Nicolás González", pos = "FW", club = "Atlético Madrid (ESP)", age = 27, caps = 38 },
+  { name = "Giuliano Simeone", pos = "FW", club = "Atlético Madrid (ESP)", age = 23, caps = 8 },
+  { name = "Thiago Almada", pos = "FW", club = "Atlético Madrid (ESP)", age = 24, caps = 15 },
+  { name = "Nico Paz", pos = "FW", club = "Como (ITA)", age = 21, caps = 6 },
+]
+
+[australia]
+name        = "Australia"
+conf        = "afc"
+fifa_rank   = 27
+coach       = "Tony Popovic"
+coach_since = "Since Sep 2024"
+group_result= "Group D (runners-up)"
+avg_age     = 27.0
+squad_size  = 26
+profile     = "teams/australia.html"
+blurb       = "The Socceroos reached their sixth straight World Cup and advanced from Group D as runners-up behind co-hosts USA, edging Paraguay on head-to-head goal difference. A pragmatic side under Popovic, captained by goalkeeper Mat Ryan at his record-equalling fourth World Cup, with 17 first-time World Cup players in the group."
+players = [
+  { name = "Mathew Ryan", pos = "GK", club = "Levante (ESP)", age = 34, caps = 95, captain = true },
+  { name = "Patrick Beach", pos = "GK", club = "Melbourne City (AUS)", age = 24, caps = 4 },
+  { name = "Harry Souttar", pos = "DF", club = "Leicester City (ENG)", age = 27, caps = 40 },
+  { name = "Alessandro Circati", pos = "DF", club = "Parma (ITA)", age = 22, caps = 14 },
+  { name = "Jordan Bos", pos = "DF", club = "Feyenoord (NED)", age = 23, caps = 18 },
+  { name = "Aziz Behich", pos = "DF", club = "Melbourne City (AUS)", age = 35, caps = 68 },
+  { name = "Milos Degenek", pos = "DF", club = "APOEL (CYP)", age = 31, caps = 50 },
+  { name = "Cameron Burgess", pos = "DF", club = "Swansea City (ENG)", age = 30, caps = 18 },
+  { name = "Jacob Italiano", pos = "DF", club = "Grazer AK (AUT)", age = 24, caps = 8 },
+  { name = "Jackson Irvine", pos = "MF", club = "St. Pauli (GER)", age = 33, caps = 80 },
+  { name = "Connor Metcalfe", pos = "MF", club = "St. Pauli (GER)", age = 26, caps = 28 },
+  { name = "Aiden O'Neill", pos = "MF", club = "New York City FC (USA)", age = 27, caps = 24 },
+  { name = "Ajdin Hrustic", pos = "MF", club = "Heracles (NED)", age = 29, caps = 34 },
+  { name = "Aiden Devlin", pos = "MF", club = "Heart of Midlothian (SCO)", age = 22, caps = 6 },
+  { name = "Paul Okon-Engstler", pos = "MF", club = "Sydney FC (AUS)", age = 20, caps = 4 },
+  { name = "Mathew Leckie", pos = "FW", club = "Melbourne City (AUS)", age = 35, caps = 85 },
+  { name = "Nestory Irankunda", pos = "FW", club = "Watford (ENG)", age = 20, caps = 14 },
+  { name = "Mohamed Toure", pos = "FW", club = "Randers (DEN)", age = 21, caps = 8 },
+  { name = "Kusini Yengi", pos = "FW", club = "Portsmouth (ENG)", age = 26, caps = 18 },
+  { name = "Nishan Velupillay", pos = "FW", club = "Melbourne Victory (AUS)", age = 24, caps = 10 },
+]
+
+[austria]
+name        = "Austria"
+conf        = "uefa"
+fifa_rank   = 24
+coach       = "Ralf Rangnick"
+coach_since = "Since 2022"
+group_result= "Group J (runners-up)"
+avg_age     = 27.5
+squad_size  = 26
+profile     = "teams/austria.html"
+blurb       = "Back at a World Cup for the first time in 28 years, Das Team play Rangnick's trademark high-intensity gegenpressing. Captain Alaba anchors the defence; 37-year-old record scorer Arnautoć leads the line. Advanced as Group J runner-up after a wild 3-3 with Algeria — now they face Spain."
+players = [
+  { name = "Alexander Schlager", pos = "GK", club = "RB Salzburg (AUT)", age = 29, caps = 24 },
+  { name = "Patrick Pentz", pos = "GK", club = "Brøndby (DEN)", age = 29, caps = 18 },
+  { name = "David Alaba", pos = "DF", club = "Real Madrid (ESP)", age = 33, caps = 111, captain = true },
+  { name = "Kevin Danso", pos = "DF", club = "Tottenham (ENG)", age = 27, caps = 34 },
+  { name = "Philipp Lienhart", pos = "DF", club = "Freiburg (GER)", age = 29, caps = 24 },
+  { name = "Stefan Posch", pos = "DF", club = "Mainz (GER)", age = 29, caps = 40 },
+  { name = "Phillipp Mwene", pos = "DF", club = "Mainz (GER)", age = 32, caps = 24 },
+  { name = "Marco Friedl", pos = "DF", club = "Werder Bremen (GER)", age = 28, caps = 28 },
+  { name = "Alexander Prass", pos = "DF", club = "Hoffenheim (GER)", age = 24, caps = 14 },
+  { name = "Marcel Sabitzer", pos = "MF", club = "Borussia Dortmund (GER)", age = 32, caps = 98 },
+  { name = "Konrad Laimer", pos = "MF", club = "Bayern Munich (GER)", age = 28, caps = 52 },
+  { name = "Nicolas Seiwald", pos = "MF", club = "RB Leipzig (GER)", age = 25, caps = 38 },
+  { name = "Xaver Schlager", pos = "MF", club = "RB Leipzig (GER)", age = 28, caps = 44 },
+  { name = "Christoph Baumgartner", pos = "MF", club = "RB Leipzig (GER)", age = 26, caps = 48 },
+  { name = "Romano Schmid", pos = "MF", club = "Werder Bremen (GER)", age = 26, caps = 22 },
+  { name = "Patrick Wimmer", pos = "MF", club = "VfL Wolfsburg (GER)", age = 24, caps = 18 },
+  { name = "Paul Wanner", pos = "MF", club = "PSV Eindhoven (NED)", age = 20, caps = 6 },
+  { name = "Carney Chukwuemeka", pos = "MF", club = "Borussia Dortmund (GER)", age = 22, caps = 3 },
+  { name = "Marko Arnautoć", pos = "FW", club = "Red Star Belgrade (SRB)", age = 37, caps = 132 },
+  { name = "Michael Gregoritsch", pos = "FW", club = "Augsburg (GER)", age = 31, caps = 58 },
+  { name = "Saša Kalajdžić", pos = "FW", club = "LASK (AUT, loan)", age = 28, caps = 20 },
+]
+
+[belgium]
+name        = "Belgium"
+conf        = "uefa"
+fifa_rank   = 9
+coach       = "Rudi Garcia"
+coach_since = "Since Jan 2025"
+group_result= "Group G (winners)"
+avg_age     = 27.5
+squad_size  = 26
+profile     = "teams/belgium.html"
+blurb       = "Likely the golden generation's last World Cup. De Bruyne, Lukaku and Courtois anchor a Garcia squad that qualified unbeaten. Tielemans captains; qualifying top scorer Malick Fofana was the headline omission."
+players = [
+  { name = "Thibaut Courtois", pos = "GK", club = "Real Madrid (ESP)", age = 34, caps = 107 },
+  { name = "Senne Lammens", pos = "GK", club = "Manchester United (ENG)", age = 23, caps = 3 },
+  { name = "Timothy Castagne", pos = "DF", club = "Fulham (ENG)", age = 30, caps = 50 },
+  { name = "Zeno Debast", pos = "DF", club = "Sporting CP (POR)", age = 22, caps = 24 },
+  { name = "Koni De Winter", pos = "DF", club = "AC Milan (ITA)", age = 24, caps = 11 },
+  { name = "Maxim De Cuyper", pos = "DF", club = "Brighton (ENG)", age = 25, caps = 12 },
+  { name = "Arthur Theate", pos = "DF", club = "Eintracht Frankfurt (GER)", age = 26, caps = 34 },
+  { name = "Brandon Mechele", pos = "DF", club = "Club Brugge (BEL)", age = 33, caps = 12 },
+  { name = "Thomas Meunier", pos = "DF", club = "Lille (FRA)", age = 34, caps = 68 },
+  { name = "Youri Tielemans", pos = "MF", club = "Aston Villa (ENG)", age = 29, caps = 85, captain = true },
+  { name = "Kevin De Bruyne", pos = "MF", club = "Napoli (ITA)", age = 34, caps = 117 },
+  { name = "Amadou Onana", pos = "MF", club = "Aston Villa (ENG)", age = 24, caps = 29 },
+  { name = "Axel Witsel", pos = "MF", club = "Girona (ESP)", age = 37, caps = 135 },
+  { name = "Hans Vanaken", pos = "MF", club = "Club Brugge (BEL)", age = 33, caps = 34 },
+  { name = "Nicolas Raskin", pos = "MF", club = "Rangers (SCO)", age = 25, caps = 8 },
+  { name = "Romelu Lukaku", pos = "FW", club = "Napoli (ITA)", age = 33, caps = 124 },
+  { name = "Jeremy Doku", pos = "FW", club = "Manchester City (ENG)", age = 24, caps = 35 },
+  { name = "Leandro Trossard", pos = "FW", club = "Arsenal (ENG)", age = 31, caps = 45 },
+  { name = "Charles De Ketelaere", pos = "FW", club = "Atalanta (ITA)", age = 25, caps = 29 },
+  { name = "Dodi Lukebakio", pos = "FW", club = "Benfica (POR)", age = 28, caps = 28 },
+  { name = "Alexis Saelemaekers", pos = "FW", club = "AC Milan (ITA)", age = 26, caps = 35 },
+]
+
+[bosnia]
+name        = "Bosnia & Herzegovina"
+short       = "Bosnia & Herz."
+conf        = "uefa"
+fifa_rank   = 64
+coach       = "Sergej Barbarez"
+coach_since = "Since Apr 2024"
+group_result= "Group B (3rd place)"
+avg_age     = 26.0
+squad_size  = 26
+profile     = "teams/bosnia.html"
+blurb       = "Coached by former captain Sergej Barbarez and led by 40-year-old talisman Edin Džeko — the nation's record scorer and most-capped player — the Dragons reached a dramatic second World Cup, 12 years after their 2014 debut, by toppling Wales and then Italy on penalties in the UEFA play-offs. They finished third in Group B and now face hosts USA in the Round of 32."
+players = [
+  { name = "Nikola Vasilj", pos = "GK", club = "St. Pauli (GER)", age = 30, caps = 25 },
+  { name = "Martin Zlomislić", pos = "GK", club = "Rijeka (CRO)", age = 27, caps = 2 },
+  { name = "Sead Kolašinac", pos = "DF", club = "Atalanta (ITA)", age = 32, caps = 68 },
+  { name = "Amar Dedić", pos = "DF", club = "Benfica (POR)", age = 23, caps = 30 },
+  { name = "Nikola Katić", pos = "DF", club = "Schalke 04 (GER)", age = 29, caps = 25 },
+  { name = "Tarik Muharemović", pos = "DF", club = "Sassuolo (ITA)", age = 23, caps = 8 },
+  { name = "Nihad Mujakić", pos = "DF", club = "Gaziantep FK (TUR)", age = 28, caps = 12 },
+  { name = "Dennis Hadžikadunić", pos = "DF", club = "Sampdoria (ITA)", age = 27, caps = 14 },
+  { name = "Stjepan Radeljić", pos = "DF", club = "Rijeka (CRO)", age = 28, caps = 5 },
+  { name = "Amir Hadžiahmetović", pos = "MF", club = "Hull City (ENG)", age = 29, caps = 35 },
+  { name = "Ivan Šunjić", pos = "MF", club = "Pafos (CYP)", age = 29, caps = 30 },
+  { name = "Benjamin Tahirović", pos = "MF", club = "Brøndby (DEN)", age = 23, caps = 15 },
+  { name = "Armin Gigović", pos = "MF", club = "Young Boys (SUI)", age = 24, caps = 11 },
+  { name = "Amar Memić", pos = "MF", club = "Viktoria Plzeň (CZE)", age = 25, caps = 7 },
+  { name = "Dženis Burnić", pos = "MF", club = "Karlsruher SC (GER)", age = 28, caps = 13 },
+  { name = "Edin Džeko", pos = "FW", club = "Schalke 04 (GER)", age = 40, caps = 149, captain = true },
+  { name = "Ermedin Demirović", pos = "FW", club = "VfB Stuttgart (GER)", age = 28, caps = 42 },
+  { name = "Haris Tabaković", pos = "FW", club = "B. Mönchengladbach (GER)", age = 31, caps = 16 },
+  { name = "Esmir Bajraktarević", pos = "FW", club = "PSV Eindhoven (NED)", age = 21, caps = 7 },
+  { name = "Kerim Alajbegović", pos = "FW", club = "RB Salzburg (AUT)", age = 18, caps = 4 },
+  { name = "Samed Bazdar", pos = "FW", club = "Jagiellonia (POL)", age = 22, caps = 9 },
+]
+
+[brazil]
+name        = "Brazil"
+conf        = "conmebol"
+fifa_rank   = 6
+coach       = "Carlo Ancelotti"
+coach_since = "Since May 2025"
+group_result= "Group C (winners)"
+avg_age     = 27.5
+squad_size  = 26
+profile     = "teams/brazil.html"
+blurb       = "Five-time champions chasing a first title since 2002 under Ancelotti, the first foreign coach to lead them at a World Cup. Neymar returns for a fourth World Cup after a 2.5-year absence; Thiago Silva, Richarlison and Rodrygo (injured) were left out."
+players = [
+  { name = "Alisson", pos = "GK", club = "Liverpool (ENG)", age = 33, caps = 76 },
+  { name = "Weverton", pos = "GK", club = "Corinthians (BRA)", age = 38, caps = 17 },
+  { name = "Marquinhos", pos = "DF", club = "Paris Saint-Germain (FRA)", age = 31, caps = 98, captain = true },
+  { name = "Gabriel Magalhães", pos = "DF", club = "Arsenal (ENG)", age = 28, caps = 24 },
+  { name = "Bremer", pos = "DF", club = "Juventus (ITA)", age = 29, caps = 13 },
+  { name = "Alex Sandro", pos = "DF", club = "Flamengo (BRA)", age = 35, caps = 40 },
+  { name = "Wesley", pos = "DF", club = "Roma (ITA)", age = 21, caps = 8 },
+  { name = "Douglas Santos", pos = "DF", club = "Zenit (RUS)", age = 31, caps = 6 },
+  { name = "Léo Pereira", pos = "DF", club = "Flamengo (BRA)", age = 30, caps = 4 },
+  { name = "Casemiro", pos = "MF", club = "Manchester United (ENG)", age = 34, caps = 78 },
+  { name = "Bruno Guimarães", pos = "MF", club = "Newcastle (ENG)", age = 28, caps = 34 },
+  { name = "Lucas Paquetá", pos = "MF", club = "West Ham (ENG)", age = 28, caps = 53 },
+  { name = "Gabriel Sara", pos = "MF", club = "Galatasaray (TUR)", age = 27, caps = 2 },
+  { name = "Danilo", pos = "MF", club = "Flamengo (BRA)", age = 34, caps = 60 },
+  { name = "Vinícius Júnior", pos = "FW", club = "Real Madrid (ESP)", age = 25, caps = 45 },
+  { name = "Raphinha", pos = "FW", club = "Barcelona (ESP)", age = 29, caps = 45 },
+  { name = "Matheus Cunha", pos = "FW", club = "Manchester United (ENG)", age = 27, caps = 22 },
+  { name = "Neymar", pos = "FW", club = "Santos (BRA)", age = 34, caps = 128 },
+  { name = "Gabriel Martinelli", pos = "FW", club = "Arsenal (ENG)", age = 24, caps = 20 },
+  { name = "Endrick", pos = "FW", club = "Lyon (FRA, loan)", age = 19, caps = 16 },
+  { name = "Luiz Henrique", pos = "FW", club = "Fluminense (BRA)", age = 25, caps = 4 },
+  { name = "Igor Thiago", pos = "FW", club = "Brentford (ENG)", age = 24, caps = 2 },
+  { name = "Rayan", pos = "FW", club = "Bournemouth (ENG)", age = 19, caps = 3 },
+]
+
+[canada]
+name        = "Canada"
+conf        = "concacaf"
+fifa_rank   = 30
+coach       = "Jesse Marsch"
+coach_since = "Since 2024"
+group_result= "Group B (runners-up)"
+avg_age     = 27.0
+squad_size  = 26
+profile     = "teams/canada.html"
+blurb       = "Co-hosts into the knockout stage for the first time in their history, finishing Group B runners-up. Captain Alphonso Davies missed the entire group stage injured but returns for the Round of 32; Jonathan David (a hat-trick vs Qatar) leads the attack. Ismael Koné is out for the tournament with a broken leg."
+players = [
+  { name = "Maxime Crepeau", pos = "GK", club = "Portland Timbers (USA)", age = 31, caps = 24 },
+  { name = "Dayne St. Clair", pos = "GK", club = "Minnesota United (USA)", age = 29, caps = 20 },
+  { name = "Alphonso Davies", pos = "DF", club = "Bayern Munich (GER)", age = 25, caps = 58, captain = true },
+  { name = "Alistair Johnston", pos = "DF", club = "Celtic (SCO)", age = 27, caps = 48 },
+  { name = "Derek Cornelius", pos = "DF", club = "Marseille (FRA)", age = 28, caps = 38 },
+  { name = "Moise Bombito", pos = "DF", club = "Nice (FRA)", age = 26, caps = 24 },
+  { name = "Luc de Fougerolles", pos = "DF", club = "Fulham (ENG)", age = 20, caps = 8 },
+  { name = "Richie Laryea", pos = "DF", club = "Toronto FC (CAN)", age = 31, caps = 52 },
+  { name = "Niko Sigur", pos = "DF", club = "Hajduk Split (CRO)", age = 22, caps = 10 },
+  { name = "Alfie Jones", pos = "DF", club = "Middlesbrough (ENG)", age = 24, caps = 6 },
+  { name = "Stephen Eustaquio", pos = "MF", club = "Porto (POR)", age = 29, caps = 52 },
+  { name = "Nathan Saliba", pos = "MF", club = "Anderlecht (BEL)", age = 22, caps = 10 },
+  { name = "Tajon Buchanan", pos = "MF", club = "Villarreal (ESP)", age = 27, caps = 48 },
+  { name = "Mathieu Choinière", pos = "MF", club = "Los Angeles FC (USA)", age = 27, caps = 14 },
+  { name = "Ali Ahmed", pos = "MF", club = "Norwich City (ENG)", age = 25, caps = 12 },
+  { name = "Jonathan Osorio", pos = "MF", club = "Toronto FC (CAN)", age = 34, caps = 80 },
+  { name = "Jonathan David", pos = "FW", club = "Juventus (ITA)", age = 26, caps = 68 },
+  { name = "Cyle Larin", pos = "FW", club = "Southampton (ENG)", age = 30, caps = 85 },
+  { name = "Tani Oluwaseyi", pos = "FW", club = "Villarreal (ESP)", age = 25, caps = 14 },
+  { name = "Promise David", pos = "FW", club = "Union SG (BEL)", age = 24, caps = 10 },
+]
+
+[cape-verde]
+name        = "Cape Verde"
+conf        = "caf"
+fifa_rank   = 67
+coach       = "Bubista"
+coach_since = "Since Jan 2020"
+group_result= "Group H (runners-up)"
+avg_age     = 29.3
+squad_size  = 26
+profile     = "teams/cape-verde.html"
+blurb       = "An Atlantic archipelago of barely 525,000 people, the Blue Sharks are the smallest nation by population ever to reach a World Cup knockout stage — a fairytale debut. Coached since 2020 by Bubista and captained by all-time great Ryan Mendes, they drew with Spain, Uruguay and Saudi Arabia to finish second in Group H and set up a Round of 32 date with reigning champions Argentina."
+players = [
+  { name = "Vozinha", pos = "GK", club = "Chaves (POR)", age = 40, caps = 93 },
+  { name = "CJ dos Santos", pos = "GK", club = "San Diego FC (USA)", age = 25, caps = 1 },
+  { name = "Stopira", pos = "DF", club = "Torreense (POR)", age = 38, caps = 61 },
+  { name = "Roberto Lopes", pos = "DF", club = "Shamrock Rovers (IRL)", age = 34, caps = 48 },
+  { name = "Logan Costa", pos = "DF", club = "Villarreal (ESP)", age = 25, caps = 28 },
+  { name = "Sidny Lopes Cabral", pos = "DF", club = "Benfica (POR)", age = 23, caps = 13 },
+  { name = "Steven Moreira", pos = "DF", club = "Columbus Crew (USA)", age = 31, caps = 23 },
+  { name = "Wagner Pina", pos = "DF", club = "Trabzonspor (TUR)", age = 23, caps = 15 },
+  { name = "Jamiro Monteiro", pos = "MF", club = "PEC Zwolle (NED)", age = 32, caps = 58 },
+  { name = "Kevin Pina", pos = "MF", club = "Krasnodar (RUS)", age = 29, caps = 34 },
+  { name = "Garry Rodrigues", pos = "MF", club = "Apollon Limassol (CYP)", age = 35, caps = 63 },
+  { name = "João Paulo", pos = "MF", club = "FCSB (ROU)", age = 28, caps = 43 },
+  { name = "Deroy Duarte", pos = "MF", club = "Ludogorets (BUL)", age = 26, caps = 36 },
+  { name = "Laros Duarte", pos = "MF", club = "Puskás Akadémia (HUN)", age = 29, caps = 23 },
+  { name = "Telmo Arcanjo", pos = "MF", club = "Vitória Guimarães (POR)", age = 24, caps = 18 },
+  { name = "Ryan Mendes", pos = "FW", club = "Iğdır FK (TUR)", age = 36, caps = 101, captain = true },
+  { name = "Jovane Cabral", pos = "FW", club = "Estrela Amadora (POR)", age = 28, caps = 30 },
+  { name = "Dailon Livramento", pos = "FW", club = "Casa Pia (POR)", age = 25, caps = 24 },
+  { name = "Willy Semedo", pos = "FW", club = "Omonia Nicosia (CYP)", age = 32, caps = 40 },
+  { name = "Gilson Benchimol", pos = "FW", club = "Akron Togliatti (RUS)", age = 24, caps = 22 },
+  { name = "Nuno da Costa", pos = "FW", club = "İstanbul Başakşehir (TUR)", age = 35, caps = 12 },
+]
+
+[colombia]
+name        = "Colombia"
+conf        = "conmebol"
+fifa_rank   = 13
+coach       = "Néstor Lorenzo"
+coach_since = "Since Jun 2022"
+group_result= "Group K (winners)"
+avg_age     = 29.6
+squad_size  = 26
+profile     = "teams/colombia.html"
+blurb       = "Back at a World Cup after missing 2022, Los Cafeteros lean on a veteran core. Captain James Rodríguez orchestrates behind a Luis Díaz who starred at Bayern Munich; Lorenzo named nine midfielders for tactical flexibility."
+players = [
+  { name = "Camilo Vargas", pos = "GK", club = "Atlético San Luis (MEX)", age = 36, caps = 34 },
+  { name = "David Ospina", pos = "GK", club = "Atlético Nacional (COL)", age = 37, caps = 131 },
+  { name = "Daniel Muñoz", pos = "DF", club = "Crystal Palace (ENG)", age = 29, caps = 42 },
+  { name = "Davinson Sánchez", pos = "DF", club = "Galatasaray (TUR)", age = 30, caps = 68 },
+  { name = "Jhon Lucumi", pos = "DF", club = "Bologna (ITA)", age = 27, caps = 24 },
+  { name = "Yerry Mina", pos = "DF", club = "Cagliari (ITA)", age = 31, caps = 48 },
+  { name = "Johan Mojica", pos = "DF", club = "Mallorca (ESP)", age = 33, caps = 38 },
+  { name = "Santiago Arias", pos = "DF", club = "Bahia (BRA)", age = 34, caps = 62 },
+  { name = "James Rodríguez", pos = "MF", club = "Minnesota United (USA)", age = 34, caps = 117, captain = true },
+  { name = "Jefferson Lerma", pos = "MF", club = "Crystal Palace (ENG)", age = 31, caps = 58 },
+  { name = "Richard Ríos", pos = "MF", club = "Benfica (POR)", age = 25, caps = 21 },
+  { name = "Kevin Castaño", pos = "MF", club = "River Plate (ARG)", age = 24, caps = 15 },
+  { name = "Jorge Carrascal", pos = "MF", club = "Flamengo (BRA)", age = 27, caps = 22 },
+  { name = "Juan Fernando Quintero", pos = "MF", club = "River Plate (ARG)", age = 33, caps = 40 },
+  { name = "Luis Díaz", pos = "FW", club = "Bayern Munich (GER)", age = 29, caps = 67 },
+  { name = "Jhon Córdoba", pos = "FW", club = "Krasnodar (RUS)", age = 32, caps = 24 },
+  { name = "Luis Suárez", pos = "FW", club = "Sporting CP (POR)", age = 28, caps = 18 },
+  { name = "Juan Camilo Hernández", pos = "FW", club = "Real Betis (ESP)", age = 26, caps = 20 },
+  { name = "Jhon Arias", pos = "FW", club = "Wolves (ENG)", age = 28, caps = 35 },
+]
+
+[congo-dr]
+name        = "DR Congo"
+conf        = "caf"
+fifa_rank   = 46
+coach       = "Sébastien Desabre"
+coach_since = "Since 2022"
+group_result= "Group K (3rd place)"
+avg_age     = 28.4
+squad_size  = 26
+profile     = "teams/congo-dr.html"
+blurb       = "The Leopards reach their first World Cup since 1974 (as Zaire) the hard way — beating Nigeria on penalties in the CAF play-off, then edging Jamaica 1-0 in the intercontinental play-off in Mexico. Captain Mbemba anchors the back line; Wissa, veteran Bakambu and Bongonda lead the attack that drew Portugal and beat Uzbekistan to finish third in Group K."
+players = [
+  { name = "Lionel Mpasi", pos = "GK", club = "Le Havre (FRA)", age = 31, caps = 10 },
+  { name = "Timothy Fayulu", pos = "GK", club = "FC Noah (ARM)", age = 26, caps = 12 },
+  { name = "Chancel Mbemba", pos = "DF", club = "Lille (FRA)", age = 31, caps = 107, captain = true },
+  { name = "Aaron Wan-Bissaka", pos = "DF", club = "West Ham United (ENG)", age = 28, caps = 7 },
+  { name = "Axel Tuanzebe", pos = "DF", club = "Burnley (ENG)", age = 28, caps = 5 },
+  { name = "Arthur Masuaku", pos = "DF", club = "Lens (FRA)", age = 32, caps = 35 },
+  { name = "Gédéon Kalulu", pos = "DF", club = "Aris Limassol (CYP)", age = 28, caps = 20 },
+  { name = "Joris Kayembe", pos = "DF", club = "Genk (BEL)", age = 31, caps = 25 },
+  { name = "Dylan Batubinsika", pos = "DF", club = "AEL Limassol (CYP)", age = 30, caps = 25 },
+  { name = "Edo Kayembe", pos = "MF", club = "Watford (ENG)", age = 28, caps = 30 },
+  { name = "Samuel Moutoussamy", pos = "MF", club = "Atromitos (GRE)", age = 29, caps = 25 },
+  { name = "Charles Pickel", pos = "MF", club = "Espanyol (ESP)", age = 29, caps = 25 },
+  { name = "Gaël Kakuta", pos = "MF", club = "AEL Limassol (CYP)", age = 34, caps = 30 },
+  { name = "Noah Sadiki", pos = "MF", club = "Sunderland (ENG)", age = 21, caps = 10 },
+  { name = "Ngal'ayel Mukau", pos = "MF", club = "Lille (FRA)", age = 21, caps = 8 },
+  { name = "Théo Bongonda", pos = "MF", club = "Spartak Moscow (RUS)", age = 30, caps = 30 },
+  { name = "Meschack Elia", pos = "MF", club = "Alanyaspor (TUR)", age = 28, caps = 40 },
+  { name = "Cédric Bakambu", pos = "FW", club = "Real Betis (ESP)", age = 35, caps = 75 },
+  { name = "Yoane Wissa", pos = "FW", club = "Newcastle United (ENG)", age = 29, caps = 35 },
+  { name = "Fiston Mayele", pos = "FW", club = "Pyramids FC (EGY)", age = 31, caps = 15 },
+  { name = "Simon Banza", pos = "FW", club = "Al Jazira (UAE)", age = 29, caps = 20 },
+]
+
+[croatia]
+name        = "Croatia"
+conf        = "uefa"
+fifa_rank   = 11
+coach       = "Zlatko Dalić"
+coach_since = "Since Oct 2017"
+group_result= "Group L (runners-up)"
+avg_age     = 28.5
+squad_size  = 26
+profile     = "teams/croatia.html"
+blurb       = "2018 finalists and 2022 third-place finishers, with the golden generation taking one more turn. Captain Modrić, 40, reached 200 caps during the tournament at his fifth World Cup; Gvardiol anchors the defence after a shin fracture."
+players = [
+  { name = "Dominik Livaković", pos = "GK", club = "Girona (ESP)", age = 31, caps = 67 },
+  { name = "Ivica Ivušić", pos = "GK", club = "Bodrumspor (TUR)", age = 31, caps = 7 },
+  { name = "Joško Gvardiol", pos = "DF", club = "Manchester City (ENG)", age = 24, caps = 42 },
+  { name = "Josip Stanišić", pos = "DF", club = "Bayern Munich (GER)", age = 26, caps = 24 },
+  { name = "Josip Sutalo", pos = "DF", club = "Ajax (NED)", age = 26, caps = 24 },
+  { name = "Marin Pongračić", pos = "DF", club = "Fiorentina (ITA)", age = 28, caps = 14 },
+  { name = "Duje Ćaleta-Car", pos = "DF", club = "Lyon (FRA)", age = 29, caps = 29 },
+  { name = "Luka Vušković", pos = "DF", club = "Hajduk Split (CRO)", age = 19, caps = 3 },
+  { name = "Luka Modrić", pos = "MF", club = "AC Milan (ITA)", age = 40, caps = 200, captain = true },
+  { name = "Mateo Kovačić", pos = "MF", club = "Manchester City (ENG)", age = 31, caps = 108 },
+  { name = "Mario Pašalić", pos = "MF", club = "Atalanta (ITA)", age = 31, caps = 48 },
+  { name = "Nikola Vlašić", pos = "MF", club = "Torino (ITA)", age = 28, caps = 58 },
+  { name = "Luka Sučić", pos = "MF", club = "Real Sociedad (ESP)", age = 23, caps = 20 },
+  { name = "Petar Sučić", pos = "MF", club = "Inter Milan (ITA)", age = 22, caps = 10 },
+  { name = "Martin Baturina", pos = "MF", club = "Como (ITA)", age = 23, caps = 12 },
+  { name = "Ivan Perišić", pos = "FW", club = "PSV Eindhoven (NED)", age = 37, caps = 143 },
+  { name = "Andrej Kramarić", pos = "FW", club = "Hoffenheim (GER)", age = 35, caps = 110 },
+  { name = "Ante Budimir", pos = "FW", club = "Osasuna (ESP)", age = 34, caps = 42 },
+  { name = "Petar Musa", pos = "FW", club = "Benfica (POR)", age = 28, caps = 24 },
+  { name = "Igor Matanović", pos = "FW", club = "Eintracht Frankfurt (GER)", age = 22, caps = 8 },
+]
+
+[ecuador]
+name        = "Ecuador"
+conf        = "conmebol"
+fifa_rank   = 23
+coach       = "Sebastián Beccacece"
+coach_since = "Since 2024"
+group_result= "Group E (runners-up)"
+avg_age     = 26.5
+squad_size  = 26
+profile     = "teams/ecuador.html"
+blurb       = "La Tri built one of the meanest defences in world football — just five goals conceded across 18 qualifiers — around Caicedo, Pacho and Hincapié. Veteran Enner Valencia captains and remains Ecuador's all-time World Cup top scorer; finishing has been the question mark."
+players = [
+  { name = "Hernán Galíndez", pos = "GK", club = "Huracán (ARG)", age = 39, caps = 40 },
+  { name = "Alexander Domínguez", pos = "GK", club = "LDU Quito (ECU)", age = 38, caps = 75 },
+  { name = "Piero Hincapié", pos = "DF", club = "Arsenal (ENG)", age = 24, caps = 48 },
+  { name = "Willian Pacho", pos = "DF", club = "Paris Saint-Germain (FRA)", age = 24, caps = 38 },
+  { name = "Pervis Estupiñán", pos = "DF", club = "AC Milan (ITA)", age = 28, caps = 52 },
+  { name = "Ángelo Preciado", pos = "DF", club = "Atlético Mineiro (BRA)", age = 28, caps = 42 },
+  { name = "Joel Ordóñez", pos = "DF", club = "Club Brugge (BEL)", age = 21, caps = 12 },
+  { name = "Félix Torres", pos = "DF", club = "Internacional (BRA)", age = 29, caps = 40 },
+  { name = "Moisés Caicedo", pos = "MF", club = "Chelsea (ENG)", age = 24, caps = 63 },
+  { name = "Alan Franco", pos = "MF", club = "Atlético Mineiro (BRA)", age = 26, caps = 38 },
+  { name = "Jordy Alcívar", pos = "MF", club = "Independiente del Valle (ECU)", age = 25, caps = 14 },
+  { name = "Kendry Páez", pos = "MF", club = "River Plate (ARG, loan)", age = 18, caps = 18 },
+  { name = "Pedro Vite", pos = "MF", club = "Pumas UNAM (MEX)", age = 24, caps = 14 },
+  { name = "Denil Castillo", pos = "MF", club = "Midtjylland (DEN)", age = 24, caps = 10 },
+  { name = "Enner Valencia", pos = "FW", club = "Pachuca (MEX)", age = 36, caps = 92, captain = true },
+  { name = "Gonzalo Plata", pos = "FW", club = "Flamengo (BRA)", age = 25, caps = 48 },
+  { name = "Kevin Rodríguez", pos = "FW", club = "Union SG (BEL)", age = 25, caps = 18 },
+  { name = "Nilson Angulo", pos = "FW", club = "Sunderland (ENG)", age = 22, caps = 14 },
+  { name = "Jeremy Arévalo", pos = "FW", club = "VfB Stuttgart (GER)", age = 20, caps = 6 },
+]
+
+[egypt]
+name        = "Egypt"
+conf        = "caf"
+fifa_rank   = 29
+coach       = "Hossam Hassan"
+coach_since = "Since Feb 2024"
+group_result= "Group G (runners-up)"
+avg_age     = 27.5
+squad_size  = 26
+profile     = "teams/egypt.html"
+blurb       = "Back at a World Cup for the first time since 2018, chasing a first-ever tournament knockout run. Salah captains at what is likely his last World Cup, sitting two goals shy of coach Hossam Hassan's all-time national record; Marmoush gives the attack a second elite edge. A strong Al-Ahly domestic core sits behind."
+players = [
+  { name = "Mohamed El Shenawy", pos = "GK", club = "Al-Ahly (EGY)", age = 37, caps = 56 },
+  { name = "Mostafa Shobeir", pos = "GK", club = "Al-Ahly (EGY)", age = 28, caps = 4 },
+  { name = "Mohamed Abdelmonem", pos = "DF", club = "Nice (FRA)", age = 27, caps = 42 },
+  { name = "Yasser Ibrahim", pos = "DF", club = "Al-Ahly (EGY)", age = 33, caps = 30 },
+  { name = "Mohamed Hany", pos = "DF", club = "Al-Ahly (EGY)", age = 30, caps = 28 },
+  { name = "Ahmed Fatouh", pos = "DF", club = "Zamalek (EGY)", age = 28, caps = 34 },
+  { name = "Rami Rabia", pos = "DF", club = "Al-Ain (UAE)", age = 32, caps = 26 },
+  { name = "Hossam Abdelmaguid", pos = "DF", club = "Zamalek (EGY)", age = 28, caps = 14 },
+  { name = "Karim Hafez", pos = "DF", club = "Pyramids (EGY)", age = 29, caps = 20 },
+  { name = "Mohamed Salah", pos = "MF", club = "Liverpool (ENG)", age = 34, caps = 115, captain = true },
+  { name = "Emam Ashour", pos = "MF", club = "Al-Ahly (EGY)", age = 27, caps = 34 },
+  { name = "Marwan Attia", pos = "MF", club = "Al-Ahly (EGY)", age = 26, caps = 18 },
+  { name = "Hamdy Fathy", pos = "MF", club = "Al-Wakrah (QAT)", age = 31, caps = 42 },
+  { name = "Mahmoud Saber", pos = "MF", club = "ZED FC (EGY)", age = 24, caps = 8 },
+  { name = "Mostafa Ziko", pos = "MF", club = "Pyramids (EGY)", age = 25, caps = 10 },
+  { name = "Ibrahim Adel", pos = "MF", club = "Nordsjælland (DEN)", age = 23, caps = 18 },
+  { name = "Omar Marmoush", pos = "FW", club = "Manchester City (ENG)", age = 27, caps = 48 },
+  { name = "Mahmoud Trezeguet", pos = "FW", club = "Al-Ahly (EGY)", age = 31, caps = 74 },
+  { name = "Ahmed Zizo", pos = "FW", club = "Al-Ahly (EGY)", age = 29, caps = 34 },
+  { name = "Haissem Hassan", pos = "FW", club = "Real Oviedo (ESP)", age = 23, caps = 10 },
+  { name = "Hamza Abdelkarim", pos = "FW", club = "Barcelona Atlètic (ESP)", age = 18, caps = 3 },
+]
+
+[england]
+name        = "England"
+conf        = "uefa"
+fifa_rank   = 4
+coach       = "Thomas Tuchel"
+coach_since = "Since Jan 2025"
+group_result= "Group L (winners)"
+avg_age     = 27.0
+squad_size  = 26
+profile     = "teams/england.html"
+blurb       = "A ruthless Tuchel selection that left out Foden, Palmer and Alexander-Arnold. England qualified with a perfect record and zero goals conceded. Kane captains a third World Cup; Bellingham is the creative pivot. (Chalobah replaced the injured Livramento.)"
+players = [
+  { name = "Jordan Pickford", pos = "GK", club = "Everton (ENG)", age = 32, caps = 80 },
+  { name = "Dean Henderson", pos = "GK", club = "Crystal Palace (ENG)", age = 29, caps = 4 },
+  { name = "Reece James", pos = "DF", club = "Chelsea (ENG)", age = 26, caps = 21 },
+  { name = "John Stones", pos = "DF", club = "Manchester City (ENG)", age = 31, caps = 83 },
+  { name = "Marc Guéhi", pos = "DF", club = "Manchester City (ENG)", age = 25, caps = 29 },
+  { name = "Ezri Konsa", pos = "DF", club = "Aston Villa (ENG)", age = 28, caps = 13 },
+  { name = "Dan Burn", pos = "DF", club = "Newcastle (ENG)", age = 34, caps = 6 },
+  { name = "Nico O'Reilly", pos = "DF", club = "Manchester City (ENG)", age = 21, caps = 3 },
+  { name = "Jarell Quansah", pos = "DF", club = "Bayer Leverkusen (GER)", age = 23, caps = 1 },
+  { name = "Trevoh Chalobah", pos = "DF", club = "Chelsea (ENG)", age = 26, caps = 3 },
+  { name = "Declan Rice", pos = "MF", club = "Arsenal (ENG)", age = 27, caps = 75 },
+  { name = "Jude Bellingham", pos = "MF", club = "Real Madrid (ESP)", age = 22, caps = 48 },
+  { name = "Eberechi Eze", pos = "MF", club = "Arsenal (ENG)", age = 27, caps = 18 },
+  { name = "Elliot Anderson", pos = "MF", club = "Nottingham Forest (ENG)", age = 23, caps = 3 },
+  { name = "Kobbie Mainoo", pos = "MF", club = "Manchester United (ENG)", age = 21, caps = 11 },
+  { name = "Morgan Rogers", pos = "MF", club = "Aston Villa (ENG)", age = 23, caps = 7 },
+  { name = "Harry Kane", pos = "FW", club = "Bayern Munich (GER)", age = 32, caps = 113, captain = true },
+  { name = "Bukayo Saka", pos = "FW", club = "Arsenal (ENG)", age = 24, caps = 50 },
+  { name = "Anthony Gordon", pos = "FW", club = "Newcastle (ENG)", age = 25, caps = 9 },
+  { name = "Marcus Rashford", pos = "FW", club = "Barcelona (ESP)", age = 28, caps = 65 },
+  { name = "Ollie Watkins", pos = "FW", club = "Aston Villa (ENG)", age = 30, caps = 21 },
+  { name = "Noni Madueke", pos = "FW", club = "Arsenal (ENG)", age = 24, caps = 7 },
+]
+
+[france]
+name        = "France"
+conf        = "uefa"
+fifa_rank   = 3
+coach       = "Didier Deschamps"
+coach_since = "Since Jul 2012"
+group_result= "Group I (winners)"
+avg_age     = 26.6
+squad_size  = 26
+profile     = "teams/france.html"
+blurb       = "2018 winners and 2022 runners-up, in Deschamps' farewell tournament. Captain Mbappé passed 100 caps and became France's all-time top scorer during the group stage. A PSG-heavy core fronts arguably the deepest attack at the tournament."
+players = [
+  { name = "Mike Maignan", pos = "GK", club = "AC Milan (ITA)", age = 30, caps = 36 },
+  { name = "Brice Samba", pos = "GK", club = "Rennes (FRA)", age = 31, caps = 5 },
+  { name = "Jules Koundé", pos = "DF", club = "Barcelona (ESP)", age = 27, caps = 49 },
+  { name = "William Saliba", pos = "DF", club = "Arsenal (ENG)", age = 25, caps = 28 },
+  { name = "Dayot Upamecano", pos = "DF", club = "Bayern Munich (GER)", age = 27, caps = 35 },
+  { name = "Ibrahima Konaté", pos = "DF", club = "Liverpool (ENG)", age = 26, caps = 24 },
+  { name = "Theo Hernández", pos = "DF", club = "Al-Hilal (KSA)", age = 28, caps = 40 },
+  { name = "Lucas Hernández", pos = "DF", club = "Paris Saint-Germain (FRA)", age = 30, caps = 40 },
+  { name = "Malo Gusto", pos = "DF", club = "Chelsea (ENG)", age = 22, caps = 5 },
+  { name = "Lucas Digne", pos = "DF", club = "Aston Villa (ENG)", age = 32, caps = 56 },
+  { name = "Aurélien Tchouaméni", pos = "MF", club = "Real Madrid (ESP)", age = 26, caps = 45 },
+  { name = "Manu Koné", pos = "MF", club = "Roma (ITA)", age = 24, caps = 11 },
+  { name = "Adrien Rabiot", pos = "MF", club = "AC Milan (ITA)", age = 31, caps = 56 },
+  { name = "N'Golo Kanté", pos = "MF", club = "Fenerbahçe (TUR)", age = 35, caps = 62 },
+  { name = "Warren Zaïre-Emery", pos = "MF", club = "Paris Saint-Germain (FRA)", age = 20, caps = 11 },
+  { name = "Kylian Mbappé", pos = "FW", club = "Real Madrid (ESP)", age = 27, caps = 102, captain = true },
+  { name = "Ousmane Dembélé", pos = "FW", club = "Paris Saint-Germain (FRA)", age = 28, caps = 62 },
+  { name = "Michael Olise", pos = "FW", club = "Bayern Munich (GER)", age = 24, caps = 20 },
+  { name = "Désiré Doué", pos = "FW", club = "Paris Saint-Germain (FRA)", age = 20, caps = 9 },
+  { name = "Bradley Barcola", pos = "FW", club = "Paris Saint-Germain (FRA)", age = 23, caps = 19 },
+  { name = "Rayan Cherki", pos = "FW", club = "Manchester City (ENG)", age = 22, caps = 8 },
+  { name = "Marcus Thuram", pos = "FW", club = "Inter Milan (ITA)", age = 28, caps = 34 },
+]
+
+[germany]
+name        = "Germany"
+conf        = "uefa"
+fifa_rank   = 10
+coach       = "Julian Nagelsmann"
+coach_since = "Since Sep 2023"
+group_result= "Group E (winners)"
+avg_age     = 27.0
+squad_size  = 26
+profile     = "teams/germany.html"
+blurb       = "Four-time champions rebuilding after group-stage exits in 2018 and 2022, with no 2014 survivors except the returning Neuer — who reversed retirement at 40 to start. Kimmich captains; Musiala and Wirtz lead a young attacking core. (Schlotterbeck suffered a tournament-ending injury in the group stage.)"
+players = [
+  { name = "Manuel Neuer", pos = "GK", club = "Bayern Munich (GER)", age = 40, caps = 129 },
+  { name = "Oliver Baumann", pos = "GK", club = "Hoffenheim (GER)", age = 35, caps = 5 },
+  { name = "Joshua Kimmich", pos = "DF", club = "Bayern Munich (GER)", age = 31, caps = 108, captain = true },
+  { name = "Antonio Rüdiger", pos = "DF", club = "Real Madrid (ESP)", age = 33, caps = 83 },
+  { name = "Jonathan Tah", pos = "DF", club = "Bayern Munich (GER)", age = 30, caps = 35 },
+  { name = "Nico Schlotterbeck", pos = "DF", club = "Borussia Dortmund (GER)", age = 26, caps = 18 },
+  { name = "Waldemar Anton", pos = "DF", club = "Borussia Dortmund (GER)", age = 29, caps = 6 },
+  { name = "David Raum", pos = "DF", club = "RB Leipzig (GER)", age = 28, caps = 33 },
+  { name = "Nathaniel Brown", pos = "DF", club = "Eintracht Frankfurt (GER)", age = 22, caps = 4 },
+  { name = "Malick Thiaw", pos = "DF", club = "Newcastle (ENG)", age = 24, caps = 7 },
+  { name = "Florian Wirtz", pos = "MF", club = "Liverpool (ENG)", age = 23, caps = 34 },
+  { name = "Jamal Musiala", pos = "MF", club = "Bayern Munich (GER)", age = 23, caps = 42 },
+  { name = "Aleksandar Pavlović", pos = "MF", club = "Bayern Munich (GER)", age = 22, caps = 10 },
+  { name = "Angelo Stiller", pos = "MF", club = "VfB Stuttgart (GER)", age = 24, caps = 11 },
+  { name = "Leon Goretzka", pos = "MF", club = "Bayern Munich (GER)", age = 31, caps = 60 },
+  { name = "Kai Havertz", pos = "FW", club = "Arsenal (ENG)", age = 26, caps = 56 },
+  { name = "Leroy Sané", pos = "FW", club = "Galatasaray (TUR)", age = 30, caps = 74 },
+  { name = "Deniz Undav", pos = "FW", club = "VfB Stuttgart (GER)", age = 29, caps = 14 },
+  { name = "Nick Woltemade", pos = "FW", club = "Newcastle (ENG)", age = 24, caps = 10 },
+  { name = "Jamie Leweling", pos = "FW", club = "VfB Stuttgart (GER)", age = 24, caps = 6 },
+]
+
+[ghana]
+name        = "Ghana"
+conf        = "caf"
+fifa_rank   = 73
+coach       = "Carlos Queiroz"
+coach_since = "Since Apr 2026"
+group_result= "Group L (3rd place)"
+avg_age     = 26.4
+squad_size  = 26
+profile     = "teams/ghana.html"
+blurb       = "Under veteran Portuguese coach Carlos Queiroz — who took over in April 2026 after Otto Addo's qualifying campaign — the Black Stars reached the knockouts for the first time since 2010, finishing third in Group L behind England and Croatia. Captained by record appearance-holder Jordan Ayew and driven by Thomas Partey, they defied the pre-tournament loss of star Mohammed Kudus to injury and now face Group K winners Colombia."
+players = [
+  { name = "Lawrence Ati-Zigi", pos = "GK", club = "St. Gallen (SUI)", age = 29, caps = 30 },
+  { name = "Benjamin Asare", pos = "GK", club = "Hearts of Oak (GHA)", age = 33, caps = 5 },
+  { name = "Abdul Rahman Baba", pos = "DF", club = "PAOK (GRE)", age = 31, caps = 60 },
+  { name = "Gideon Mensah", pos = "DF", club = "Auxerre (FRA)", age = 27, caps = 30 },
+  { name = "Alidu Seidu", pos = "DF", club = "Rennes (FRA)", age = 26, caps = 20 },
+  { name = "Abdul Mumin", pos = "DF", club = "Rayo Vallecano (ESP)", age = 28, caps = 25 },
+  { name = "Jerome Opoku", pos = "DF", club = "İstanbul Başakşehir (TUR)", age = 27, caps = 10 },
+  { name = "Jonas Adjetey", pos = "DF", club = "VfL Wolfsburg (GER)", age = 22, caps = 8 },
+  { name = "Kojo Oppong Peprah", pos = "DF", club = "OGC Nice (FRA)", age = 22, caps = 5 },
+  { name = "Thomas Partey", pos = "MF", club = "Villarreal (ESP)", age = 32, caps = 56 },
+  { name = "Elisha Owusu", pos = "MF", club = "Auxerre (FRA)", age = 28, caps = 15 },
+  { name = "Caleb Yirenkyi", pos = "MF", club = "Nordsjælland (DEN)", age = 20, caps = 6 },
+  { name = "Abdul Fatawu Issahaku", pos = "MF", club = "Leicester City (ENG)", age = 22, caps = 25 },
+  { name = "Kamaldeen Sulemana", pos = "MF", club = "Atalanta (ITA)", age = 24, caps = 30 },
+  { name = "Augustine Boakye", pos = "MF", club = "Saint-Étienne (FRA)", age = 25, caps = 6 },
+  { name = "Jordan Ayew", pos = "FW", club = "Leicester City (ENG)", age = 34, caps = 121, captain = true },
+  { name = "Iñaki Williams", pos = "FW", club = "Athletic Bilbao (ESP)", age = 32, caps = 22 },
+  { name = "Antoine Semenyo", pos = "FW", club = "Manchester City (ENG)", age = 26, caps = 22 },
+  { name = "Ernest Nuamah", pos = "FW", club = "Lyon (FRA)", age = 22, caps = 20 },
+  { name = "Christopher Bonsu Baah", pos = "FW", club = "Al-Qadsiah (KSA)", age = 21, caps = 6 },
+  { name = "Brandon Thomas-Asante", pos = "FW", club = "Coventry City (ENG)", age = 27, caps = 12 },
+]
+
+[ivory-coast]
+name        = "Ivory Coast"
+conf        = "caf"
+fifa_rank   = 33
+coach       = "Emerse Faé"
+coach_since = "Since 2024"
+group_result= "Group E (runners-up)"
+avg_age     = 26.0
+squad_size  = 26
+profile     = "teams/ivory-coast.html"
+blurb       = "Reigning African champions back at a World Cup after a 12-year absence, under Faé — who famously won the 2023 AFCON after taking over mid-tournament. Captain Kessié anchors midfield; Pépé's brace sealed knockout passage and 19-year-old Yan Diomandé is a breakout. Finished Group E runners-up."
+players = [
+  { name = "Yahia Fofana", pos = "GK", club = "Rizespor (TUR)", age = 25, caps = 18 },
+  { name = "Alban Lafont", pos = "GK", club = "Panathinaikos (GRE)", age = 27, caps = 10 },
+  { name = "Evan Ndicka", pos = "DF", club = "Roma (ITA)", age = 26, caps = 34 },
+  { name = "Ousmane Diomandé", pos = "DF", club = "Sporting CP (POR)", age = 22, caps = 24 },
+  { name = "Odilon Kossounou", pos = "DF", club = "Atalanta (ITA)", age = 25, caps = 34 },
+  { name = "Wilfried Singo", pos = "DF", club = "Galatasaray (TUR)", age = 25, caps = 30 },
+  { name = "Guéla Doué", pos = "DF", club = "Strasbourg (FRA)", age = 23, caps = 12 },
+  { name = "Emmanuel Agbadou", pos = "DF", club = "Beşiktaş (TUR)", age = 28, caps = 18 },
+  { name = "Ghislain Konan", pos = "DF", club = "Gil Vicente (POR)", age = 30, caps = 40 },
+  { name = "Franck Kessié", pos = "MF", club = "Al-Ahli (KSA)", age = 29, caps = 100, captain = true },
+  { name = "Ibrahim Sangaré", pos = "MF", club = "Nottingham Forest (ENG)", age = 28, caps = 48 },
+  { name = "Seko Fofana", pos = "MF", club = "Porto (POR)", age = 31, caps = 40 },
+  { name = "Jean-Michaël Seri", pos = "MF", club = "Maribor (SVN)", age = 34, caps = 58 },
+  { name = "Christ Inao Oulaï", pos = "MF", club = "Trabzonspor (TUR)", age = 19, caps = 6 },
+  { name = "Amad Diallo", pos = "FW", club = "Manchester United (ENG)", age = 23, caps = 30 },
+  { name = "Nicolas Pépé", pos = "FW", club = "Villarreal (ESP)", age = 31, caps = 48 },
+  { name = "Simon Adingra", pos = "FW", club = "Monaco (FRA)", age = 24, caps = 28 },
+  { name = "Yan Diomandé", pos = "FW", club = "RB Leipzig (GER)", age = 19, caps = 6 },
+  { name = "Evann Guessand", pos = "FW", club = "Crystal Palace (ENG)", age = 24, caps = 14 },
+  { name = "Ange-Yoan Bonny", pos = "FW", club = "Inter Milan (ITA)", age = 22, caps = 4 },
+]
+
+[japan]
+name        = "Japan"
+conf        = "afc"
+fifa_rank   = 18
+coach       = "Hajime Moriyasu"
+coach_since = "Since Aug 2018"
+group_result= "Group F (runners-up)"
+avg_age     = 27.0
+squad_size  = 26
+profile     = "teams/japan.html"
+blurb       = "Eighth straight World Cup and the most Europe-based squad Japan has ever fielded, with recent wins over Brazil and England fuelling dark-horse talk. Kaoru Mitoma (injury) was the headline omission, and captain Wataru Endo withdrew injured on day one of the tournament."
+players = [
+  { name = "Zion Suzuki", pos = "GK", club = "Parma (ITA)", age = 23, caps = 23 },
+  { name = "Keisuke Osako", pos = "GK", club = "Sanfrecce Hiroshima (JPN)", age = 26, caps = 11 },
+  { name = "Takehiro Tomiyasu", pos = "DF", club = "Arsenal (ENG)", age = 27, caps = 40 },
+  { name = "Ko Itakura", pos = "DF", club = "Ajax (NED)", age = 29, caps = 42 },
+  { name = "Hiroki Ito", pos = "DF", club = "Bayern Munich (GER)", age = 26, caps = 24 },
+  { name = "Yuto Nagatomo", pos = "DF", club = "FC Tokyo (JPN)", age = 39, caps = 144 },
+  { name = "Yukinari Sugawara", pos = "DF", club = "Southampton (ENG)", age = 25, caps = 20 },
+  { name = "Tsuyoshi Watanabe", pos = "DF", club = "Feyenoord (NED)", age = 29, caps = 14 },
+  { name = "Ayumu Seko", pos = "DF", club = "Las Palmas (ESP)", age = 25, caps = 10 },
+  { name = "Wataru Endo", pos = "MF", club = "Liverpool (ENG)", age = 33, caps = 76, captain = true },
+  { name = "Takefusa Kubo", pos = "MF", club = "Real Sociedad (ESP)", age = 24, caps = 48 },
+  { name = "Ritsu Doan", pos = "MF", club = "Eintracht Frankfurt (GER)", age = 27, caps = 52 },
+  { name = "Daichi Kamada", pos = "MF", club = "Crystal Palace (ENG)", age = 29, caps = 40 },
+  { name = "Ao Tanaka", pos = "MF", club = "Leeds United (ENG)", age = 27, caps = 30 },
+  { name = "Junya Ito", pos = "MF", club = "Genk (BEL)", age = 32, caps = 62 },
+  { name = "Kaishu Sano", pos = "MF", club = "Mainz (GER)", age = 25, caps = 10 },
+  { name = "Ayase Ueda", pos = "FW", club = "Feyenoord (NED)", age = 27, caps = 38 },
+  { name = "Daizen Maeda", pos = "FW", club = "Celtic (SCO)", age = 28, caps = 40 },
+  { name = "Keito Nakamura", pos = "FW", club = "Reims (FRA)", age = 25, caps = 24 },
+  { name = "Koki Ogawa", pos = "FW", club = "NEC Nijmegen (NED)", age = 28, caps = 18 },
+]
+
+[mexico]
+name        = "Mexico"
+conf        = "concacaf"
+fifa_rank   = 14
+coach       = "Javier Aguirre"
+coach_since = "Since 2024 (third spell)"
+group_result= "Group A (winners)"
+avg_age     = 27.5
+squad_size  = 26
+profile     = "teams/mexico.html"
+blurb       = "Co-hosts who opened the tournament at a renovated Estadio Azteca. Aguirre, in his third spell, blends a Liga MX core with Europe-based names. Ochoa (40) is in line for a record-equalling sixth World Cup; Álvarez captains and 17-year-old Mora is the spark."
+players = [
+  { name = "Guillermo Ochoa", pos = "GK", club = "AEL Limassol (CYP)", age = 40, caps = 151 },
+  { name = "Raúl Rangel", pos = "GK", club = "Guadalajara (MEX)", age = 26, caps = 4 },
+  { name = "Johan Vásquez", pos = "DF", club = "Genoa (ITA)", age = 27, caps = 40 },
+  { name = "César Montes", pos = "DF", club = "Lokomotiv Moscow (RUS)", age = 28, caps = 58 },
+  { name = "Jesús Gallardo", pos = "DF", club = "Toluca (MEX)", age = 31, caps = 85 },
+  { name = "Jorge Sánchez", pos = "DF", club = "PAOK (GRE)", age = 28, caps = 43 },
+  { name = "Israel Reyes", pos = "DF", club = "América (MEX)", age = 25, caps = 18 },
+  { name = "Mateo Chávez", pos = "DF", club = "AZ Alkmaar (NED)", age = 21, caps = 6 },
+  { name = "Edson Álvarez", pos = "MF", club = "Fenerbahçe (TUR)", age = 28, caps = 92, captain = true },
+  { name = "Orbelín Pineda", pos = "MF", club = "AEK Athens (GRE)", age = 30, caps = 52 },
+  { name = "Luis Romo", pos = "MF", club = "Guadalajara (MEX)", age = 31, caps = 58 },
+  { name = "Luis Chávez", pos = "MF", club = "Dynamo Moscow (RUS)", age = 30, caps = 48 },
+  { name = "Álvaro Fidalgo", pos = "MF", club = "Real Betis (ESP)", age = 28, caps = 10 },
+  { name = "Gilberto Mora", pos = "MF", club = "Tijuana (MEX)", age = 17, caps = 12 },
+  { name = "Erik Lira", pos = "MF", club = "Cruz Azul (MEX)", age = 26, caps = 12 },
+  { name = "Raúl Jiménez", pos = "FW", club = "Fulham (ENG)", age = 35, caps = 108 },
+  { name = "Santiago Giménez", pos = "FW", club = "AC Milan (ITA)", age = 25, caps = 40 },
+  { name = "Julián Quiñones", pos = "FW", club = "Al-Qadsiah (KSA)", age = 29, caps = 14 },
+  { name = "Roberto Alvarado", pos = "FW", club = "Guadalajara (MEX)", age = 27, caps = 48 },
+  { name = "Alexis Vega", pos = "FW", club = "Toluca (MEX)", age = 28, caps = 40 },
+]
+
+[morocco]
+name        = "Morocco"
+conf        = "caf"
+fifa_rank   = 7
+coach       = "Mohamed Ouahbi"
+coach_since = "Since Mar 2026"
+group_result= "Group C (runners-up)"
+avg_age     = 25.5
+squad_size  = 26
+profile     = "teams/morocco.html"
+blurb       = "2022 semi-finalists and reigning AFCON champions, now under U-20-World-Cup-winning coach Ouahbi after Regragui's surprise March exit. A heavily rebuilt squad keeps a veteran spine (Hakimi, Bounou, Amrabat) around bold youth picks; En-Nesyri and Boufal were left out."
+players = [
+  { name = "Yassine Bounou", pos = "GK", club = "Al-Hilal (KSA)", age = 35, caps = 83 },
+  { name = "Munir El Kajoui", pos = "GK", club = "RS Berkane (MAR)", age = 32, caps = 9 },
+  { name = "Achraf Hakimi", pos = "DF", club = "Paris Saint-Germain (FRA)", age = 27, caps = 96, captain = true },
+  { name = "Noussair Mazraoui", pos = "DF", club = "Manchester United (ENG)", age = 28, caps = 34 },
+  { name = "Nayef Aguerd", pos = "DF", club = "Marseille (FRA)", age = 29, caps = 47 },
+  { name = "Chadi Riad", pos = "DF", club = "Crystal Palace (ENG)", age = 22, caps = 12 },
+  { name = "Issa Diop", pos = "DF", club = "Fulham (ENG)", age = 29, caps = 6 },
+  { name = "Anass Salah-Eddine", pos = "DF", club = "PSV Eindhoven (NED)", age = 23, caps = 7 },
+  { name = "Zakaria El Ouahdi", pos = "DF", club = "Genk (BEL)", age = 25, caps = 8 },
+  { name = "Sofyan Amrabat", pos = "MF", club = "Real Betis (ESP)", age = 29, caps = 68 },
+  { name = "Azzedine Ounahi", pos = "MF", club = "Girona (ESP)", age = 26, caps = 40 },
+  { name = "Bilal El Khannouss", pos = "MF", club = "VfB Stuttgart (GER)", age = 22, caps = 30 },
+  { name = "Neil El Aynaoui", pos = "MF", club = "Roma (ITA)", age = 25, caps = 6 },
+  { name = "Ismael Saibari", pos = "MF", club = "PSV Eindhoven (NED)", age = 25, caps = 15 },
+  { name = "Ayyoub Bouaddi", pos = "MF", club = "Lille (FRA)", age = 18, caps = 1 },
+  { name = "Brahim Díaz", pos = "FW", club = "Real Madrid (ESP)", age = 26, caps = 24 },
+  { name = "Ayoub El Kaabi", pos = "FW", club = "Olympiacos (GRE)", age = 32, caps = 36 },
+  { name = "Soufiane Rahimi", pos = "FW", club = "Al-Ain (UAE)", age = 30, caps = 30 },
+  { name = "Abdessamad Ezzalzouli", pos = "FW", club = "Real Betis (ESP)", age = 24, caps = 28 },
+  { name = "Chemsdine Talbi", pos = "FW", club = "Sunderland (ENG)", age = 20, caps = 6 },
+]
+
+[netherlands]
+name        = "Netherlands"
+conf        = "uefa"
+fifa_rank   = 8
+coach       = "Ronald Koeman"
+coach_since = "Since Jan 2023"
+group_result= "Group F (winners)"
+avg_age     = 27.0
+squad_size  = 26
+profile     = "teams/netherlands.html"
+blurb       = "Three-time finalists still chasing a first world title, under Koeman in his second stint. A Premier-League-heavy squad built on an elite defence; creative loss of Xavi Simons (ACL) and a late withdrawal by Jurriën Timber (replaced by Geertruida) thin the attack."
+players = [
+  { name = "Bart Verbruggen", pos = "GK", club = "Brighton (ENG)", age = 23, caps = 24 },
+  { name = "Mark Flekken", pos = "GK", club = "Bayer Leverkusen (GER)", age = 33, caps = 14 },
+  { name = "Virgil van Dijk", pos = "DF", club = "Liverpool (ENG)", age = 34, caps = 85, captain = true },
+  { name = "Denzel Dumfries", pos = "DF", club = "Inter Milan (ITA)", age = 30, caps = 67 },
+  { name = "Nathan Aké", pos = "DF", club = "Manchester City (ENG)", age = 31, caps = 52 },
+  { name = "Micky van de Ven", pos = "DF", club = "Tottenham (ENG)", age = 24, caps = 25 },
+  { name = "Jan Paul van Hecke", pos = "DF", club = "Brighton (ENG)", age = 25, caps = 7 },
+  { name = "Jorrel Hato", pos = "DF", club = "Chelsea (ENG)", age = 20, caps = 18 },
+  { name = "Lutsharel Geertruida", pos = "DF", club = "RB Leipzig (GER)", age = 25, caps = 13 },
+  { name = "Frenkie de Jong", pos = "MF", club = "Barcelona (ESP)", age = 29, caps = 62 },
+  { name = "Ryan Gravenberch", pos = "MF", club = "Liverpool (ENG)", age = 24, caps = 29 },
+  { name = "Tijjani Reijnders", pos = "MF", club = "Manchester City (ENG)", age = 27, caps = 30 },
+  { name = "Teun Koopmeiners", pos = "MF", club = "Juventus (ITA)", age = 28, caps = 24 },
+  { name = "Mats Wieffer", pos = "MF", club = "Brighton (ENG)", age = 26, caps = 14 },
+  { name = "Quinten Timber", pos = "MF", club = "Marseille (FRA)", age = 24, caps = 8 },
+  { name = "Cody Gakpo", pos = "FW", club = "Liverpool (ENG)", age = 27, caps = 45 },
+  { name = "Memphis Depay", pos = "FW", club = "Corinthians (BRA)", age = 32, caps = 104 },
+  { name = "Donyell Malen", pos = "FW", club = "Aston Villa (ENG)", age = 27, caps = 40 },
+  { name = "Justin Kluivert", pos = "FW", club = "Bournemouth (ENG)", age = 26, caps = 13 },
+  { name = "Xavi Simons", pos = "FW", club = "RB Leipzig (GER)", age = 22, caps = 35 },
+  { name = "Crysencio Summerville", pos = "FW", club = "West Ham (ENG)", age = 24, caps = 0 },
+]
+
+[norway]
+name        = "Norway"
+conf        = "uefa"
+fifa_rank   = 31
+coach       = "Ståle Solbakken"
+coach_since = "Since 2020"
+group_result= "Group I (runners-up)"
+avg_age     = 27.0
+squad_size  = 26
+profile     = "teams/norway.html"
+blurb       = "Back at a World Cup for the first time since 1998 after a perfect 8-from-8 qualifying run. Captain Ødegaard pulls the strings and Haaland — finally at a first major tournament, 55 goals for Norway — leads a Premier-League-laced attack. Finished Group I runners-up behind France."
+players = [
+  { name = "Ørjan Nyland", pos = "GK", club = "Sevilla (ESP)", age = 35, caps = 68 },
+  { name = "Egil Selvik", pos = "GK", club = "Watford (ENG)", age = 29, caps = 4 },
+  { name = "Kristoffer Ajer", pos = "DF", club = "Brentford (ENG)", age = 28, caps = 42 },
+  { name = "Leo Østigård", pos = "DF", club = "Genoa (ITA)", age = 26, caps = 34 },
+  { name = "Torbjørn Heggem", pos = "DF", club = "Bologna (ITA)", age = 26, caps = 8 },
+  { name = "Julian Ryerson", pos = "DF", club = "Borussia Dortmund (GER)", age = 28, caps = 34 },
+  { name = "David Møller Wolfe", pos = "DF", club = "Wolves (ENG)", age = 24, caps = 14 },
+  { name = "Marcus Holmgren Pedersen", pos = "DF", club = "Torino (ITA)", age = 25, caps = 16 },
+  { name = "Fredrik Bjørkan", pos = "DF", club = "Bodø/Glimt (NOR)", age = 27, caps = 12 },
+  { name = "Martin Ødegaard", pos = "MF", club = "Arsenal (ENG)", age = 27, caps = 62, captain = true },
+  { name = "Sander Berge", pos = "MF", club = "Fulham (ENG)", age = 28, caps = 48 },
+  { name = "Fredrik Aursnes", pos = "MF", club = "Benfica (POR)", age = 30, caps = 40 },
+  { name = "Patrick Berg", pos = "MF", club = "Bodø/Glimt (NOR)", age = 28, caps = 34 },
+  { name = "Kristian Thorstvedt", pos = "MF", club = "Sassuolo (ITA)", age = 27, caps = 42 },
+  { name = "Morten Thorsby", pos = "MF", club = "Cremonese (ITA)", age = 30, caps = 48 },
+  { name = "Erling Haaland", pos = "FW", club = "Manchester City (ENG)", age = 25, caps = 49 },
+  { name = "Alexander Sørloth", pos = "FW", club = "Atlético Madrid (ESP)", age = 30, caps = 58 },
+  { name = "Antonio Nusa", pos = "FW", club = "RB Leipzig (GER)", age = 21, caps = 24 },
+  { name = "Oscar Bobb", pos = "FW", club = "Fulham (ENG)", age = 22, caps = 16 },
+  { name = "Jørgen Strand Larsen", pos = "FW", club = "Crystal Palace (ENG)", age = 26, caps = 28 },
+]
+
+[paraguay]
+name        = "Paraguay"
+conf        = "conmebol"
+fifa_rank   = 41
+coach       = "Gustavo Alfaro"
+coach_since = "Since Aug 2024"
+group_result= "Group D (3rd place)"
+avg_age     = 28.5
+squad_size  = 26
+profile     = "teams/paraguay.html"
+blurb       = "Coached by Argentine Gustavo Alfaro and captained by Palmeiras centre-back Gustavo Gómez, La Albirroja are back at a World Cup for the first time in 16 years. A gritty, experienced, Brazilian-league-heavy side, they edged through Group D in third place and now meet Germany in the Round of 32, hoping to spring a knockout upset."
+players = [
+  { name = "Roberto \"Gatito\" Fernández", pos = "GK", club = "Cerro Porteño (PAR)", age = 38, caps = 33 },
+  { name = "Orlando Gill", pos = "GK", club = "San Lorenzo (ARG)", age = 26, caps = 5 },
+  { name = "Gustavo Gómez", pos = "DF", club = "Palmeiras (BRA)", age = 33, caps = 88, captain = true },
+  { name = "Fabián Balbuena", pos = "DF", club = "Grêmio (BRA)", age = 34, caps = 50 },
+  { name = "Omar Alderete", pos = "DF", club = "Sunderland (ENG)", age = 29, caps = 50 },
+  { name = "Júnior Alonso", pos = "DF", club = "Atlético Mineiro (BRA)", age = 33, caps = 55 },
+  { name = "Gustavo Velázquez", pos = "DF", club = "Cerro Porteño (PAR)", age = 35, caps = 15 },
+  { name = "Juan José Cáceres", pos = "DF", club = "Dynamo Moscow (RUS)", age = 26, caps = 15 },
+  { name = "Alexandro Maidana", pos = "DF", club = "Talleres (ARG)", age = 20, caps = 5 },
+  { name = "Andrés Cubas", pos = "MF", club = "Vancouver Whitecaps (CAN)", age = 30, caps = 30 },
+  { name = "Damián Bobadilla", pos = "MF", club = "São Paulo (BRA)", age = 24, caps = 15 },
+  { name = "Diego Gómez", pos = "MF", club = "Brighton (ENG)", age = 23, caps = 25 },
+  { name = "Ramón Sosa", pos = "MF", club = "Palmeiras (BRA)", age = 26, caps = 15 },
+  { name = "Alejandro Romero Gamarra", pos = "MF", club = "Al Ain (UAE)", age = 31, caps = 35 },
+  { name = "Matías Galarza", pos = "MF", club = "Atlanta United (USA)", age = 24, caps = 12 },
+  { name = "Miguel Almirón", pos = "FW", club = "Atlanta United (USA)", age = 32, caps = 70 },
+  { name = "Julio Enciso", pos = "FW", club = "Strasbourg (FRA)", age = 22, caps = 25 },
+  { name = "Antonio Sanabria", pos = "FW", club = "Cremonese (ITA)", age = 30, caps = 60 },
+  { name = "Álex Arce", pos = "FW", club = "Independiente Rivadavia (ARG)", age = 30, caps = 10 },
+  { name = "Gabriel Ávalos", pos = "FW", club = "Independiente (ARG)", age = 35, caps = 10 },
+  { name = "Isidro Pitta", pos = "FW", club = "Red Bull Bragantino (BRA)", age = 26, caps = 10 },
+]
+
+[portugal]
+name        = "Portugal"
+conf        = "uefa"
+fifa_rank   = 5
+coach       = "Roberto Martínez"
+coach_since = "Since Jan 2023"
+group_result= "Group K (runners-up)"
+avg_age     = 28.0
+squad_size  = 26
+profile     = "teams/portugal.html"
+blurb       = "Reigning Nations League champions chasing a first World Cup. Ronaldo, 41, becomes the first man to play at six World Cups and captains a deep, PSG- and Premier-League-laden squad. A symbolic squad place honours the late Diogo Jota."
+players = [
+  { name = "Diogo Costa", pos = "GK", club = "FC Porto (POR)", age = 26, caps = 30 },
+  { name = "José Sá", pos = "GK", club = "Wolves (ENG)", age = 33, caps = 3 },
+  { name = "Rúben Dias", pos = "DF", club = "Manchester City (ENG)", age = 28, caps = 68 },
+  { name = "Gonçalo Inácio", pos = "DF", club = "Sporting CP (POR)", age = 24, caps = 24 },
+  { name = "Nuno Mendes", pos = "DF", club = "Paris Saint-Germain (FRA)", age = 23, caps = 38 },
+  { name = "Diogo Dalot", pos = "DF", club = "Manchester United (ENG)", age = 27, caps = 44 },
+  { name = "João Cancelo", pos = "DF", club = "Barcelona (ESP)", age = 31, caps = 67 },
+  { name = "Nélson Semedo", pos = "DF", club = "Fenerbahçe (TUR)", age = 32, caps = 40 },
+  { name = "Renato Veiga", pos = "DF", club = "Villarreal (ESP)", age = 22, caps = 10 },
+  { name = "Vitinha", pos = "MF", club = "Paris Saint-Germain (FRA)", age = 26, caps = 40 },
+  { name = "João Neves", pos = "MF", club = "Paris Saint-Germain (FRA)", age = 21, caps = 21 },
+  { name = "Bruno Fernandes", pos = "MF", club = "Manchester United (ENG)", age = 31, caps = 92 },
+  { name = "Bernardo Silva", pos = "MF", club = "Manchester City (ENG)", age = 31, caps = 105 },
+  { name = "Rúben Neves", pos = "MF", club = "Al-Hilal (KSA)", age = 29, caps = 62 },
+  { name = "Matheus Nunes", pos = "MF", club = "Manchester City (ENG)", age = 27, caps = 18 },
+  { name = "Cristiano Ronaldo", pos = "FW", club = "Al-Nassr (KSA)", age = 41, caps = 226, captain = true },
+  { name = "Rafael Leão", pos = "FW", club = "AC Milan (ITA)", age = 26, caps = 40 },
+  { name = "Pedro Neto", pos = "FW", club = "Chelsea (ENG)", age = 26, caps = 28 },
+  { name = "João Félix", pos = "FW", club = "Al-Nassr (KSA)", age = 26, caps = 52 },
+  { name = "Gonçalo Ramos", pos = "FW", club = "Paris Saint-Germain (FRA)", age = 24, caps = 33 },
+  { name = "Francisco Conceição", pos = "FW", club = "Juventus (ITA)", age = 23, caps = 18 },
+  { name = "Francisco Trincão", pos = "FW", club = "Sporting CP (POR)", age = 26, caps = 12 },
+]
+
+[senegal]
+name        = "Senegal"
+conf        = "caf"
+fifa_rank   = 15
+coach       = "Pape Thiaw"
+coach_since = "Since Dec 2024"
+group_result= "Group I (3rd place)"
+avg_age     = 27.5
+squad_size  = 26
+profile     = "teams/senegal.html"
+blurb       = "Arguably Africa's strongest side, unbeaten in qualifying and 2025 AFCON finalists. Captain Koulibaly anchors a Premier-League-heavy spine; Sadio Mané leads one final World Cup charge before international retirement."
+players = [
+  { name = "Édouard Mendy", pos = "GK", club = "Al-Ahli (KSA)", age = 34, caps = 42 },
+  { name = "Mory Diaw", pos = "GK", club = "Le Havre (FRA)", age = 32, caps = 4 },
+  { name = "Kalidou Koulibaly", pos = "DF", club = "Al-Hilal (KSA)", age = 34, caps = 85, captain = true },
+  { name = "Abdoulaye Seck", pos = "DF", club = "Maccabi Haifa (ISR)", age = 33, caps = 24 },
+  { name = "Moussa Niakhaté", pos = "DF", club = "Lyon (FRA)", age = 29, caps = 18 },
+  { name = "Ismail Jakobs", pos = "DF", club = "Galatasaray (TUR)", age = 26, caps = 30 },
+  { name = "El Hadji Malick Diouf", pos = "DF", club = "West Ham (ENG)", age = 21, caps = 14 },
+  { name = "Antoine Mendy", pos = "DF", club = "Nice (FRA)", age = 21, caps = 6 },
+  { name = "Krépin Diatta", pos = "DF", club = "Monaco (FRA)", age = 27, caps = 52 },
+  { name = "Idrissa Gana Gueye", pos = "MF", club = "Everton (ENG)", age = 36, caps = 131 },
+  { name = "Pape Matar Sarr", pos = "MF", club = "Tottenham (ENG)", age = 23, caps = 40 },
+  { name = "Habib Diarra", pos = "MF", club = "Sunderland (ENG)", age = 22, caps = 18 },
+  { name = "Lamine Camara", pos = "MF", club = "Monaco (FRA)", age = 22, caps = 22 },
+  { name = "Pape Gueye", pos = "MF", club = "Villarreal (ESP)", age = 27, caps = 28 },
+  { name = "Sadio Mané", pos = "FW", club = "Al-Nassr (KSA)", age = 34, caps = 127 },
+  { name = "Nicolas Jackson", pos = "FW", club = "Bayern Munich (GER, loan)", age = 24, caps = 24 },
+  { name = "Ismaïla Sarr", pos = "FW", club = "Crystal Palace (ENG)", age = 28, caps = 75 },
+  { name = "Iliman Ndiaye", pos = "FW", club = "Everton (ENG)", age = 26, caps = 30 },
+  { name = "Cherif Ndiaye", pos = "FW", club = "Samsunspor (TUR)", age = 29, caps = 12 },
+]
+
+[south-africa]
+name        = "South Africa"
+conf        = "caf"
+fifa_rank   = 60
+coach       = "Hugo Broos"
+coach_since = "Since May 2021"
+group_result= "Group A (runners-up)"
+avg_age     = 26.3
+squad_size  = 26
+profile     = "teams/south-africa.html"
+blurb       = "Bafana Bafana are back at a World Cup after a 16-year absence — their first finals since hosting 2010 — under veteran Belgian coach Hugo Broos. Marshalled by penalty-saving captain-keeper Ronwen Williams and a squad drawn heavily from Sundowns and Pirates, they finished runners-up in Group A behind hosts Mexico to reach the knockout rounds for the first time ever."
+players = [
+  { name = "Ronwen Williams", pos = "GK", club = "Mamelodi Sundowns (RSA)", age = 34, caps = 62, captain = true },
+  { name = "Sipho Chaine", pos = "GK", club = "Orlando Pirates (RSA)", age = 29, caps = 4 },
+  { name = "Aubrey Modiba", pos = "DF", club = "Mamelodi Sundowns (RSA)", age = 30, caps = 44 },
+  { name = "Khuliso Mudau", pos = "DF", club = "Mamelodi Sundowns (RSA)", age = 31, caps = 32 },
+  { name = "Nkosinathi Sibisi", pos = "DF", club = "Orlando Pirates (RSA)", age = 30, caps = 20 },
+  { name = "Ime Okon", pos = "DF", club = "Hannover 96 (GER)", age = 22, caps = 8 },
+  { name = "Khulumani Ndamane", pos = "DF", club = "Mamelodi Sundowns (RSA)", age = 22, caps = 5 },
+  { name = "Mbekezeli Mbokazi", pos = "DF", club = "Chicago Fire (USA)", age = 20, caps = 10 },
+  { name = "Teboho Mokoena", pos = "MF", club = "Mamelodi Sundowns (RSA)", age = 29, caps = 51 },
+  { name = "Themba Zwane", pos = "MF", club = "Mamelodi Sundowns (RSA)", age = 36, caps = 54 },
+  { name = "Sphephelo Sithole", pos = "MF", club = "Tondela (POR)", age = 27, caps = 28 },
+  { name = "Thalente Mbatha", pos = "MF", club = "Orlando Pirates (RSA)", age = 26, caps = 15 },
+  { name = "Jayden Adams", pos = "MF", club = "Mamelodi Sundowns (RSA)", age = 25, caps = 5 },
+  { name = "Lyle Foster", pos = "FW", club = "Burnley (ENG)", age = 25, caps = 27 },
+  { name = "Relebohile Mofokeng", pos = "FW", club = "Orlando Pirates (RSA)", age = 21, caps = 13 },
+  { name = "Oswin Appollis", pos = "FW", club = "Orlando Pirates (RSA)", age = 24, caps = 26 },
+  { name = "Iqraam Rayners", pos = "FW", club = "Mamelodi Sundowns (RSA)", age = 30, caps = 14 },
+  { name = "Evidence Makgopa", pos = "FW", club = "Orlando Pirates (RSA)", age = 26, caps = 26 },
+  { name = "Thapelo Maseko", pos = "FW", club = "AEL Limassol (CYP)", age = 22, caps = 10 },
+  { name = "Tshepang Moremi", pos = "FW", club = "Orlando Pirates (RSA)", age = 25, caps = 10 },
+]
+
+[spain]
+name        = "Spain"
+conf        = "uefa"
+fifa_rank   = 2
+coach       = "Luis de la Fuente"
+coach_since = "Since Dec 2022"
+group_result= "Group H (winners)"
+avg_age     = 26.5
+squad_size  = 26
+profile     = "teams/spain.html"
+blurb       = "European champions and a genuine favourite. De la Fuente named a squad with eight Barcelona players and — for the first time since 1950 — no Real Madrid players. Lamine Yamal headlines a young, La Liga-heavy group; Rodri captains."
+players = [
+  { name = "Unai Simón", pos = "GK", club = "Athletic Club (ESP)", age = 28, caps = 48 },
+  { name = "David Raya", pos = "GK", club = "Arsenal (ENG)", age = 30, caps = 13 },
+  { name = "Pedro Porro", pos = "DF", club = "Tottenham (ENG)", age = 26, caps = 17 },
+  { name = "Pau Cubarsí", pos = "DF", club = "Barcelona (ESP)", age = 19, caps = 13 },
+  { name = "Aymeric Laporte", pos = "DF", club = "Athletic Club (ESP)", age = 31, caps = 47 },
+  { name = "Marc Cucurella", pos = "DF", club = "Chelsea (ENG)", age = 27, caps = 29 },
+  { name = "Marcos Llorente", pos = "DF", club = "Atlético Madrid (ESP)", age = 31, caps = 31 },
+  { name = "Álex Grimaldo", pos = "DF", club = "Bayer Leverkusen (GER)", age = 30, caps = 13 },
+  { name = "Eric García", pos = "DF", club = "Barcelona (ESP)", age = 25, caps = 22 },
+  { name = "Rodri", pos = "MF", club = "Manchester City (ENG)", age = 29, caps = 63, captain = true },
+  { name = "Pedri", pos = "MF", club = "Barcelona (ESP)", age = 23, caps = 34 },
+  { name = "Martín Zubimendi", pos = "MF", club = "Arsenal (ENG)", age = 27, caps = 24 },
+  { name = "Fabián Ruíz", pos = "MF", club = "Paris Saint-Germain (FRA)", age = 30, caps = 36 },
+  { name = "Mikel Merino", pos = "MF", club = "Arsenal (ENG)", age = 30, caps = 42 },
+  { name = "Gavi", pos = "MF", club = "Barcelona (ESP)", age = 21, caps = 31 },
+  { name = "Lamine Yamal", pos = "FW", club = "Barcelona (ESP)", age = 18, caps = 29 },
+  { name = "Nico Williams", pos = "FW", club = "Athletic Club (ESP)", age = 23, caps = 40 },
+  { name = "Mikel Oyarzabal", pos = "FW", club = "Real Sociedad (ESP)", age = 29, caps = 48 },
+  { name = "Dani Olmo", pos = "FW", club = "Barcelona (ESP)", age = 28, caps = 47 },
+  { name = "Ferran Torres", pos = "FW", club = "Barcelona (ESP)", age = 26, caps = 53 },
+  { name = "Yeremy Pino", pos = "FW", club = "Villarreal (ESP)", age = 23, caps = 21 },
+]
+
+[sweden]
+name        = "Sweden"
+conf        = "uefa"
+fifa_rank   = 38
+coach       = "Graham Potter"
+coach_since = "Since Oct 2025"
+group_result= "Group F (3rd place)"
+avg_age     = 27.5
+squad_size  = 26
+profile     = "teams/sweden.html"
+blurb       = "Through as a best third-place team after a dramatic qualifying via the play-offs under Potter. Captain Lindelöf leads the defence, but the story is one of the tournament's most fearsome strike pairings: Gyökeres (Arsenal) and Isak (Liverpool), with Elanga in flying form. They face France in the Round of 32."
+players = [
+  { name = "Robin Olsen", pos = "GK", club = "Aston Villa (ENG)", age = 36, caps = 78 },
+  { name = "Kristoffer Nordfeldt", pos = "GK", club = "Brommapojkarna (SWE)", age = 36, caps = 24 },
+  { name = "Victor Lindelöf", pos = "DF", club = "Aston Villa (ENG)", age = 31, caps = 80, captain = true },
+  { name = "Isak Hien", pos = "DF", club = "Aston Villa (ENG)", age = 26, caps = 24 },
+  { name = "Carl Starfelt", pos = "DF", club = "Celta Vigo (ESP)", age = 30, caps = 22 },
+  { name = "Gabriel Gudmundsson", pos = "DF", club = "Lille (FRA)", age = 26, caps = 24 },
+  { name = "Daniel Svensson", pos = "DF", club = "Borussia Dortmund (GER)", age = 23, caps = 14 },
+  { name = "Hjalmar Ekdal", pos = "DF", club = "Wolfsburg (GER)", age = 27, caps = 14 },
+  { name = "Linus Wahlqvist", pos = "DF", club = "Djurgården (SWE)", age = 29, caps = 12 },
+  { name = "Lucas Bergvall", pos = "MF", club = "Tottenham (ENG)", age = 20, caps = 18 },
+  { name = "Yasin Ayari", pos = "MF", club = "Brighton (ENG)", age = 22, caps = 16 },
+  { name = "Mattias Svanberg", pos = "MF", club = "Wolfsburg (GER)", age = 27, caps = 40 },
+  { name = "Jens Cajuste", pos = "MF", club = "Ipswich Town (ENG)", age = 26, caps = 28 },
+  { name = "Kristoffer Olsson", pos = "MF", club = "FC Copenhagen (DEN)", age = 30, caps = 48 },
+  { name = "Ken Sema", pos = "MF", club = "Watford (ENG)", age = 32, caps = 34 },
+  { name = "Viktor Gyökeres", pos = "FW", club = "Arsenal (ENG)", age = 27, caps = 34 },
+  { name = "Alexander Isak", pos = "FW", club = "Liverpool (ENG)", age = 26, caps = 52 },
+  { name = "Anthony Elanga", pos = "FW", club = "Newcastle United (ENG)", age = 24, caps = 30 },
+  { name = "Gustaf Nilsson", pos = "FW", club = "Club Brugge (BEL)", age = 28, caps = 12 },
+  { name = "Benjamin Nygren", pos = "FW", club = "Celtic (SCO)", age = 24, caps = 14 },
+]
+
+[switzerland]
+name        = "Switzerland"
+conf        = "uefa"
+fifa_rank   = 19
+coach       = "Murat Yakin"
+coach_since = "Since Aug 2021"
+group_result= "Group B (winners)"
+avg_age     = 28.0
+squad_size  = 26
+profile     = "teams/switzerland.html"
+blurb       = "Through the World Cup group stage for a fourth straight time, the Nati are organised and hard to beat under Yakin. Captain Xhaka, at his fourth World Cup, sets the tempo; Akanji anchors the defence and Embolo leads the line. Won Group B over hosts Canada."
+players = [
+  { name = "Gregor Kobel", pos = "GK", club = "Borussia Dortmund (GER)", age = 28, caps = 24 },
+  { name = "Yvon Mvogo", pos = "GK", club = "Lorient (FRA)", age = 32, caps = 9 },
+  { name = "Manuel Akanji", pos = "DF", club = "Inter Milan (ITA)", age = 30, caps = 74 },
+  { name = "Nico Elvedi", pos = "DF", club = "Borussia Mönchengladbach (GER)", age = 29, caps = 48 },
+  { name = "Ricardo Rodríguez", pos = "DF", club = "Real Betis (ESP)", age = 33, caps = 130 },
+  { name = "Silvan Widmer", pos = "DF", club = "Mainz (GER)", age = 33, caps = 40 },
+  { name = "Aurèle Amenda", pos = "DF", club = "Eintracht Frankfurt (GER)", age = 22, caps = 6 },
+  { name = "Eray Cömert", pos = "DF", club = "Valencia (ESP)", age = 28, caps = 18 },
+  { name = "Granit Xhaka", pos = "MF", club = "Sunderland (ENG)", age = 33, caps = 145, captain = true },
+  { name = "Remo Freuler", pos = "MF", club = "Bologna (ITA)", age = 34, caps = 58 },
+  { name = "Denis Zakaria", pos = "MF", club = "Monaco (FRA)", age = 29, caps = 52 },
+  { name = "Ardon Jashari", pos = "MF", club = "AC Milan (ITA)", age = 23, caps = 18 },
+  { name = "Djibril Sow", pos = "MF", club = "Sevilla (ESP)", age = 29, caps = 42 },
+  { name = "Michel Aebischer", pos = "MF", club = "Pisa (ITA)", age = 29, caps = 40 },
+  { name = "Fabian Rieder", pos = "MF", club = "Augsburg (GER)", age = 24, caps = 20 },
+  { name = "Johan Manzambi", pos = "MF", club = "Freiburg (GER)", age = 20, caps = 3 },
+  { name = "Breel Embolo", pos = "FW", club = "Rennes (FRA)", age = 29, caps = 78 },
+  { name = "Dan Ndoye", pos = "FW", club = "Nottingham Forest (ENG)", age = 25, caps = 30 },
+  { name = "Rubén Vargas", pos = "FW", club = "Sevilla (ESP)", age = 27, caps = 58 },
+  { name = "Noah Okafor", pos = "FW", club = "Leeds United (ENG)", age = 26, caps = 28 },
+  { name = "Zeki Amdouni", pos = "FW", club = "Burnley (ENG)", age = 25, caps = 24 },
+]
+
+[usa]
+name        = "USA"
+conf        = "concacaf"
+fifa_rank   = 17
+coach       = "Mauricio Pochettino"
+coach_since = "Since Sep 2024"
+group_result= "Group D (winners)"
+avg_age     = 26.9
+squad_size  = 26
+profile     = "teams/usa.html"
+blurb       = "Co-hosts chasing a deep run on home soil under Pochettino. Thirteen of the 26 return from the 2022 round-of-16 side; Pulisic (AC Milan) is the talisman, Ream captains, and the squad ranks among the youngest the USA has ever sent."
+players = [
+  { name = "Matt Freese", pos = "GK", club = "New York City FC (USA)", age = 27, caps = 11 },
+  { name = "Matt Turner", pos = "GK", club = "New England Revolution (USA)", age = 31, caps = 53 },
+  { name = "Tim Ream", pos = "DF", club = "Charlotte FC (USA)", age = 38, caps = 80, captain = true },
+  { name = "Antonee Robinson", pos = "DF", club = "Fulham (ENG)", age = 28, caps = 52 },
+  { name = "Chris Richards", pos = "DF", club = "Crystal Palace (ENG)", age = 26, caps = 31 },
+  { name = "Sergiño Dest", pos = "DF", club = "PSV Eindhoven (NED)", age = 25, caps = 40 },
+  { name = "Mark McKenzie", pos = "DF", club = "Toulouse (FRA)", age = 26, caps = 24 },
+  { name = "Joe Scally", pos = "DF", club = "Borussia Mönchengladbach (GER)", age = 23, caps = 10 },
+  { name = "Max Arfsten", pos = "DF", club = "Columbus Crew (USA)", age = 25, caps = 12 },
+  { name = "Tyler Adams", pos = "MF", club = "Bournemouth (ENG)", age = 27, caps = 52 },
+  { name = "Weston McKennie", pos = "MF", club = "Juventus (ITA)", age = 27, caps = 64 },
+  { name = "Malik Tillman", pos = "MF", club = "Bayer Leverkusen (GER)", age = 23, caps = 28 },
+  { name = "Christian Pulisic", pos = "FW", club = "AC Milan (ITA)", age = 27, caps = 84 },
+  { name = "Tim Weah", pos = "FW", club = "Marseille (FRA)", age = 26, caps = 49 },
+  { name = "Brenden Aaronson", pos = "FW", club = "Leeds United (ENG)", age = 25, caps = 57 },
+  { name = "Gio Reyna", pos = "FW", club = "Borussia Mönchengladbach (GER)", age = 23, caps = 36 },
+  { name = "Folarin Balogun", pos = "FW", club = "Monaco (FRA)", age = 24, caps = 25 },
+  { name = "Ricardo Pepi", pos = "FW", club = "PSV Eindhoven (NED)", age = 23, caps = 35 },
+  { name = "Haji Wright", pos = "FW", club = "Coventry City (ENG)", age = 28, caps = 20 },
+]
+
+[uzbekistan]
+name        = "Uzbekistan"
+conf        = "afc"
+fifa_rank   = 50
+coach       = "Fabio Cannavaro"
+coach_since = "Since Oct 2025"
+group_result= "Group K (4th)"
+avg_age     = 27.9
+squad_size  = 26
+profile     = "teams/uzbekistan.html"
+blurb       = "The White Wolves made history just by arriving — qualifying for their first-ever World Cup through AFC. Led by Italy's 2006-winning captain Fabio Cannavaro and built around Manchester City defender Abdukodir Khusanov and talisman Eldor Shomurodov, they drew a brutal Group K and bowed out at the group stage, losing all three and finishing bottom. The milestone of competing on football's biggest stage endures."
+players = [
+  { name = "Utkir Yusupov", pos = "GK", club = "Navbahor (UZB)", age = 35, caps = 39 },
+  { name = "Abduvohid Nematov", pos = "GK", club = "Nasaf (UZB)", age = 25, caps = 13 },
+  { name = "Abdukodir Khusanov", pos = "DF", club = "Manchester City (ENG)", age = 22, caps = 25 },
+  { name = "Khojiakbar Alijonov", pos = "DF", club = "Pakhtakor (UZB)", age = 29, caps = 51 },
+  { name = "Farrukh Sayfiev", pos = "DF", club = "Neftchi Fergana (UZB)", age = 35, caps = 64 },
+  { name = "Rustam Ashurmatov", pos = "DF", club = "Esteghlal (IRN)", age = 29, caps = 47 },
+  { name = "Umar Eshmurodov", pos = "DF", club = "Nasaf (UZB)", age = 33, caps = 39 },
+  { name = "Sherzod Nasrullaev", pos = "DF", club = "Pakhtakor (UZB)", age = 27, caps = 35 },
+  { name = "Abdulla Abdullaev", pos = "DF", club = "Dibba Al-Fujairah (UAE)", age = 28, caps = 27 },
+  { name = "Otabek Shukurov", pos = "MF", club = "Baniyas (UAE)", age = 29, caps = 86 },
+  { name = "Jaloliddin Masharipov", pos = "MF", club = "Esteghlal (IRN)", age = 32, caps = 73 },
+  { name = "Odiljon Hamrobekov", pos = "MF", club = "Tractor (IRN)", age = 30, caps = 71 },
+  { name = "Oston Urunov", pos = "MF", club = "Persepolis (IRN)", age = 25, caps = 42 },
+  { name = "Dostonbek Khamdamov", pos = "MF", club = "Pakhtakor (UZB)", age = 29, caps = 35 },
+  { name = "Abbosbek Fayzullaev", pos = "MF", club = "İstanbul Başakşehir (TUR)", age = 22, caps = 30 },
+  { name = "Jamshid Iskanderov", pos = "MF", club = "Neftchi Fergana (UZB)", age = 32, caps = 42 },
+  { name = "Akmal Mozgovoy", pos = "MF", club = "Pakhtakor (UZB)", age = 26, caps = 23 },
+  { name = "Eldor Shomurodov", pos = "FW", club = "İstanbul Başakşehir (TUR)", age = 30, caps = 90, captain = true },
+  { name = "Igor Sergeev", pos = "FW", club = "Persepolis (IRN)", age = 33, caps = 81 },
+  { name = "Azizjon Ganiev", pos = "FW", club = "Al Bataeh (UAE)", age = 28, caps = 22 },
+  { name = "Azizbek Amonov", pos = "FW", club = "Dinamo Samarqand (UZB)", age = 28, caps = 11 },
+]

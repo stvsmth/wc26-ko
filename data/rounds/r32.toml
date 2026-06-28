@@ -1,0 +1,137 @@
+# Round of 32 fixtures — full 16-match bracket, sourced from Wikipedia's
+# 2026 FIFA World Cup knockout-stage page (group stage complete). Hand-edit as
+# needed, then rebuild:  python3 build.py
+# Team slugs reference keys in data/teams.toml. kickoff_utc is ISO-8601 UTC; the
+# browser shows it in the viewer's local zone. tz is the venue's IANA zone, used
+# only for the no-JS fallback time. Matches ordered by kickoff.
+
+round      = "Round of 32"
+round_slug = "r32"
+
+[[match]]                                   # Match 73
+home        = "south-africa"
+away        = "canada"
+kickoff_utc = "2026-06-28T19:00:00Z"
+venue       = "SoFi Stadium"
+city        = "Inglewood"
+tz          = "America/Los_Angeles"
+
+[[match]]                                   # Match 76
+home        = "brazil"
+away        = "japan"
+kickoff_utc = "2026-06-29T17:00:00Z"
+venue       = "NRG Stadium"
+city        = "Houston"
+tz          = "America/Chicago"
+
+[[match]]                                   # Match 74
+home        = "germany"
+away        = "paraguay"
+kickoff_utc = "2026-06-29T20:30:00Z"
+venue       = "Gillette Stadium"
+city        = "Foxborough"
+tz          = "America/New_York"
+
+[[match]]                                   # Match 75
+home        = "netherlands"
+away        = "morocco"
+kickoff_utc = "2026-06-30T01:00:00Z"
+venue       = "Estadio BBVA"
+city        = "Guadalupe"
+tz          = "America/Monterrey"
+
+[[match]]                                   # Match 78
+home        = "ivory-coast"
+away        = "norway"
+kickoff_utc = "2026-06-30T17:00:00Z"
+venue       = "AT&T Stadium"
+city        = "Arlington"
+tz          = "America/Chicago"
+
+[[match]]                                   # Match 77
+home        = "france"
+away        = "sweden"
+kickoff_utc = "2026-06-30T21:00:00Z"
+venue       = "MetLife Stadium"
+city        = "East Rutherford"
+tz          = "America/New_York"
+
+[[match]]                                   # Match 79
+home        = "mexico"
+away        = "ecuador"
+kickoff_utc = "2026-07-01T01:00:00Z"
+venue       = "Estadio Azteca"
+city        = "Mexico City"
+tz          = "America/Mexico_City"
+
+[[match]]                                   # Match 80
+home        = "england"
+away        = "congo-dr"
+kickoff_utc = "2026-07-01T16:00:00Z"
+venue       = "Mercedes-Benz Stadium"
+city        = "Atlanta"
+tz          = "America/New_York"
+
+[[match]]                                   # Match 82
+home        = "belgium"
+away        = "senegal"
+kickoff_utc = "2026-07-01T20:00:00Z"
+venue       = "Lumen Field"
+city        = "Seattle"
+tz          = "America/Los_Angeles"
+
+[[match]]                                   # Match 81
+home        = "usa"
+away        = "bosnia"
+kickoff_utc = "2026-07-02T00:00:00Z"
+venue       = "Levi's Stadium"
+city        = "Santa Clara"
+tz          = "America/Los_Angeles"
+
+[[match]]                                   # Match 84
+home        = "spain"
+away        = "austria"
+kickoff_utc = "2026-07-02T19:00:00Z"
+venue       = "SoFi Stadium"
+city        = "Inglewood"
+tz          = "America/Los_Angeles"
+
+[[match]]                                   # Match 83
+home        = "portugal"
+away        = "croatia"
+kickoff_utc = "2026-07-02T23:00:00Z"
+venue       = "BMO Field"
+city        = "Toronto"
+tz          = "America/Toronto"
+
+[[match]]                                   # Match 85
+home        = "switzerland"
+away        = "algeria"
+kickoff_utc = "2026-07-03T03:00:00Z"
+venue       = "BC Place"
+city        = "Vancouver"
+tz          = "America/Vancouver"
+
+[[match]]                                   # Match 88
+home        = "australia"
+away        = "egypt"
+kickoff_utc = "2026-07-03T18:00:00Z"
+venue       = "AT&T Stadium"
+city        = "Arlington"
+tz          = "America/Chicago"
+
+[[match]]                                   # Match 86
+home        = "argentina"
+away        = "cape-verde"
+kickoff_utc = "2026-07-03T22:00:00Z"
+venue       = "Hard Rock Stadium"
+city        = "Miami Gardens"
+tz          = "America/New_York"
+
+[[match]]                                   # Match 87
+home        = "colombia"
+away        = "ghana"
+kickoff_utc = "2026-07-04T01:30:00Z"
+venue       = "Arrowhead Stadium"
+city        = "Kansas City"
+tz          = "America/Chicago"
