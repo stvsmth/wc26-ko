@@ -22,6 +22,11 @@ ty check                              # type-check (dev dependency; see pyprojec
 pytest                                # run the test suite (dev dependency; tests/)
 ```
 
+The build/scripts are stdlib-only and run under plain `python3`. The dev tooling
+(`ruff`/`ty`/`pytest`) lives in the `[dependency-groups]` dev group and is run via
+`uv` — e.g. `uv run pytest`, `uv run ruff check`, `uv run ty check`. `uv.lock` is
+committed so that toolchain resolves identically across machines and CI.
+
 Tests live in `tests/` and cover only the logic ty can't see and the
 data-quality systems don't own: the apply_rosters↔extract_teams HTML contract,
 `parse_kickoff`/`validate` branching, and the `FLAG_CODES` completeness
