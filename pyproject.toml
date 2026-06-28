@@ -1,0 +1,6 @@
+[tool.ruff]
+line-length = 99
+
+[tool.ruff.format]
+# Single quotes for regular strings; docstrings keep their double quotes.
+quote-style = "single"
