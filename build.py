@@ -242,7 +242,17 @@ def h2h_row(label: str, a_val: str, b_val: str, a_win: bool = False, b_win: bool
     )
 
 
-def render_match(match: Match, teams: Teams, round_name: str) -> str:
+def last_update_footer(build_ts: str) -> str:
+    """Footer <time> stamped with the build instant; times.js upgrades the visible
+    text to the viewer's local zone, with the UTC render as the no-JS fallback."""
+    shown = datetime.fromisoformat(build_ts).strftime('%Y-%m-%d %H:%M UTC')
+    return (
+        f'<footer><p>Last update: <time class="last-update" datetime="{esc(build_ts)}" '
+        f'data-last-update="{esc(build_ts)}">{shown}</time></p></footer>'
+    )
+
+
+def render_match(match: Match, teams: Teams, round_name: str, footer: str) -> str:
     a, b = teams[match['home']], teams[match['away']]
     utc_iso, venue_local = match['_kick']
 
@@ -290,15 +300,14 @@ def render_match(match: Match, teams: Teams, round_name: str) -> str:
   </header>
   <section class="h2h">{''.join(rows)}</section>
   <section class="cmp-squads">{squad_html(a)}{squad_html(b)}</section>
-  <footer><p>Kickoff shown in your browser's local timezone; FIFA rank as of
-  11 Jun 2026. (C) = captain.</p></footer>
+  {footer}
 </div>
 <script defer src="../assets/times.js"></script>
 </body></html>
 """
 
 
-def render_index(rounds: list[Round], teams: Teams) -> str:
+def render_index(rounds: list[Round], teams: Teams, footer: str) -> str:
     cards: list[str] = []
     for rnd in rounds:
         for match in rnd['_matches']:
@@ -339,7 +348,7 @@ def render_index(rounds: list[Round], teams: Teams) -> str:
   </header>
   <div class="section-label">{esc(round_titles)}</div>
   <div class="match-grid">{''.join(cards)}</div>
-  <footer><p>Last update: {datetime.now(ZoneInfo('UTC')).strftime('%Y-%m-%d %H:%M UTC')}</p></footer>
+  {footer}
 </div>
 <script defer src="../assets/times.js"></script>
 </body></html>
@@ -347,6 +356,7 @@ def render_index(rounds: list[Round], teams: Teams) -> str:
 
 
 def main() -> None:
+    footer = last_update_footer(datetime.now(ZoneInfo('UTC')).isoformat())
     teams = load_teams()
     rounds = load_rounds()
 
@@ -367,10 +377,10 @@ def main() -> None:
 
     for rnd in rounds:
         for match in rnd['_matches']:
-            page = render_match(match, teams, rnd['round'])
+            page = render_match(match, teams, rnd['round'], footer)
             (OUT_DIR / f'{match_slug(match)}.html').write_text(page, encoding='utf-8')
 
-    (OUT_DIR / 'index.html').write_text(render_index(rounds, teams), encoding='utf-8')
+    (OUT_DIR / 'index.html').write_text(render_index(rounds, teams, footer), encoding='utf-8')
 
     print(f'Built {total} comparison page(s) + index into {OUT_DIR.relative_to(ROOT)}/')
     for rnd in rounds:
