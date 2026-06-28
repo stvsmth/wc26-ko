@@ -40,7 +40,7 @@
 .cmp-title .side.right{text-align:right}
 .cmp-title .accentbar{height:5px;width:72px;border-radius:4px;background:var(--accent);margin-bottom:14px}
 .cmp-title .side.right .accentbar{margin-left:auto}
-.cmp-title h1{font-size:clamp(30px,6vw,62px);line-height:.95;overflow-wrap:break-word}
+.cmp-title h1{font-size:clamp(28px,5vw,50px);line-height:.98;overflow-wrap:break-word;hyphens:none;text-wrap:balance}
 .cmp-title .conf{font-size:11px;letter-spacing:.18em;text-transform:uppercase;
   color:var(--accent);font-weight:700;margin:0 0 8px}
 .cmp-title .vs{font-family:"Arial Narrow",sans-serif;font-weight:800;font-size:26px;

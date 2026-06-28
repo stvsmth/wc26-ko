@@ -24,6 +24,16 @@ CONF_LABELS = {
     "caf": "CAF", "afc": "AFC", "ofc": "OFC",
 }
 
+# Inlined into every page <head> before the external stylesheet so the
+# confederation accent colors are defined on first paint — without this the
+# accent vars resolve to the --blue fallback until style.css loads (a load-time
+# blue flash). Keep in sync with the :root block in style.css.
+CONF_VARS_STYLE = (
+    "<style>:root{--conf-uefa:#3d7bf0;--conf-conmebol:#e8b54a;"
+    "--conf-concacaf:#e3402f;--conf-caf:#1fa463;--conf-afc:#9b59d0;"
+    "--conf-ofc:#16b6c4;--blue:#3d7bf0}</style>"
+)
+
 # slug -> flag-icons code (ISO 3166-1 alpha-2, lowercase). England is not an ISO
 # country: its St George's Cross is the gb-eng subdivision flag, NOT gb (Union Jack).
 FLAG_CODES = {
@@ -199,7 +209,7 @@ def render_match(match: dict, teams: dict, round_name: str) -> str:
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(a['name'])} vs {esc(b['name'])} — {esc(round_name)} · WC2026</title>
-<link rel="stylesheet" href="../style.css">
+{CONF_VARS_STYLE}<link rel="stylesheet" href="../style.css">
 <link rel="stylesheet" href="../assets/compare.css"></head><body>
 <div class="wrap"><a class="back" href="index.html">← {esc(round_name)} bracket</a>
   <header class="cmp-top">
@@ -264,7 +274,7 @@ def render_index(rounds: list, teams: dict) -> str:
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Match comparisons — WC2026</title>
-<link rel="stylesheet" href="../style.css">
+{CONF_VARS_STYLE}<link rel="stylesheet" href="../style.css">
 <link rel="stylesheet" href="../assets/compare.css"></head><body>
 <div class="wrap">
   <header class="bracket-head">

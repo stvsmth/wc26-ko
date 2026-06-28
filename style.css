@@ -109,11 +109,12 @@ footer a{color:var(--ink-dim);text-decoration:underline;text-underline-offset:2p
   font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-faint)}
 .back:hover{color:var(--ink)}
 .team-hero{padding:22px 0 30px;border-bottom:1px solid var(--line)}
-.team-hero>.wrap{display:grid!important;grid-template-columns:1fr auto;gap:26px;align-items:end}
+.team-hero>.wrap{display:grid!important;grid-template-columns:minmax(0,1fr) auto;gap:18px 36px;align-items:end}
+.team-hero>.wrap>div:first-child{min-width:0}
 .team-hero .accentbar{height:5px;width:78px;border-radius:4px;background:var(--accent);margin-bottom:18px}
-.team-hero h1{font-size:clamp(46px,11vw,120px)}
+.team-hero h1{font-size:clamp(40px,8vw,92px);overflow-wrap:break-word;text-wrap:balance}
 .team-hero .conf{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-top:14px}
-.rankbadge{text-align:right}
+.rankbadge{text-align:right;white-space:nowrap}
 .rankbadge .lab{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-faint)}
 .rankbadge .num{font-family:"Arial Narrow",sans-serif;font-weight:800;font-size:74px;line-height:.9;color:var(--gold)}
 .rankbadge .num small{font-size:26px;color:var(--ink-dim);vertical-align:super}
