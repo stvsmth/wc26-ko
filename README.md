@@ -3,6 +3,8 @@
 A tiny static site for the **2026 FIFA World Cup knockout stage** — side-by-side
 team comparison pages for each match, plus a bracket index. 🏆
 
+**Live site:** <https://stvsmth.github.io/wc26-ko/compare/index.html>
+
 ## How it works
 
 Everything is generated from a couple of TOML files by a single, stdlib-only
