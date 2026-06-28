@@ -13,7 +13,15 @@ import sys
 import tomllib
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
+
+# tomllib hands back plain dicts; these aliases name the shapes we pass around.
+Team = dict[str, Any]
+Match = dict[str, Any]
+Round = dict[str, Any]
+Teams = dict[str, Team]
+Kickoff = tuple[str | None, str | None]
 
 ROOT = Path(__file__).resolve().parent
 TEAMS_FILE = ROOT / 'data' / 'teams.toml'
@@ -81,7 +89,7 @@ def die(msg: str) -> None:
     sys.exit(f'build.py: error: {msg}')
 
 
-def esc(value) -> str:
+def esc(value: object) -> str:
     return html.escape(str(value), quote=True)
 
 
@@ -93,7 +101,7 @@ def conf_label(conf: str) -> str:
     return CONF_LABELS.get(conf, conf.upper())
 
 
-def flag(team: dict) -> str:
+def flag(team: Team) -> str:
     code = FLAG_CODES.get(team['slug'])
     if not code:
         die(f'no flag code for team slug {team["slug"]!r} (add to FLAG_CODES)')
@@ -103,21 +111,21 @@ def flag(team: dict) -> str:
 # ---------- data loading + validation ----------
 
 
-def load_teams() -> dict:
+def load_teams() -> Teams:
     if not TEAMS_FILE.exists():
         die(f'{TEAMS_FILE} not found — run scripts/extract_teams.py first')
     with TEAMS_FILE.open('rb') as fh:
-        teams = tomllib.load(fh)
+        teams: Teams = tomllib.load(fh)
     for slug, t in teams.items():
         t.setdefault('slug', slug)
     return teams
 
 
-def load_rounds() -> list:
-    rounds = []
+def load_rounds() -> list[Round]:
+    rounds: list[Round] = []
     for path in sorted(ROUNDS_DIR.glob('*.toml')):
         with path.open('rb') as fh:
-            data = tomllib.load(fh)
+            data: Round = tomllib.load(fh)
         data['_file'] = path.name
         rounds.append(data)
     if not rounds:
@@ -125,7 +133,7 @@ def load_rounds() -> list:
     return rounds
 
 
-def parse_kickoff(match: dict, where: str):
+def parse_kickoff(match: Match, where: str) -> Kickoff:
     """Return (utc_iso, venue_local_str) or (None, None) if no kickoff set."""
     iso = match.get('kickoff_utc')
     if not iso:
@@ -145,7 +153,7 @@ def parse_kickoff(match: dict, where: str):
     return dt.isoformat().replace('+00:00', 'Z'), venue_local
 
 
-def validate(match: dict, teams: dict, where: str, seen: set) -> None:
+def validate(match: Match, teams: Teams, where: str, seen: set[frozenset[str]]) -> None:
     for side in ('home', 'away'):
         slug = match.get(side)
         if not slug:
@@ -161,30 +169,34 @@ def validate(match: dict, teams: dict, where: str, seen: set) -> None:
 # ---------- rendering ----------
 
 
-def match_slug(match: dict) -> str:
+def match_slug(match: Match) -> str:
     return f'{match["home"]}-vs-{match["away"]}'
 
 
-def when_html(utc_iso, venue_local, venue, city) -> str:
-    """Kickoff line: <time> holds venue-local text (no-JS fallback); times.js
-    upgrades it to the viewer's local zone."""
-    place = ' · '.join(p for p in (venue, city) if p)
-    if not utc_iso:
-        loc = f'<span class="venue">{esc(place)}</span>' if place else ''
-        return f'<span class="tbd">Date &amp; venue TBD</span> {loc}'.strip()
-    fallback = venue_local or 'kickoff time'
+def kickoff_time_el(utc_iso: str, venue_local: str | None) -> str:
+    """The <time class="kickoff"> element: holds venue-local text as the no-JS
+    fallback; times.js upgrades it to the viewer's local zone client-side."""
     venue_attr = f' data-venue-time="{esc(venue_local)}"' if venue_local else ''
-    time_el = (
+    return (
         f'<time class="kickoff" datetime="{esc(utc_iso)}" '
-        f'data-kickoff="{esc(utc_iso)}"{venue_attr}>{esc(fallback)}'
+        f'data-kickoff="{esc(utc_iso)}"{venue_attr}>{esc(venue_local or "kickoff time")}'
         f' <span class="tznote">venue time</span></time>'
     )
+
+
+def when_html(
+    utc_iso: str | None, venue_local: str | None, venue: str | None, city: str | None
+) -> str:
+    """Kickoff line for a comparison page: the <time> element plus venue/city."""
+    place = ' · '.join(p for p in (venue, city) if p)
     venue_el = f'<span class="venue">{esc(place)}</span>' if place else ''
-    return f'{time_el} {venue_el}'.strip()
+    if not utc_iso:
+        return f'<span class="tbd">Date &amp; venue TBD</span> {venue_el}'.strip()
+    return f'{kickoff_time_el(utc_iso, venue_local)} {venue_el}'.strip()
 
 
-def squad_html(team: dict) -> str:
-    players = team.get('players', [])
+def squad_html(team: Team) -> str:
+    players: list[dict[str, Any]] = team.get('players', [])
     rows = []
     for p in players:
         cap = '<span class="cap">(C)</span>' if p.get('captain') else ''
@@ -209,7 +221,7 @@ def squad_html(team: dict) -> str:
     )
 
 
-def h2h_row(label: str, a_val: str, b_val: str, a_win=False, b_win=False) -> str:
+def h2h_row(label: str, a_val: str, b_val: str, a_win: bool = False, b_win: bool = False) -> str:
     aw = ' win' if a_win else ''
     bw = ' win' if b_win else ''
     return (
@@ -220,11 +232,11 @@ def h2h_row(label: str, a_val: str, b_val: str, a_win=False, b_win=False) -> str
     )
 
 
-def render_match(match: dict, teams: dict, round_name: str) -> str:
+def render_match(match: Match, teams: Teams, round_name: str) -> str:
     a, b = teams[match['home']], teams[match['away']]
     utc_iso, venue_local = match['_kick']
 
-    rows = [
+    rows: list[str] = [
         h2h_row(
             'FIFA rank',
             f'#{esc(a["fifa_rank"])}',
@@ -276,20 +288,14 @@ def render_match(match: dict, teams: dict, round_name: str) -> str:
 """
 
 
-def render_index(rounds: list, teams: dict) -> str:
-    cards = []
+def render_index(rounds: list[Round], teams: Teams) -> str:
+    cards: list[str] = []
     for rnd in rounds:
         for match in rnd['_matches']:
             a, b = teams[match['home']], teams[match['away']]
             utc_iso, venue_local = match['_kick']
             if utc_iso:
-                when = (
-                    f'<time class="kickoff" datetime="{esc(utc_iso)}" '
-                    f'data-kickoff="{esc(utc_iso)}"'
-                    f'{f' data-venue-time="{esc(venue_local)}"' if venue_local else ""}>'
-                    f'{esc(venue_local or "kickoff time")}'
-                    f' <span class="tznote">venue time</span></time>'
-                )
+                when = kickoff_time_el(utc_iso, venue_local)
             else:
                 when = '<span class="tbd">Date &amp; venue TBD</span>'
             cards.append(
@@ -336,8 +342,8 @@ def main() -> None:
 
     total = 0
     for rnd in rounds:
-        seen = set()
-        matches = rnd.get('match', [])
+        seen: set[frozenset[str]] = set()
+        matches: list[Match] = rnd.get('match', [])
         for i, match in enumerate(matches):
             where = f'{rnd["_file"]} match #{i + 1}'
             validate(match, teams, where, seen)

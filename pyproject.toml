@@ -1,6 +1,14 @@
+# Dev tooling only — the build itself (build.py, scripts/) is stdlib-only.
+[dependency-groups]
+dev = ["ruff", "ty"]
+
 [tool.ruff]
 line-length = 99
 
 [tool.ruff.format]
 # Single quotes for regular strings; docstrings keep their double quotes.
 quote-style = "single"
+
+[tool.ty.environment]
+# Minimum supported runtime (tomllib lands in 3.11).
+python-version = "3.11"

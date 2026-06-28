@@ -11,6 +11,7 @@ Usage:  python3 scripts/extract_teams.py
 import html
 import re
 from pathlib import Path
+from typing import Any
 
 ROOT = Path(__file__).resolve().parent.parent
 TEAMS_DIR = ROOT / 'teams'
@@ -52,7 +53,15 @@ def tstr(value: str) -> str:
     return '"' + value.replace('\\', '\\\\').replace('"', '\\"') + '"'
 
 
-def extract(path: Path) -> dict:
+def first(pattern: re.Pattern[str], text: str, path: Path) -> re.Match[str]:
+    """Require a match; the team HTML is expected to contain each field."""
+    match = pattern.search(text)
+    if match is None:
+        raise SystemExit(f'extract_teams: pattern {pattern.pattern!r} not found in {path}')
+    return match
+
+
+def extract(path: Path) -> dict[str, Any]:
     raw = path.read_text(encoding='utf-8')
     slug = path.stem
 
@@ -62,7 +71,7 @@ def extract(path: Path) -> dict:
     avg_age_raw, squad_sub = facts.get('Squad avg age', ('', ''))
     squad_size = re.search(r'(\d+)-player', squad_sub)
 
-    players = []
+    players: list[dict[str, Any]] = []
     for num, pos, pname, club, age, caps in ROW_RE.findall(raw):
         captain = bool(CAP_RE.search(pname))
         players.append(
@@ -79,22 +88,22 @@ def extract(path: Path) -> dict:
 
     return {
         'slug': slug,
-        'name': clean(NAME_RE.search(raw).group(1)),
+        'name': clean(first(NAME_RE, raw, path).group(1)),
         'short': SHORT_NAMES.get(slug),
-        'conf': CONF_RE.search(raw).group(1),
-        'fifa_rank': int(RANK_RE.search(raw).group(1)),
+        'conf': first(CONF_RE, raw, path).group(1),
+        'fifa_rank': int(first(RANK_RE, raw, path).group(1)),
         'coach': coach,
         'coach_since': coach_since,
         'group_result': group_result,
         'avg_age': float(avg_age_raw) if avg_age_raw else 0.0,
         'squad_size': int(squad_size.group(1)) if squad_size else len(players),
         'profile': f'teams/{slug}.html',
-        'blurb': clean(SUB_RE.search(raw).group(1)),
+        'blurb': clean(first(SUB_RE, raw, path).group(1)),
         'players': players,
     }
 
 
-def to_toml(team: dict) -> str:
+def to_toml(team: dict[str, Any]) -> str:
     out = [f'[{team["slug"]}]']
     out.append(f'name        = {tstr(team["name"])}')
     if team.get('short'):
@@ -108,7 +117,7 @@ def to_toml(team: dict) -> str:
     out.append(f'squad_size  = {team["squad_size"]}')
     out.append(f'profile     = {tstr(team["profile"])}')
     out.append(f'blurb       = {tstr(team["blurb"])}')
-    out.append(f'players = [')
+    out.append('players = [')
     for p in team['players']:
         cap = ', captain = true' if p['captain'] else ''
         out.append(

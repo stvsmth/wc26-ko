@@ -29,6 +29,7 @@ import re
 import sys
 import tomllib
 from pathlib import Path
+from typing import Any
 
 ROOT = Path(__file__).resolve().parent.parent
 TEAMS_DIR = ROOT / 'teams'
@@ -42,11 +43,11 @@ AVG_RE = re.compile(
 POS_ORDER = {'GK': 0, 'DF': 1, 'MF': 2, 'FW': 3}
 
 
-def esc(value) -> str:
+def esc(value: object) -> str:
     return html.escape(str(value), quote=True)
 
 
-def row_html(p: dict) -> str:
+def row_html(p: dict[str, Any]) -> str:
     cap = '<span class="cap">(C)</span>' if p.get('captain') else ''
     return (
         '\n              '
@@ -59,7 +60,7 @@ def row_html(p: dict) -> str:
     )
 
 
-def squad_block(players: list) -> str:
+def squad_block(players: list[dict[str, Any]]) -> str:
     rows = '</tr><tr>'.join(row_html(p) for p in players)
     return (
         '<div class="squad-head"><h2>Squad</h2>\n'
@@ -74,11 +75,11 @@ def squad_block(players: list) -> str:
 
 def apply(path: Path) -> str:
     with path.open('rb') as fh:
-        data = tomllib.load(fh)
+        data: dict[str, Any] = tomllib.load(fh)
     slug = data.get('slug', path.stem)
-    players = data.get('player', [])
+    players: list[dict[str, Any]] = data.get('player', [])
 
-    problems = []
+    problems: list[str] = []
     if len(players) != 26:
         problems.append(f'{len(players)} players (expected 26)')
     nums = [p['num'] for p in players]
@@ -128,7 +129,7 @@ def main() -> None:
     print(f'Applying {len(files)} roster(s):')
     for f in files:
         apply(f)
-    print(f'Done. Now run: python3 scripts/extract_teams.py && python3 build.py')
+    print('Done. Now run: python3 scripts/extract_teams.py && python3 build.py')
 
 
 if __name__ == '__main__':
