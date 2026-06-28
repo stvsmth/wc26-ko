@@ -8,6 +8,8 @@ it owns compare/ and clears it each run. Stdlib only (tomllib, zoneinfo).
     python3 build.py
 """
 
+import functools
+import hashlib
 import html
 import sys
 import tomllib
@@ -56,6 +58,24 @@ FLAG_ICONS_LINK = (
     '<link rel="stylesheet" '
     'href="https://cdn.jsdelivr.net/npm/flag-icons@7.5.0/css/flag-icons.min.css">'
 )
+
+
+@functools.cache
+def asset_url(rel: str) -> str:
+    """Cache-busting href for a compare/-relative asset: `../<rel>?v=<hash8>`, the
+    hash taken over the file's *contents* so the URL changes only when the bytes
+    do — an unchanged asset keeps its cached entry across rebuilds (content-keyed,
+    not build-timestamp-keyed). GitHub Pages gives no header control, so a
+    fingerprinted URL is the only way a returning visitor on a freshly built page
+    never pairs it with a stale CSS/JS from cache. The query string needs no file
+    on disk; the server still serves `rel`. Only the generated compare/ pages (one
+    level deep, hence `../`) link these; hand-authored index.html and teams/*.html
+    keep plain hrefs and self-heal via the 10-min GitHub Pages ETag revalidation.
+    `@cache` reads + hashes each asset once for the whole build, off the import
+    path so importing build.py (e.g. in tests) does no I/O."""
+    digest = hashlib.sha256((ROOT / rel).read_bytes()).hexdigest()[:8]
+    return f'../{rel}?v={digest}'
+
 
 # slug -> flag-icons code (ISO 3166-1 alpha-2, lowercase). England is not an ISO
 # country: its St George's Cross is the gb-eng subdivision flag, NOT gb (Union Jack).
@@ -338,8 +358,8 @@ def render_match(match: Match, teams: Teams, round_name: str, footer: str) -> st
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(a['name'])} vs {esc(b['name'])} — {esc(round_name)} · WC2026</title>
-{CONF_VARS_STYLE}{FLAG_ICONS_LINK}<link rel="stylesheet" href="../style.css">
-<link rel="stylesheet" href="../assets/compare.css"></head><body>
+{CONF_VARS_STYLE}{FLAG_ICONS_LINK}<link rel="stylesheet" href="{asset_url('style.css')}">
+<link rel="stylesheet" href="{asset_url('assets/compare.css')}"></head><body>
 <div class="wrap"><a class="back" href="index.html">← {esc(round_name)} bracket</a>
   <header class="cmp-top">
     <div class="cmp-round">{esc(round_name)} · match comparison</div>
@@ -363,7 +383,7 @@ def render_match(match: Match, teams: Teams, round_name: str, footer: str) -> st
   {note}
   {footer}
 </div>
-<script defer src="../assets/times.js"></script>
+<script defer src="{asset_url('assets/times.js')}"></script>
 </body></html>
 """
 
@@ -397,8 +417,8 @@ def render_index(rounds: list[Round], teams: Teams, footer: str) -> str:
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Match comparisons — WC2026</title>
-{CONF_VARS_STYLE}{FLAG_ICONS_LINK}<link rel="stylesheet" href="../style.css">
-<link rel="stylesheet" href="../assets/compare.css"></head><body>
+{CONF_VARS_STYLE}{FLAG_ICONS_LINK}<link rel="stylesheet" href="{asset_url('style.css')}">
+<link rel="stylesheet" href="{asset_url('assets/compare.css')}"></head><body>
 <div class="wrap">
   <header class="bracket-head">
     <div class="kicker"><span class="bar"></span>Head-to-head</div>
@@ -411,7 +431,7 @@ def render_index(rounds: list[Round], teams: Teams, footer: str) -> str:
   <div class="match-grid">{''.join(cards)}</div>
   {footer}
 </div>
-<script defer src="../assets/times.js"></script>
+<script defer src="{asset_url('assets/times.js')}"></script>
 </body></html>
 """
 
