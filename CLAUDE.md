@@ -94,7 +94,8 @@ Ownership rules that are easy to get wrong:
 - Run `ty check` after any large change, and before committing Python changes.
 - Run `rumdl fmt` on touched Markdown files (config in `.rumdl.toml`).
 - Write commit messages in Tim Pope style: a ~50-char capitalized summary in the
-  imperative mood ("Add flag icons", not "Added"/"Adds"), no trailing period. If
+  imperative mood ("Add flag icons", not "Added"/"Adds"). One difference, always
+  use trailing period [rationale: it indicates commit message not truncated]. If
   a body is warranted, separate it with a blank line and wrap at 72 columns,
   explaining *what* and *why* rather than *how*. Omit the body entirely for
   obvious/self-explanatory changes — a good summary line is often enough.
