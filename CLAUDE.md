@@ -71,6 +71,12 @@ Ownership rules that are easy to get wrong:
   `index.html` carry their own copy of this block — if you change the
   confederation palette, update all of: `style.css`, `build.py`'s
   `CONF_VARS_STYLE`, and every page that inlines it.
+- `FLAG_ICONS_LINK` loads flag-icons from the CDN as a parallel `<link>` in every
+  `<head>`. Do **not** move it back to an `@import` in `style.css`: an `@import`
+  serializes the CDN fetch ahead of `style.css`'s own rules, delaying the
+  `:root{--conf-*}` block and reintroducing the load-time flash on a slow CDN.
+  The hand-authored `teams/*.html` and root `index.html` carry their own copy of
+  this `<link>`; bump the version in all of them plus `build.py` together.
 - Confederation accent colors are driven by inline `style="--accent:var(--conf-<conf>)"`
   attributes plus the `--conf-*` CSS vars; `accent()`/`conf_label()` produce them.
 - `times.js` upgrades each `<time class="kickoff">` element to the viewer's local

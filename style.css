@@ -1,4 +1,6 @@
-@import url("https://cdn.jsdelivr.net/npm/flag-icons@7.5.0/css/flag-icons.min.css");
+/* flag-icons is loaded via a parallel <link> in each page <head> (see build.py
+   FLAG_ICONS_LINK), not @import here — an @import would serialize the CDN fetch
+   ahead of these rules and delay first paint on a slow CDN. */
 :root{
   --night:#0a1230;
   --night-2:#111a3f;

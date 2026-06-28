@@ -47,6 +47,16 @@ CONF_VARS_STYLE = (
     '--conf-ofc:#16b6c4;--blue:#3d7bf0}</style>'
 )
 
+# flag-icons used to be pulled in via `@import` at the top of style.css, which
+# serialized the CDN fetch *before* style.css's own rules could apply — delaying
+# the --conf-*/:root block and reintroducing the load-time flash on a slow CDN.
+# Load it as a parallel <link> instead so style.css applies without waiting on
+# the CDN. Absolute URL, so the same string works at every page depth.
+FLAG_ICONS_LINK = (
+    '<link rel="stylesheet" '
+    'href="https://cdn.jsdelivr.net/npm/flag-icons@7.5.0/css/flag-icons.min.css">'
+)
+
 # slug -> flag-icons code (ISO 3166-1 alpha-2, lowercase). England is not an ISO
 # country: its St George's Cross is the gb-eng subdivision flag, NOT gb (Union Jack).
 FLAG_CODES = {
@@ -258,7 +268,7 @@ def render_match(match: Match, teams: Teams, round_name: str) -> str:
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(a['name'])} vs {esc(b['name'])} — {esc(round_name)} · WC2026</title>
-{CONF_VARS_STYLE}<link rel="stylesheet" href="../style.css">
+{CONF_VARS_STYLE}{FLAG_ICONS_LINK}<link rel="stylesheet" href="../style.css">
 <link rel="stylesheet" href="../assets/compare.css"></head><body>
 <div class="wrap"><a class="back" href="index.html">← {esc(round_name)} bracket</a>
   <header class="cmp-top">
@@ -317,7 +327,7 @@ def render_index(rounds: list[Round], teams: Teams) -> str:
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Match comparisons — WC2026</title>
-{CONF_VARS_STYLE}<link rel="stylesheet" href="../style.css">
+{CONF_VARS_STYLE}{FLAG_ICONS_LINK}<link rel="stylesheet" href="../style.css">
 <link rel="stylesheet" href="../assets/compare.css"></head><body>
 <div class="wrap">
   <header class="bracket-head">
