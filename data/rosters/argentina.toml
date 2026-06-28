@@ -1,0 +1,213 @@
+# Argentina — 26-man squad, 2026 FIFA World Cup.
+# Source: en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads (section: Argentina).
+# Ages as of 11 Jun 2026; caps senior international caps at squad submission.
+slug = "argentina"
+
+[[player]]
+num = 1
+name = "Juan Musso"
+pos = "GK"
+club = "Atlético Madrid (ESP)"
+age = 31
+caps = 4
+
+[[player]]
+num = 12
+name = "Gerónimo Rulli"
+pos = "GK"
+club = "Marseille (FRA)"
+age = 33
+caps = 8
+
+[[player]]
+num = 23
+name = "Emiliano Martínez"
+pos = "GK"
+club = "Aston Villa (ENG)"
+age = 33
+caps = 59
+
+[[player]]
+num = 2
+name = "Marcos Senesi"
+pos = "DF"
+club = "Bournemouth (ENG)"
+age = 28
+caps = 3
+
+[[player]]
+num = 3
+name = "Nicolás Tagliafico"
+pos = "DF"
+club = "Lyon (FRA)"
+age = 33
+caps = 76
+
+[[player]]
+num = 4
+name = "Gonzalo Montiel"
+pos = "DF"
+club = "River Plate (ARG)"
+age = 28
+caps = 39
+
+[[player]]
+num = 6
+name = "Lisandro Martínez"
+pos = "DF"
+club = "Manchester United (ENG)"
+age = 28
+caps = 28
+
+[[player]]
+num = 13
+name = "Cristian Romero"
+pos = "DF"
+club = "Tottenham Hotspur (ENG)"
+age = 27
+caps = 51
+
+[[player]]
+num = 19
+name = "Nicolás Otamendi"
+pos = "DF"
+club = "Benfica (POR)"
+age = 37
+caps = 132
+
+[[player]]
+num = 25
+name = "Facundo Medina"
+pos = "DF"
+club = "Marseille (FRA)"
+age = 26
+caps = 9
+
+[[player]]
+num = 26
+name = "Nahuel Molina"
+pos = "DF"
+club = "Atlético Madrid (ESP)"
+age = 27
+caps = 58
+
+[[player]]
+num = 5
+name = "Leandro Paredes"
+pos = "MF"
+club = "Boca Juniors (ARG)"
+age = 31
+caps = 77
+
+[[player]]
+num = 7
+name = "Rodrigo De Paul"
+pos = "MF"
+club = "Inter Miami CF (USA)"
+age = 31
+caps = 87
+
+[[player]]
+num = 8
+name = "Valentín Barco"
+pos = "MF"
+club = "Strasbourg (FRA)"
+age = 21
+caps = 4
+
+[[player]]
+num = 11
+name = "Giovani Lo Celso"
+pos = "MF"
+club = "Real Betis (ESP)"
+age = 30
+caps = 67
+
+[[player]]
+num = 14
+name = "Exequiel Palacios"
+pos = "MF"
+club = "Bayer Leverkusen (GER)"
+age = 27
+caps = 40
+
+[[player]]
+num = 15
+name = "Nicolás González"
+pos = "MF"
+club = "Atlético Madrid (ESP)"
+age = 27
+caps = 51
+
+[[player]]
+num = 20
+name = "Alexis Mac Allister"
+pos = "MF"
+club = "Liverpool (ENG)"
+age = 27
+caps = 46
+
+[[player]]
+num = 24
+name = "Enzo Fernández"
+pos = "MF"
+club = "Chelsea (ENG)"
+age = 25
+caps = 42
+
+[[player]]
+num = 9
+name = "Julián Álvarez"
+pos = "FW"
+club = "Atlético Madrid (ESP)"
+age = 26
+caps = 51
+
+[[player]]
+num = 10
+name = "Lionel Messi"
+pos = "FW"
+club = "Inter Miami CF (USA)"
+age = 38
+caps = 199
+captain = true
+
+[[player]]
+num = 16
+name = "Thiago Almada"
+pos = "FW"
+club = "Atlético Madrid (ESP)"
+age = 24
+caps = 16
+
+[[player]]
+num = 17
+name = "Giuliano Simeone"
+pos = "FW"
+club = "Atlético Madrid (ESP)"
+age = 23
+caps = 13
+
+[[player]]
+num = 18
+name = "Nico Paz"
+pos = "FW"
+club = "Como (ITA)"
+age = 21
+caps = 9
+
+[[player]]
+num = 21
+name = "José Manuel López"
+pos = "FW"
+club = "Palmeiras (BRA)"
+age = 25
+caps = 5
+
+[[player]]
+num = 22
+name = "Lautaro Martínez"
+pos = "FW"
+club = "Inter Milan (ITA)"
+age = 28
+caps = 77

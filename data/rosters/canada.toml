@@ -1,0 +1,211 @@
+# Canada
+slug = "canada"
+
+[[player]]
+num = 1
+name = "Dayne St. Clair"
+pos = "GK"
+club = "Inter Miami CF (USA)"
+age = 28
+caps = 20
+
+[[player]]
+num = 2
+name = "Alistair Johnston"
+pos = "DF"
+club = "Celtic (SCO)"
+age = 27
+caps = 58
+
+[[player]]
+num = 3
+name = "Alfie Jones"
+pos = "DF"
+club = "Middlesbrough (ENG)"
+age = 28
+caps = 2
+
+[[player]]
+num = 4
+name = "Luc de Fougerolles"
+pos = "DF"
+club = "Dender EH (BEL)"
+age = 20
+caps = 13
+
+[[player]]
+num = 5
+name = "Joel Waterman"
+pos = "DF"
+club = "Chicago Fire FC (USA)"
+age = 29
+caps = 17
+
+[[player]]
+num = 6
+name = "Mathieu Choinière"
+pos = "MF"
+club = "Los Angeles FC (USA)"
+age = 26
+caps = 23
+
+[[player]]
+num = 7
+name = "Stephen Eustáquio"
+pos = "MF"
+club = "Los Angeles FC (USA)"
+age = 29
+caps = 56
+
+[[player]]
+num = 8
+name = "Ismaël Koné"
+pos = "MF"
+club = "Sassuolo (ITA)"
+age = 23
+caps = 40
+
+[[player]]
+num = 9
+name = "Cyle Larin"
+pos = "FW"
+club = "Southampton (ENG)"
+age = 30
+caps = 90
+
+[[player]]
+num = 10
+name = "Jonathan David"
+pos = "FW"
+club = "Juventus (ITA)"
+age = 25
+caps = 77
+
+[[player]]
+num = 11
+name = "Liam Millar"
+pos = "MF"
+club = "Hull City (ENG)"
+age = 26
+caps = 41
+
+[[player]]
+num = 12
+name = "Tani Oluwaseyi"
+pos = "FW"
+club = "Villarreal (ESP)"
+age = 25
+caps = 24
+
+[[player]]
+num = 13
+name = "Derek Cornelius"
+pos = "DF"
+club = "Rangers (SCO)"
+age = 28
+caps = 44
+
+[[player]]
+num = 14
+name = "Jacob Shaffelburg"
+pos = "MF"
+club = "Los Angeles FC (USA)"
+age = 26
+caps = 31
+
+[[player]]
+num = 15
+name = "Moïse Bombito"
+pos = "DF"
+club = "Nice (FRA)"
+age = 25
+caps = 20
+
+[[player]]
+num = 16
+name = "Maxime Crépeau"
+pos = "GK"
+club = "Orlando City SC (USA)"
+age = 31
+caps = 32
+
+[[player]]
+num = 17
+name = "Tajon Buchanan"
+pos = "FW"
+club = "Villarreal (ESP)"
+age = 26
+caps = 60
+
+[[player]]
+num = 18
+name = "Owen Goodman"
+pos = "GK"
+club = "Barnsley (ENG)"
+age = 22
+caps = 0
+
+[[player]]
+num = 19
+name = "Alphonso Davies"
+pos = "DF"
+club = "Bayern Munich (GER)"
+age = 25
+caps = 58
+captain = true
+
+[[player]]
+num = 20
+name = "Ali Ahmed"
+pos = "FW"
+club = "Norwich City (ENG)"
+age = 25
+caps = 24
+
+[[player]]
+num = 21
+name = "Jonathan Osorio"
+pos = "MF"
+club = "Toronto FC (CAN)"
+age = 33
+caps = 90
+
+[[player]]
+num = 22
+name = "Richie Laryea"
+pos = "DF"
+club = "Toronto FC (CAN)"
+age = 30
+caps = 75
+
+[[player]]
+num = 23
+name = "Niko Sigur"
+pos = "DF"
+club = "Hajduk Split (CRO)"
+age = 22
+caps = 19
+
+[[player]]
+num = 24
+name = "Promise David"
+pos = "FW"
+club = "Union Saint-Gilloise (BEL)"
+age = 24
+caps = 10
+
+[[player]]
+num = 25
+name = "Nathan Saliba"
+pos = "MF"
+club = "Anderlecht (BEL)"
+age = 21
+caps = 15
+
+[[player]]
+num = 26
+name = "Jayden Nelson"
+pos = "FW"
+club = "Austin FC (USA)"
+age = 23
+caps = 14

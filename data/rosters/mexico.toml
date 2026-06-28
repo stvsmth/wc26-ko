@@ -1,0 +1,211 @@
+# Mexico — 26-man squad, 2026 FIFA World Cup.
+slug = "mexico"
+
+[[player]]
+num = 1
+name = "Raúl Rangel"
+pos = "GK"
+club = "Guadalajara (MEX)"
+age = 26
+caps = 14
+
+[[player]]
+num = 12
+name = "Carlos Acevedo"
+pos = "GK"
+club = "Santos Laguna (MEX)"
+age = 30
+caps = 7
+
+[[player]]
+num = 13
+name = "Guillermo Ochoa"
+pos = "GK"
+club = "AEL Limassol (CYP)"
+age = 41
+caps = 152
+
+[[player]]
+num = 2
+name = "Jorge Sánchez"
+pos = "DF"
+club = "PAOK (GRE)"
+age = 28
+caps = 59
+
+[[player]]
+num = 3
+name = "César Montes"
+pos = "DF"
+club = "Lokomotiv Moscow (RUS)"
+age = 29
+caps = 67
+
+[[player]]
+num = 4
+name = "Edson Álvarez"
+pos = "DF"
+club = "Fenerbahçe (TUR)"
+age = 28
+caps = 98
+captain = true
+
+[[player]]
+num = 5
+name = "Johan Vásquez"
+pos = "DF"
+club = "Genoa (ITA)"
+age = 27
+caps = 46
+
+[[player]]
+num = 15
+name = "Israel Reyes"
+pos = "DF"
+club = "América (MEX)"
+age = 26
+caps = 34
+
+[[player]]
+num = 20
+name = "Mateo Chávez"
+pos = "DF"
+club = "AZ (NED)"
+age = 22
+caps = 10
+
+[[player]]
+num = 23
+name = "Jesús Gallardo"
+pos = "DF"
+club = "Toluca (MEX)"
+age = 32
+caps = 121
+
+[[player]]
+num = 6
+name = "Érik Lira"
+pos = "MF"
+club = "Cruz Azul (MEX)"
+age = 26
+caps = 25
+
+[[player]]
+num = 7
+name = "Luis Romo"
+pos = "MF"
+club = "Guadalajara (MEX)"
+age = 31
+caps = 63
+
+[[player]]
+num = 8
+name = "Álvaro Fidalgo"
+pos = "MF"
+club = "Real Betis (ESP)"
+age = 29
+caps = 4
+
+[[player]]
+num = 17
+name = "Orbelín Pineda"
+pos = "MF"
+club = "AEK Athens (GRE)"
+age = 30
+caps = 92
+
+[[player]]
+num = 18
+name = "Obed Vargas"
+pos = "MF"
+club = "Atlético Madrid (ESP)"
+age = 21
+caps = 6
+
+[[player]]
+num = 19
+name = "Gilberto Mora"
+pos = "MF"
+club = "Tijuana (MEX)"
+age = 18
+caps = 8
+
+[[player]]
+num = 24
+name = "Luis Chávez"
+pos = "MF"
+club = "Dynamo Moscow (RUS)"
+age = 30
+caps = 45
+
+[[player]]
+num = 26
+name = "Brian Gutiérrez"
+pos = "MF"
+club = "Guadalajara (MEX)"
+age = 23
+caps = 7
+
+[[player]]
+num = 9
+name = "Raúl Jiménez"
+pos = "FW"
+club = "Fulham (ENG)"
+age = 35
+caps = 124
+
+[[player]]
+num = 10
+name = "Alexis Vega"
+pos = "FW"
+club = "Toluca (MEX)"
+age = 28
+caps = 52
+
+[[player]]
+num = 11
+name = "Santiago Giménez"
+pos = "FW"
+club = "Milan (ITA)"
+age = 25
+caps = 47
+
+[[player]]
+num = 14
+name = "Armando González"
+pos = "FW"
+club = "Guadalajara (MEX)"
+age = 23
+caps = 7
+
+[[player]]
+num = 16
+name = "Julián Quiñones"
+pos = "FW"
+club = "Al-Qadsiah (KSA)"
+age = 29
+caps = 22
+
+[[player]]
+num = 21
+name = "César Huerta"
+pos = "FW"
+club = "Anderlecht (BEL)"
+age = 26
+caps = 26
+
+[[player]]
+num = 22
+name = "Guillermo Martínez"
+pos = "FW"
+club = "Pumas UNAM (MEX)"
+age = 31
+caps = 12
+
+[[player]]
+num = 25
+name = "Roberto Alvarado"
+pos = "FW"
+club = "Guadalajara (MEX)"
+age = 28
+caps = 67

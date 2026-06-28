@@ -1,0 +1,211 @@
+# Cape Verde
+slug = "cape-verde"
+
+[[player]]
+num = 1
+name = "Vozinha"
+pos = "GK"
+club = "Chaves (POR)"
+age = 39
+caps = 90
+
+[[player]]
+num = 2
+name = "Stopira"
+pos = "DF"
+club = "Torreense (POR)"
+age = 37
+caps = 61
+
+[[player]]
+num = 3
+name = "Diney"
+pos = "DF"
+club = "Al Bataeh (UAE)"
+age = 30
+caps = 32
+
+[[player]]
+num = 4
+name = "Pico"
+pos = "DF"
+club = "Shamrock Rovers (IRL)"
+age = 33
+caps = 45
+
+[[player]]
+num = 5
+name = "Logan Costa"
+pos = "DF"
+club = "Villarreal (ESP)"
+age = 24
+caps = 28
+
+[[player]]
+num = 6
+name = "Kevin Pina"
+pos = "MF"
+club = "Krasnodar (RUS)"
+age = 28
+caps = 31
+
+[[player]]
+num = 7
+name = "Jovane Cabral"
+pos = "MF"
+club = "Estrela Amadora (POR)"
+age = 27
+caps = 29
+
+[[player]]
+num = 8
+name = "João Paulo"
+pos = "MF"
+club = "FCSB (ROU)"
+age = 27
+caps = 41
+
+[[player]]
+num = 9
+name = "Gilson Benchimol"
+pos = "FW"
+club = "Akron Tolyatti (RUS)"
+age = 24
+caps = 21
+
+[[player]]
+num = 10
+name = "Jamiro Monteiro"
+pos = "MF"
+club = "PEC Zwolle (NED)"
+age = 32
+caps = 55
+
+[[player]]
+num = 11
+name = "Garry Rodrigues"
+pos = "MF"
+club = "Apollon Limassol (CYP)"
+age = 35
+caps = 61
+
+[[player]]
+num = 12
+name = "Mário Rosa"
+pos = "GK"
+club = "Montana (BUL)"
+age = 28
+caps = 11
+
+[[player]]
+num = 13
+name = "Sidny Lopes Cabral"
+pos = "DF"
+club = "Benfica (POR)"
+age = 23
+caps = 11
+
+[[player]]
+num = 14
+name = "Deroy Duarte"
+pos = "MF"
+club = "Ludogorets Razgrad (BUL)"
+age = 26
+caps = 33
+
+[[player]]
+num = 15
+name = "Laros Duarte"
+pos = "MF"
+club = "Puskás Akadémia (HUN)"
+age = 28
+caps = 20
+
+[[player]]
+num = 16
+name = "Yannick Semedo"
+pos = "MF"
+club = "Farense (POR)"
+age = 30
+caps = 11
+
+[[player]]
+num = 17
+name = "Willy Semedo"
+pos = "MF"
+club = "Omonia (CYP)"
+age = 31
+caps = 38
+
+[[player]]
+num = 18
+name = "Telmo Arcanjo"
+pos = "MF"
+club = "Vitória de Guimarães (POR)"
+age = 24
+caps = 16
+
+[[player]]
+num = 19
+name = "Dailon Livramento"
+pos = "FW"
+club = "Casa Pia (POR)"
+age = 24
+caps = 22
+
+[[player]]
+num = 20
+name = "Ryan Mendes"
+pos = "FW"
+club = "Iğdır (TUR)"
+age = 35
+caps = 96
+captain = true
+
+[[player]]
+num = 21
+name = "Nuno da Costa"
+pos = "MF"
+club = "İstanbul Başakşehir (TUR)"
+age = 34
+caps = 9
+
+[[player]]
+num = 22
+name = "Steven Moreira"
+pos = "DF"
+club = "Columbus Crew (USA)"
+age = 31
+caps = 20
+
+[[player]]
+num = 23
+name = "CJ dos Santos"
+pos = "GK"
+club = "San Diego FC (USA)"
+age = 25
+caps = 1
+
+[[player]]
+num = 24
+name = "Wagner Pina"
+pos = "DF"
+club = "Trabzonspor (TUR)"
+age = 23
+caps = 14
+
+[[player]]
+num = 25
+name = "Kelvin Pires"
+pos = "DF"
+club = "SJK (FIN)"
+age = 25
+caps = 6
+
+[[player]]
+num = 26
+name = "Hélio Varela"
+pos = "MF"
+club = "Maccabi Tel Aviv (ISR)"
+age = 23
+caps = 21

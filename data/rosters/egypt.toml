@@ -1,0 +1,212 @@
+# Egypt — 26-man squad, 2026 FIFA World Cup.
+# Source: en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads (section: Egypt).
+slug = "egypt"
+
+[[player]]
+num = 1
+name = "Mohamed El Shenawy"
+pos = "GK"
+club = "Al Ahly (EGY)"
+age = 37
+caps = 76
+
+[[player]]
+num = 2
+name = "Yasser Ibrahim"
+pos = "DF"
+club = "Al Ahly (EGY)"
+age = 33
+caps = 17
+
+[[player]]
+num = 3
+name = "Mohamed Hany"
+pos = "DF"
+club = "Al Ahly (EGY)"
+age = 30
+caps = 42
+
+[[player]]
+num = 4
+name = "Hossam Abdelmaguid"
+pos = "DF"
+club = "Zamalek (EGY)"
+age = 25
+caps = 13
+
+[[player]]
+num = 5
+name = "Ramy Rabia"
+pos = "DF"
+club = "Al Ain (UAE)"
+age = 33
+caps = 44
+
+[[player]]
+num = 6
+name = "Mohamed Abdelmonem"
+pos = "DF"
+club = "Nice (FRA)"
+age = 27
+caps = 36
+
+[[player]]
+num = 7
+name = "Trézéguet"
+pos = "FW"
+club = "Al Ahly (EGY)"
+age = 32
+caps = 96
+
+[[player]]
+num = 8
+name = "Emam Ashour"
+pos = "MF"
+club = "Al Ahly (EGY)"
+age = 28
+caps = 29
+
+[[player]]
+num = 9
+name = "Hamza Abdelkarim"
+pos = "FW"
+club = "Barcelona B (ESP)"
+age = 18
+caps = 2
+
+[[player]]
+num = 10
+name = "Mohamed Salah"
+pos = "FW"
+club = "Liverpool (ENG)"
+age = 34
+caps = 116
+captain = true
+
+[[player]]
+num = 11
+name = "Mostafa Ziko"
+pos = "MF"
+club = "Pyramids (EGY)"
+age = 29
+caps = 2
+
+[[player]]
+num = 12
+name = "Haissem Hassan"
+pos = "FW"
+club = "Oviedo (ESP)"
+age = 24
+caps = 4
+
+[[player]]
+num = 13
+name = "Ahmed Fatouh"
+pos = "DF"
+club = "Zamalek (EGY)"
+age = 28
+caps = 39
+
+[[player]]
+num = 14
+name = "Hamdy Fathy"
+pos = "MF"
+club = "Al-Wakrah (QAT)"
+age = 32
+caps = 63
+
+[[player]]
+num = 15
+name = "Karim Hafez"
+pos = "DF"
+club = "Pyramids (EGY)"
+age = 30
+caps = 9
+
+[[player]]
+num = 16
+name = "El Mahdy Soliman"
+pos = "GK"
+club = "Zamalek (EGY)"
+age = 39
+caps = 0
+
+[[player]]
+num = 17
+name = "Mohanad Lasheen"
+pos = "MF"
+club = "Pyramids (EGY)"
+age = 30
+caps = 23
+
+[[player]]
+num = 18
+name = "Nabil Emad"
+pos = "MF"
+club = "Al-Najma (KSA)"
+age = 30
+caps = 12
+
+[[player]]
+num = 19
+name = "Marwan Attia"
+pos = "MF"
+club = "Al Ahly (EGY)"
+age = 28
+caps = 34
+
+[[player]]
+num = 20
+name = "Ibrahim Adel"
+pos = "FW"
+club = "Nordsjælland (DEN)"
+age = 25
+caps = 24
+
+[[player]]
+num = 21
+name = "Mahmoud Saber"
+pos = "MF"
+club = "ZED (EGY)"
+age = 25
+caps = 15
+
+[[player]]
+num = 22
+name = "Omar Marmoush"
+pos = "FW"
+club = "Manchester City (ENG)"
+age = 27
+caps = 50
+
+[[player]]
+num = 23
+name = "Mostafa Shobeir"
+pos = "GK"
+club = "Al Ahly (EGY)"
+age = 26
+caps = 9
+
+[[player]]
+num = 24
+name = "Tarek Alaa"
+pos = "DF"
+club = "ZED (EGY)"
+age = 24
+caps = 3
+
+[[player]]
+num = 25
+name = "Zizo"
+pos = "FW"
+club = "Al Ahly (EGY)"
+age = 30
+caps = 63
+
+[[player]]
+num = 26
+name = "Mohamed Alaa"
+pos = "GK"
+club = "El Gouna (EGY)"
+age = 27
+caps = 0

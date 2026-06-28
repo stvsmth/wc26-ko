@@ -1,0 +1,210 @@
+slug = "austria"
+
+[[player]]
+num = 1
+name = "Alexander Schlager"
+pos = "GK"
+club = "Red Bull Salzburg (AUT)"
+age = 29
+caps = 26
+
+[[player]]
+num = 2
+name = "David Affengruber"
+pos = "DF"
+club = "Elche (ESP)"
+age = 24
+caps = 1
+
+[[player]]
+num = 3
+name = "Kevin Danso"
+pos = "DF"
+club = "Tottenham Hotspur (ENG)"
+age = 27
+caps = 32
+
+[[player]]
+num = 4
+name = "Xaver Schlager"
+pos = "MF"
+club = "RB Leipzig (GER)"
+age = 28
+caps = 51
+
+[[player]]
+num = 5
+name = "Stefan Posch"
+pos = "DF"
+club = "Mainz 05 (GER)"
+age = 28
+caps = 52
+
+[[player]]
+num = 6
+name = "Nicolas Seiwald"
+pos = "MF"
+club = "RB Leipzig (GER)"
+age = 24
+caps = 47
+
+[[player]]
+num = 7
+name = "Marko Arnautović"
+pos = "FW"
+club = "Red Star Belgrade (SRB)"
+age = 36
+caps = 133
+
+[[player]]
+num = 8
+name = "David Alaba"
+pos = "DF"
+club = "Real Madrid (ESP)"
+age = 33
+caps = 113
+captain = true
+
+[[player]]
+num = 9
+name = "Marcel Sabitzer"
+pos = "MF"
+club = "Borussia Dortmund (GER)"
+age = 31
+caps = 98
+
+[[player]]
+num = 10
+name = "Florian Grillitsch"
+pos = "MF"
+club = "Braga (POR)"
+age = 30
+caps = 58
+
+[[player]]
+num = 11
+name = "Michael Gregoritsch"
+pos = "FW"
+club = "FC Augsburg (GER)"
+age = 31
+caps = 75
+
+[[player]]
+num = 12
+name = "Florian Wiegele"
+pos = "GK"
+club = "Viktoria Plzeň (CZE)"
+age = 24
+caps = 1
+
+[[player]]
+num = 13
+name = "Patrick Pentz"
+pos = "GK"
+club = "Brøndby (DEN)"
+age = 28
+caps = 18
+
+[[player]]
+num = 14
+name = "Saša Kalajdžić"
+pos = "FW"
+club = "LASK (AUT)"
+age = 28
+caps = 22
+
+[[player]]
+num = 15
+name = "Philipp Lienhart"
+pos = "DF"
+club = "SC Freiburg (GER)"
+age = 29
+caps = 41
+
+[[player]]
+num = 16
+name = "Phillipp Mwene"
+pos = "DF"
+club = "Mainz 05 (GER)"
+age = 31
+caps = 30
+
+[[player]]
+num = 17
+name = "Carney Chukwuemeka"
+pos = "MF"
+club = "Borussia Dortmund (GER)"
+age = 22
+caps = 3
+
+[[player]]
+num = 18
+name = "Romano Schmid"
+pos = "MF"
+club = "Werder Bremen (GER)"
+age = 25
+caps = 34
+
+[[player]]
+num = 19
+name = "Dejan Ljubičić"
+pos = "MF"
+club = "Schalke 04 (GER)"
+age = 28
+caps = 9
+
+[[player]]
+num = 20
+name = "Konrad Laimer"
+pos = "MF"
+club = "Bayern Munich (GER)"
+age = 28
+caps = 57
+
+[[player]]
+num = 21
+name = "Patrick Wimmer"
+pos = "FW"
+club = "VfL Wolfsburg (GER)"
+age = 24
+caps = 30
+
+[[player]]
+num = 22
+name = "Alexander Prass"
+pos = "MF"
+club = "TSG Hoffenheim (GER)"
+age = 24
+caps = 19
+
+[[player]]
+num = 23
+name = "Marco Friedl"
+pos = "DF"
+club = "Werder Bremen (GER)"
+age = 27
+caps = 11
+
+[[player]]
+num = 24
+name = "Paul Wanner"
+pos = "MF"
+club = "PSV Eindhoven (NED)"
+age = 20
+caps = 3
+
+[[player]]
+num = 25
+name = "Michael Svoboda"
+pos = "DF"
+club = "Venezia (ITA)"
+age = 27
+caps = 4
+
+[[player]]
+num = 26
+name = "Alessandro Schöpf"
+pos = "MF"
+club = "Wolfsberger AC (AUT)"
+age = 31
+caps = 35

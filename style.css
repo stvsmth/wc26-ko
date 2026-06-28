@@ -136,6 +136,7 @@ table.squad tbody tr:hover{background:rgba(255,255,255,.03)}
 .pname{font-weight:600}
 .pname .cap{font-size:10px;color:var(--gold);letter-spacing:.1em;margin-left:6px}
 .club{color:var(--ink-dim)}
+.shirt-cell{font-variant-numeric:tabular-nums;color:var(--ink-faint);font-weight:700;width:34px}
 .num-cell{font-variant-numeric:tabular-nums;color:var(--ink)}
 .age-cell{font-variant-numeric:tabular-nums;color:var(--ink-dim)}
 

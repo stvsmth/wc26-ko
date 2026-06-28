@@ -1,0 +1,211 @@
+# DR Congo — 26-man squad, 2026 FIFA World Cup.
+slug = "congo-dr"
+
+[[player]]
+num = 1
+name = "Lionel Mpasi"
+pos = "GK"
+club = "Le Havre (FRA)"
+age = 31
+caps = 29
+
+[[player]]
+num = 16
+name = "Timothy Fayulu"
+pos = "GK"
+club = "Noah (ARM)"
+age = 26
+caps = 3
+
+[[player]]
+num = 21
+name = "Matthieu Epolo"
+pos = "GK"
+club = "Standard Liège (BEL)"
+age = 20
+caps = 1
+
+[[player]]
+num = 2
+name = "Aaron Wan-Bissaka"
+pos = "DF"
+club = "West Ham United (ENG)"
+age = 28
+caps = 12
+
+[[player]]
+num = 3
+name = "Steve Kapuadi"
+pos = "DF"
+club = "Widzew Łódź (POL)"
+age = 27
+caps = 4
+
+[[player]]
+num = 4
+name = "Axel Tuanzebe"
+pos = "DF"
+club = "Burnley (ENG)"
+age = 28
+caps = 14
+
+[[player]]
+num = 5
+name = "Dylan Batubinsika"
+pos = "DF"
+club = "AEL (GRE)"
+age = 29
+caps = 14
+
+[[player]]
+num = 12
+name = "Joris Kayembe"
+pos = "DF"
+club = "Genk (BEL)"
+age = 31
+caps = 26
+
+[[player]]
+num = 22
+name = "Chancel Mbemba"
+pos = "DF"
+club = "Lille (FRA)"
+age = 31
+caps = 109
+captain = true
+
+[[player]]
+num = 24
+name = "Gédéon Kalulu"
+pos = "DF"
+club = "Aris Limassol (CYP)"
+age = 28
+caps = 28
+
+[[player]]
+num = 26
+name = "Arthur Masuaku"
+pos = "DF"
+club = "Lens (FRA)"
+age = 32
+caps = 45
+
+[[player]]
+num = 6
+name = "Ngal'ayel Mukau"
+pos = "MF"
+club = "Lille (FRA)"
+age = 21
+caps = 14
+
+[[player]]
+num = 7
+name = "Nathanaël Mbuku"
+pos = "MF"
+club = "Montpellier (FRA)"
+age = 23
+caps = 19
+
+[[player]]
+num = 8
+name = "Samuel Moutoussamy"
+pos = "MF"
+club = "Atromitos (GRE)"
+age = 29
+caps = 58
+
+[[player]]
+num = 10
+name = "Théo Bongonda"
+pos = "MF"
+club = "Spartak Moscow (RUS)"
+age = 30
+caps = 38
+
+[[player]]
+num = 14
+name = "Noah Sadiki"
+pos = "MF"
+club = "Sunderland (ENG)"
+age = 21
+caps = 20
+
+[[player]]
+num = 15
+name = "Aaron Tshibola"
+pos = "MF"
+club = "Kilmarnock (SCO)"
+age = 30
+caps = 17
+
+[[player]]
+num = 18
+name = "Charles Pickel"
+pos = "MF"
+club = "Espanyol (ESP)"
+age = 28
+caps = 34
+
+[[player]]
+num = 25
+name = "Edo Kayembe"
+pos = "MF"
+club = "Watford (ENG)"
+age = 27
+caps = 43
+
+[[player]]
+num = 9
+name = "Brian Cipenga"
+pos = "FW"
+club = "Castellón (ESP)"
+age = 27
+caps = 8
+
+[[player]]
+num = 11
+name = "Gaël Kakuta"
+pos = "FW"
+club = "AEL (GRE)"
+age = 34
+caps = 31
+
+[[player]]
+num = 13
+name = "Meschak Elia"
+pos = "FW"
+club = "Alanyaspor (TUR)"
+age = 28
+caps = 69
+
+[[player]]
+num = 17
+name = "Cédric Bakambu"
+pos = "FW"
+club = "Real Betis (ESP)"
+age = 34
+caps = 70
+
+[[player]]
+num = 19
+name = "Fiston Mayele"
+pos = "FW"
+club = "Pyramids (EGY)"
+age = 31
+caps = 37
+
+[[player]]
+num = 20
+name = "Yoane Wissa"
+pos = "FW"
+club = "Newcastle United (ENG)"
+age = 29
+caps = 38
+
+[[player]]
+num = 23
+name = "Simon Banza"
+pos = "FW"
+club = "Al Jazira (UAE)"
+age = 29
+caps = 15

@@ -1,0 +1,212 @@
+# United States — 26-man squad, 2026 FIFA World Cup.
+# Source: en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads (section: United States).
+slug = "usa"
+
+[[player]]
+num = 1
+name = "Matt Turner"
+pos = "GK"
+club = "New England Revolution (USA)"
+age = 31
+caps = 54
+
+[[player]]
+num = 2
+name = "Sergiño Dest"
+pos = "DF"
+club = "PSV Eindhoven (NED)"
+age = 25
+caps = 39
+
+[[player]]
+num = 3
+name = "Chris Richards"
+pos = "DF"
+club = "Crystal Palace (ENG)"
+age = 25
+caps = 36
+
+[[player]]
+num = 4
+name = "Tyler Adams"
+pos = "MF"
+club = "Bournemouth (ENG)"
+age = 26
+caps = 54
+
+[[player]]
+num = 5
+name = "Antonee Robinson"
+pos = "DF"
+club = "Fulham (ENG)"
+age = 28
+caps = 54
+
+[[player]]
+num = 6
+name = "Auston Trusty"
+pos = "DF"
+club = "Celtic (SCO)"
+age = 27
+caps = 8
+
+[[player]]
+num = 7
+name = "Giovanni Reyna"
+pos = "MF"
+club = "Borussia Mönchengladbach (GER)"
+age = 23
+caps = 38
+
+[[player]]
+num = 8
+name = "Weston McKennie"
+pos = "MF"
+club = "Juventus (ITA)"
+age = 27
+caps = 66
+
+[[player]]
+num = 9
+name = "Ricardo Pepi"
+pos = "FW"
+club = "PSV Eindhoven (NED)"
+age = 22
+caps = 37
+
+[[player]]
+num = 10
+name = "Christian Pulisic"
+pos = "FW"
+club = "Milan (ITA)"
+age = 27
+caps = 86
+
+[[player]]
+num = 11
+name = "Brenden Aaronson"
+pos = "FW"
+club = "Leeds United (ENG)"
+age = 25
+caps = 58
+
+[[player]]
+num = 12
+name = "Miles Robinson"
+pos = "DF"
+club = "FC Cincinnati (USA)"
+age = 28
+caps = 40
+
+[[player]]
+num = 13
+name = "Tim Ream"
+pos = "DF"
+club = "Charlotte (USA)"
+age = 38
+caps = 82
+captain = true
+
+[[player]]
+num = 14
+name = "Sebastian Berhalter"
+pos = "MF"
+club = "Vancouver Whitecaps (CAN)"
+age = 24
+caps = 13
+
+[[player]]
+num = 15
+name = "Cristian Roldan"
+pos = "MF"
+club = "Seattle Sounders (USA)"
+age = 30
+caps = 47
+
+[[player]]
+num = 16
+name = "Alex Freeman"
+pos = "DF"
+club = "Villarreal (ESP)"
+age = 21
+caps = 17
+
+[[player]]
+num = 17
+name = "Malik Tillman"
+pos = "MF"
+club = "Bayer Leverkusen (GER)"
+age = 23
+caps = 30
+
+[[player]]
+num = 18
+name = "Max Arfsten"
+pos = "DF"
+club = "Columbus Crew (USA)"
+age = 24
+caps = 20
+
+[[player]]
+num = 19
+name = "Haji Wright"
+pos = "FW"
+club = "Coventry City (ENG)"
+age = 27
+caps = 20
+
+[[player]]
+num = 20
+name = "Folarin Balogun"
+pos = "FW"
+club = "Monaco (FRA)"
+age = 24
+caps = 27
+
+[[player]]
+num = 21
+name = "Timothy Weah"
+pos = "FW"
+club = "Marseille (FRA)"
+age = 25
+caps = 51
+
+[[player]]
+num = 22
+name = "Mark McKenzie"
+pos = "DF"
+club = "Toulouse (FRA)"
+age = 26
+caps = 29
+
+[[player]]
+num = 23
+name = "Joe Scally"
+pos = "DF"
+club = "Borussia Mönchengladbach (GER)"
+age = 23
+caps = 26
+
+[[player]]
+num = 24
+name = "Matt Freese"
+pos = "GK"
+club = "New York City (USA)"
+age = 27
+caps = 15
+
+[[player]]
+num = 25
+name = "Chris Brady"
+pos = "GK"
+club = "Chicago Fire (USA)"
+age = 21
+caps = 1
+
+[[player]]
+num = 26
+name = "Alejandro Zendejas"
+pos = "FW"
+club = "América (MEX)"
+age = 27
+caps = 14

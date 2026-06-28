@@ -1,0 +1,210 @@
+slug = "senegal"
+
+[[player]]
+num = 1
+name = "Yehvann Diouf"
+pos = "GK"
+club = "Nice (FRA)"
+age = 26
+caps = 2
+
+[[player]]
+num = 2
+name = "Mamadou Sarr"
+pos = "DF"
+club = "Chelsea (ENG)"
+age = 20
+caps = 8
+
+[[player]]
+num = 3
+name = "Kalidou Koulibaly"
+pos = "DF"
+club = "Al-Hilal (KSA)"
+age = 34
+caps = 103
+captain = true
+
+[[player]]
+num = 4
+name = "Abdoulaye Seck"
+pos = "DF"
+club = "Maccabi Haifa (ISR)"
+age = 33
+caps = 22
+
+[[player]]
+num = 5
+name = "Idrissa Gueye"
+pos = "MF"
+club = "Everton (ENG)"
+age = 36
+caps = 131
+
+[[player]]
+num = 6
+name = "Pathé Ciss"
+pos = "MF"
+club = "Rayo Vallecano (ESP)"
+age = 31
+caps = 30
+
+[[player]]
+num = 7
+name = "Assane Diao"
+pos = "FW"
+club = "Como (ITA)"
+age = 20
+caps = 5
+
+[[player]]
+num = 8
+name = "Lamine Camara"
+pos = "MF"
+club = "Monaco (FRA)"
+age = 21
+caps = 33
+
+[[player]]
+num = 9
+name = "Bamba Dieng"
+pos = "FW"
+club = "Lorient (FRA)"
+age = 25
+caps = 23
+
+[[player]]
+num = 10
+name = "Sadio Mané"
+pos = "FW"
+club = "Al-Nassr (KSA)"
+age = 33
+caps = 128
+
+[[player]]
+num = 11
+name = "Nicolas Jackson"
+pos = "FW"
+club = "Bayern Munich (GER)"
+age = 24
+caps = 33
+
+[[player]]
+num = 12
+name = "Cherif Ndiaye"
+pos = "FW"
+club = "Samsunspor (TUR)"
+age = 29
+caps = 19
+
+[[player]]
+num = 13
+name = "Iliman Ndiaye"
+pos = "FW"
+club = "Everton (ENG)"
+age = 25
+caps = 40
+
+[[player]]
+num = 14
+name = "Ismail Jakobs"
+pos = "DF"
+club = "Galatasaray (TUR)"
+age = 26
+caps = 30
+
+[[player]]
+num = 15
+name = "Krépin Diatta"
+pos = "DF"
+club = "Monaco (FRA)"
+age = 26
+caps = 61
+
+[[player]]
+num = 16
+name = "Édouard Mendy"
+pos = "GK"
+club = "Al-Ahli (KSA)"
+age = 33
+caps = 57
+
+[[player]]
+num = 17
+name = "Pape Matar Sarr"
+pos = "MF"
+club = "Tottenham Hotspur (ENG)"
+age = 23
+caps = 40
+
+[[player]]
+num = 18
+name = "Ismaïla Sarr"
+pos = "FW"
+club = "Crystal Palace (ENG)"
+age = 27
+caps = 83
+
+[[player]]
+num = 19
+name = "Moussa Niakhaté"
+pos = "DF"
+club = "Lyon (FRA)"
+age = 29
+caps = 31
+
+[[player]]
+num = 20
+name = "Ibrahim Mbaye"
+pos = "FW"
+club = "Paris Saint-Germain (FRA)"
+age = 17
+caps = 11
+
+[[player]]
+num = 21
+name = "Habib Diarra"
+pos = "MF"
+club = "Sunderland (ENG)"
+age = 21
+caps = 21
+
+[[player]]
+num = 22
+name = "Bara Sapoko Ndiaye"
+pos = "MF"
+club = "Bayern Munich (GER)"
+age = 18
+caps = 1
+
+[[player]]
+num = 23
+name = "Mory Diaw"
+pos = "GK"
+club = "Le Havre (FRA)"
+age = 32
+caps = 5
+
+[[player]]
+num = 24
+name = "Antoine Mendy"
+pos = "DF"
+club = "Nice (FRA)"
+age = 21
+caps = 7
+
+[[player]]
+num = 25
+name = "El Hadji Malick Diouf"
+pos = "DF"
+club = "West Ham United (ENG)"
+age = 21
+caps = 20
+
+[[player]]
+num = 26
+name = "Pape Gueye"
+pos = "MF"
+club = "Villarreal (ESP)"
+age = 26
+caps = 41

@@ -1,0 +1,210 @@
+slug = "australia"
+
+[[player]]
+num = 1
+name = "Mathew Ryan"
+pos = "GK"
+club = "Levante (ESP)"
+age = 34
+caps = 104
+captain = true
+
+[[player]]
+num = 2
+name = "Miloš Degenek"
+pos = "DF"
+club = "APOEL (CYP)"
+age = 31
+caps = 57
+
+[[player]]
+num = 3
+name = "Alessandro Circati"
+pos = "DF"
+club = "Parma (ITA)"
+age = 22
+caps = 13
+
+[[player]]
+num = 4
+name = "Jacob Italiano"
+pos = "DF"
+club = "Grazer AK (AUT)"
+age = 24
+caps = 5
+
+[[player]]
+num = 5
+name = "Jordan Bos"
+pos = "DF"
+club = "Feyenoord (NED)"
+age = 23
+caps = 27
+
+[[player]]
+num = 6
+name = "Jason Geria"
+pos = "DF"
+club = "Albirex Niigata (JPN)"
+age = 32
+caps = 14
+
+[[player]]
+num = 7
+name = "Mathew Leckie"
+pos = "FW"
+club = "Melbourne City (AUS)"
+age = 34
+caps = 80
+
+[[player]]
+num = 8
+name = "Connor Metcalfe"
+pos = "MF"
+club = "FC St. Pauli (GER)"
+age = 26
+caps = 36
+
+[[player]]
+num = 9
+name = "Mohamed Touré"
+pos = "FW"
+club = "Norwich City (ENG)"
+age = 21
+caps = 10
+
+[[player]]
+num = 10
+name = "Ajdin Hrustic"
+pos = "FW"
+club = "Heracles Almelo (NED)"
+age = 29
+caps = 37
+
+[[player]]
+num = 11
+name = "Awer Mabil"
+pos = "FW"
+club = "Castellón (ESP)"
+age = 30
+caps = 38
+
+[[player]]
+num = 12
+name = "Paul Izzo"
+pos = "GK"
+club = "Randers (DEN)"
+age = 30
+caps = 4
+
+[[player]]
+num = 13
+name = "Aiden O'Neill"
+pos = "MF"
+club = "New York City FC (USA)"
+age = 27
+caps = 31
+
+[[player]]
+num = 14
+name = "Cammy Devlin"
+pos = "MF"
+club = "Heart of Midlothian (SCO)"
+age = 27
+caps = 5
+
+[[player]]
+num = 15
+name = "Kai Trewin"
+pos = "DF"
+club = "New York City FC (USA)"
+age = 24
+caps = 6
+
+[[player]]
+num = 16
+name = "Aziz Behich"
+pos = "DF"
+club = "Melbourne City (AUS)"
+age = 35
+caps = 84
+
+[[player]]
+num = 17
+name = "Nestory Irankunda"
+pos = "FW"
+club = "Watford (ENG)"
+age = 19
+caps = 15
+
+[[player]]
+num = 18
+name = "Patrick Beach"
+pos = "GK"
+club = "Melbourne City (AUS)"
+age = 22
+caps = 2
+
+[[player]]
+num = 19
+name = "Harry Souttar"
+pos = "DF"
+club = "Leicester City (ENG)"
+age = 27
+caps = 38
+
+[[player]]
+num = 20
+name = "Cristian Volpato"
+pos = "FW"
+club = "Sassuolo (ITA)"
+age = 22
+caps = 1
+
+[[player]]
+num = 21
+name = "Cameron Burgess"
+pos = "DF"
+club = "Swansea City (WAL)"
+age = 30
+caps = 27
+
+[[player]]
+num = 22
+name = "Jackson Irvine"
+pos = "MF"
+club = "FC St. Pauli (GER)"
+age = 32
+caps = 82
+
+[[player]]
+num = 23
+name = "Nishan Velupillay"
+pos = "FW"
+club = "Melbourne Victory (AUS)"
+age = 24
+caps = 7
+
+[[player]]
+num = 24
+name = "Paul Okon-Engstler"
+pos = "MF"
+club = "Sydney FC (AUS)"
+age = 20
+caps = 6
+
+[[player]]
+num = 25
+name = "Lucas Herrington"
+pos = "DF"
+club = "Colorado Rapids (USA)"
+age = 18
+caps = 4
+
+[[player]]
+num = 26
+name = "Tete Yengi"
+pos = "FW"
+club = "Machida Zelvia (JPN)"
+age = 25
+caps = 1

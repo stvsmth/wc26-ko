@@ -1,0 +1,211 @@
+# Netherlands — 26-man squad, 2026 FIFA World Cup.
+slug = "netherlands"
+
+[[player]]
+num = 1
+name = "Bart Verbruggen"
+pos = "GK"
+club = "Brighton & Hove Albion (ENG)"
+age = 23
+caps = 29
+
+[[player]]
+num = 2
+name = "Lutsharel Geertruida"
+pos = "DF"
+club = "Sunderland (ENG)"
+age = 25
+caps = 21
+
+[[player]]
+num = 3
+name = "Marten de Roon"
+pos = "MF"
+club = "Atalanta (ITA)"
+age = 34
+caps = 43
+
+[[player]]
+num = 4
+name = "Virgil van Dijk"
+pos = "DF"
+club = "Liverpool (ENG)"
+age = 34
+caps = 92
+captain = true
+
+[[player]]
+num = 5
+name = "Nathan Aké"
+pos = "DF"
+club = "Manchester City (ENG)"
+age = 30
+caps = 59
+
+[[player]]
+num = 6
+name = "Jan Paul van Hecke"
+pos = "DF"
+club = "Brighton & Hove Albion (ENG)"
+age = 25
+caps = 12
+
+[[player]]
+num = 7
+name = "Justin Kluivert"
+pos = "MF"
+club = "Bournemouth (ENG)"
+age = 26
+caps = 12
+
+[[player]]
+num = 8
+name = "Ryan Gravenberch"
+pos = "MF"
+club = "Liverpool (ENG)"
+age = 23
+caps = 27
+
+[[player]]
+num = 9
+name = "Wout Weghorst"
+pos = "FW"
+club = "Ajax (NED)"
+age = 33
+caps = 52
+
+[[player]]
+num = 10
+name = "Memphis Depay"
+pos = "FW"
+club = "Corinthians (BRA)"
+age = 31
+caps = 109
+
+[[player]]
+num = 11
+name = "Cody Gakpo"
+pos = "FW"
+club = "Liverpool (ENG)"
+age = 26
+caps = 50
+
+[[player]]
+num = 12
+name = "Mats Wieffer"
+pos = "DF"
+club = "Brighton & Hove Albion (ENG)"
+age = 26
+caps = 15
+
+[[player]]
+num = 13
+name = "Robin Roefs"
+pos = "GK"
+club = "Sunderland (ENG)"
+age = 22
+caps = 1
+
+[[player]]
+num = 14
+name = "Tijjani Reijnders"
+pos = "MF"
+club = "Manchester City (ENG)"
+age = 27
+caps = 32
+
+[[player]]
+num = 15
+name = "Micky van de Ven"
+pos = "DF"
+club = "Tottenham Hotspur (ENG)"
+age = 24
+caps = 21
+
+[[player]]
+num = 16
+name = "Guus Til"
+pos = "MF"
+club = "PSV Eindhoven (NED)"
+age = 28
+caps = 7
+
+[[player]]
+num = 17
+name = "Noa Lang"
+pos = "FW"
+club = "Galatasaray (TUR)"
+age = 26
+caps = 15
+
+[[player]]
+num = 18
+name = "Donyell Malen"
+pos = "FW"
+club = "Roma (ITA)"
+age = 26
+caps = 53
+
+[[player]]
+num = 19
+name = "Brian Brobbey"
+pos = "FW"
+club = "Sunderland (ENG)"
+age = 23
+caps = 12
+
+[[player]]
+num = 20
+name = "Teun Koopmeiners"
+pos = "MF"
+club = "Juventus (ITA)"
+age = 27
+caps = 28
+
+[[player]]
+num = 21
+name = "Frenkie de Jong"
+pos = "MF"
+club = "Barcelona (ESP)"
+age = 28
+caps = 66
+
+[[player]]
+num = 22
+name = "Denzel Dumfries"
+pos = "DF"
+club = "Inter Milan (ITA)"
+age = 29
+caps = 72
+
+[[player]]
+num = 23
+name = "Mark Flekken"
+pos = "GK"
+club = "Bayer Leverkusen (GER)"
+age = 32
+caps = 12
+
+[[player]]
+num = 24
+name = "Crysencio Summerville"
+pos = "FW"
+club = "West Ham United (ENG)"
+age = 24
+caps = 2
+
+[[player]]
+num = 25
+name = "Jorrel Hato"
+pos = "DF"
+club = "Chelsea (ENG)"
+age = 19
+caps = 8
+
+[[player]]
+num = 26
+name = "Quinten Timber"
+pos = "MF"
+club = "Marseille (FRA)"
+age = 24
+caps = 11

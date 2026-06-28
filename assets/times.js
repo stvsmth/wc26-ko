@@ -18,7 +18,7 @@
       if (!local) continue;
       var venueTime = el.getAttribute("data-venue-time");
       if (venueTime) el.setAttribute("title", "Venue local: " + venueTime);
-      el.innerHTML = local + ' <span class="tznote">your time</span>';
+      el.innerHTML = local;
       el.classList.add("is-local");
     }
   }

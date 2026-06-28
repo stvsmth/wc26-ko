@@ -1,0 +1,211 @@
+# Paraguay — 26-man squad, 2026 FIFA World Cup.
+slug = "paraguay"
+
+[[player]]
+num = 1
+name = "Gatito Fernández"
+pos = "GK"
+club = "Cerro Porteño (PAR)"
+age = 37
+caps = 31
+
+[[player]]
+num = 2
+name = "Gustavo Velázquez"
+pos = "DF"
+club = "Cerro Porteño (PAR)"
+age = 34
+caps = 13
+
+[[player]]
+num = 3
+name = "Omar Alderete"
+pos = "DF"
+club = "Sunderland (ENG)"
+age = 29
+caps = 36
+
+[[player]]
+num = 4
+name = "Juan José Cáceres"
+pos = "DF"
+club = "Dynamo Moscow (RUS)"
+age = 25
+caps = 17
+
+[[player]]
+num = 5
+name = "Fabián Balbuena"
+pos = "DF"
+club = "Grêmio (BRA)"
+age = 34
+caps = 48
+
+[[player]]
+num = 6
+name = "Júnior Alonso"
+pos = "DF"
+club = "Atlético Mineiro (BRA)"
+age = 32
+caps = 71
+
+[[player]]
+num = 7
+name = "Ramón Sosa"
+pos = "MF"
+club = "Palmeiras (BRA)"
+age = 26
+caps = 29
+
+[[player]]
+num = 8
+name = "Diego Gómez"
+pos = "MF"
+club = "Brighton & Hove Albion (ENG)"
+age = 22
+caps = 24
+
+[[player]]
+num = 9
+name = "Antonio Sanabria"
+pos = "FW"
+club = "Cremonese (ITA)"
+age = 29
+caps = 48
+
+[[player]]
+num = 10
+name = "Miguel Almirón"
+pos = "MF"
+club = "Atlanta United (USA)"
+age = 31
+caps = 76
+
+[[player]]
+num = 11
+name = "Maurício"
+pos = "MF"
+club = "Palmeiras (BRA)"
+age = 24
+caps = 3
+
+[[player]]
+num = 12
+name = "Orlando Gill"
+pos = "GK"
+club = "San Lorenzo (ARG)"
+age = 25
+caps = 6
+
+[[player]]
+num = 13
+name = "José Canale"
+pos = "DF"
+club = "Lanús (ARG)"
+age = 29
+caps = 2
+
+[[player]]
+num = 14
+name = "Andrés Cubas"
+pos = "MF"
+club = "Vancouver Whitecaps (CAN)"
+age = 29
+caps = 33
+
+[[player]]
+num = 15
+name = "Gustavo Gómez"
+pos = "DF"
+club = "Palmeiras (BRA)"
+age = 32
+caps = 89
+captain = true
+
+[[player]]
+num = 16
+name = "Damián Bobadilla"
+pos = "MF"
+club = "São Paulo (BRA)"
+age = 24
+caps = 19
+
+[[player]]
+num = 17
+name = "Kaku"
+pos = "FW"
+club = "Al Ain (UAE)"
+age = 30
+caps = 33
+
+[[player]]
+num = 18
+name = "Álex Arce"
+pos = "FW"
+club = "Independiente Rivadavia (ARG)"
+age = 30
+caps = 15
+
+[[player]]
+num = 19
+name = "Julio Enciso"
+pos = "FW"
+club = "Strasbourg (FRA)"
+age = 21
+caps = 32
+
+[[player]]
+num = 20
+name = "Braian Ojeda"
+pos = "MF"
+club = "Orlando City (USA)"
+age = 25
+caps = 17
+
+[[player]]
+num = 21
+name = "Gabriel Ávalos"
+pos = "FW"
+club = "Independiente (ARG)"
+age = 34
+caps = 23
+
+[[player]]
+num = 22
+name = "Gastón Olveira"
+pos = "GK"
+club = "Olimpia (PAR)"
+age = 32
+caps = 1
+
+[[player]]
+num = 23
+name = "Matías Galarza"
+pos = "MF"
+club = "Atlanta United (USA)"
+age = 23
+caps = 15
+
+[[player]]
+num = 24
+name = "Gustavo Caballero"
+pos = "MF"
+club = "Portsmouth (ENG)"
+age = 24
+caps = 2
+
+[[player]]
+num = 25
+name = "Isidro Pitta"
+pos = "FW"
+club = "Red Bull Bragantino (BRA)"
+age = 26
+caps = 5
+
+[[player]]
+num = 26
+name = "Alexandro Maidana"
+pos = "DF"
+club = "Talleres (ARG)"
+age = 20
+caps = 2

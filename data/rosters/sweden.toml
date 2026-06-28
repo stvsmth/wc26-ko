@@ -1,0 +1,212 @@
+# Sweden — 26-man squad, 2026 FIFA World Cup.
+# Source: en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads (section: Sweden).
+slug = "sweden"
+
+[[player]]
+num = 1
+name = "Jacob Widell Zetterström"
+pos = "GK"
+club = "Derby County (ENG)"
+age = 27
+caps = 3
+
+[[player]]
+num = 2
+name = "Gustaf Lagerbielke"
+pos = "DF"
+club = "Braga (POR)"
+age = 26
+caps = 11
+
+[[player]]
+num = 3
+name = "Victor Lindelöf"
+pos = "DF"
+club = "Aston Villa (ENG)"
+age = 31
+caps = 76
+captain = true
+
+[[player]]
+num = 4
+name = "Isak Hien"
+pos = "DF"
+club = "Atalanta (ITA)"
+age = 27
+caps = 29
+
+[[player]]
+num = 5
+name = "Gabriel Gudmundsson"
+pos = "DF"
+club = "Leeds United (ENG)"
+age = 27
+caps = 24
+
+[[player]]
+num = 6
+name = "Herman Johansson"
+pos = "DF"
+club = "FC Dallas (USA)"
+age = 28
+caps = 3
+
+[[player]]
+num = 7
+name = "Lucas Bergvall"
+pos = "MF"
+club = "Tottenham Hotspur (ENG)"
+age = 20
+caps = 10
+
+[[player]]
+num = 8
+name = "Daniel Svensson"
+pos = "DF"
+club = "Borussia Dortmund (GER)"
+age = 24
+caps = 13
+
+[[player]]
+num = 9
+name = "Alexander Isak"
+pos = "FW"
+club = "Liverpool (ENG)"
+age = 26
+caps = 58
+
+[[player]]
+num = 10
+name = "Benjamin Nygren"
+pos = "MF"
+club = "Celtic (SCO)"
+age = 25
+caps = 11
+
+[[player]]
+num = 11
+name = "Anthony Elanga"
+pos = "FW"
+club = "Newcastle United (ENG)"
+age = 24
+caps = 30
+
+[[player]]
+num = 12
+name = "Viktor Johansson"
+pos = "GK"
+club = "Stoke City (ENG)"
+age = 27
+caps = 12
+
+[[player]]
+num = 13
+name = "Ken Sema"
+pos = "MF"
+club = "Pafos (CYP)"
+age = 32
+caps = 33
+
+[[player]]
+num = 14
+name = "Hjalmar Ekdal"
+pos = "DF"
+club = "Burnley (ENG)"
+age = 27
+caps = 13
+
+[[player]]
+num = 15
+name = "Carl Starfelt"
+pos = "DF"
+club = "Celta Vigo (ESP)"
+age = 31
+caps = 18
+
+[[player]]
+num = 16
+name = "Jesper Karlström"
+pos = "MF"
+club = "Udinese (ITA)"
+age = 31
+caps = 25
+
+[[player]]
+num = 17
+name = "Viktor Gyökeres"
+pos = "FW"
+club = "Arsenal (ENG)"
+age = 27
+caps = 33
+
+[[player]]
+num = 18
+name = "Yasin Ayari"
+pos = "MF"
+club = "Brighton & Hove Albion (ENG)"
+age = 22
+caps = 21
+
+[[player]]
+num = 19
+name = "Mattias Svanberg"
+pos = "MF"
+club = "VfL Wolfsburg (GER)"
+age = 27
+caps = 41
+
+[[player]]
+num = 20
+name = "Eric Smith"
+pos = "DF"
+club = "FC St. Pauli (GER)"
+age = 29
+caps = 2
+
+[[player]]
+num = 21
+name = "Alexander Bernhardsson"
+pos = "DF"
+club = "Holstein Kiel (GER)"
+age = 27
+caps = 11
+
+[[player]]
+num = 22
+name = "Besfort Zeneli"
+pos = "MF"
+club = "Union Saint-Gilloise (BEL)"
+age = 23
+caps = 8
+
+[[player]]
+num = 23
+name = "Kristoffer Nordfeldt"
+pos = "GK"
+club = "AIK (SWE)"
+age = 36
+caps = 21
+
+[[player]]
+num = 24
+name = "Elliot Stroud"
+pos = "DF"
+club = "Mjällby AIF (SWE)"
+age = 23
+caps = 1
+
+[[player]]
+num = 25
+name = "Gustaf Nilsson"
+pos = "FW"
+club = "Club Brugge (BEL)"
+age = 28
+caps = 10
+
+[[player]]
+num = 26
+name = "Taha Ali"
+pos = "FW"
+club = "Malmö FF (SWE)"
+age = 27
+caps = 2

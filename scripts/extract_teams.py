@@ -29,6 +29,7 @@ FACT_RE = re.compile(
     r'<div class="k">(.*?)</div><div class="v">(.*?)\s*<small>(.*?)</small>', re.S
 )
 ROW_RE = re.compile(
+    r'<td class="shirt-cell">(\d+)</td>\s*<td>\s*'
     r'<span class="pos pos-(GK|DF|MF|FW)">[A-Z]+</span></td>\s*'
     r'<td class="pname">(.*?)</td>\s*'
     r'<td class="club">(.*?)</td>\s*'
@@ -61,10 +62,11 @@ def extract(path: Path) -> dict:
     squad_size = re.search(r"(\d+)-player", squad_sub)
 
     players = []
-    for pos, pname, club, age, caps in ROW_RE.findall(raw):
+    for num, pos, pname, club, age, caps in ROW_RE.findall(raw):
         captain = bool(CAP_RE.search(pname))
         players.append(
             {
+                "num": int(num),
                 "name": clean(CAP_RE.sub("", pname)),
                 "pos": pos,
                 "club": clean(club),
@@ -109,7 +111,7 @@ def to_toml(team: dict) -> str:
     for p in team["players"]:
         cap = ", captain = true" if p["captain"] else ""
         out.append(
-            f"  {{ name = {tstr(p['name'])}, pos = {tstr(p['pos'])}, "
+            f"  {{ num = {p['num']}, name = {tstr(p['name'])}, pos = {tstr(p['pos'])}, "
             f"club = {tstr(p['club'])}, age = {p['age']}, caps = {p['caps']}{cap} }},"
         )
     out.append("]")

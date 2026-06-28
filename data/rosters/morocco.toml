@@ -1,0 +1,211 @@
+# Morocco — 26-man squad, 2026 FIFA World Cup.
+slug = "morocco"
+
+[[player]]
+num = 1
+name = "Yassine Bounou"
+pos = "GK"
+club = "Al-Hilal (KSA)"
+age = 34
+caps = 90
+
+[[player]]
+num = 2
+name = "Achraf Hakimi"
+pos = "DF"
+club = "Paris Saint-Germain (FRA)"
+age = 27
+caps = 96
+captain = true
+
+[[player]]
+num = 3
+name = "Noussair Mazraoui"
+pos = "DF"
+club = "Manchester United (ENG)"
+age = 28
+caps = 45
+
+[[player]]
+num = 4
+name = "Sofyan Amrabat"
+pos = "MF"
+club = "Real Betis (ESP)"
+age = 29
+caps = 75
+
+[[player]]
+num = 5
+name = "Marwane Saâdane"
+pos = "DF"
+club = "Al-Fateh (KSA)"
+age = 33
+caps = 8
+
+[[player]]
+num = 6
+name = "Ayyoub Bouaddi"
+pos = "MF"
+club = "Lille (FRA)"
+age = 18
+caps = 3
+
+[[player]]
+num = 7
+name = "Chemsdine Talbi"
+pos = "MF"
+club = "Sunderland (ENG)"
+age = 20
+caps = 5
+
+[[player]]
+num = 8
+name = "Azzedine Ounahi"
+pos = "MF"
+club = "Girona (ESP)"
+age = 25
+caps = 49
+
+[[player]]
+num = 9
+name = "Soufiane Rahimi"
+pos = "FW"
+club = "Al Ain (UAE)"
+age = 29
+caps = 37
+
+[[player]]
+num = 10
+name = "Brahim Díaz"
+pos = "FW"
+club = "Real Madrid (ESP)"
+age = 26
+caps = 26
+
+[[player]]
+num = 11
+name = "Ismael Saibari"
+pos = "MF"
+club = "PSV Eindhoven (NED)"
+age = 24
+caps = 30
+
+[[player]]
+num = 12
+name = "Munir Mohamedi"
+pos = "GK"
+club = "RS Berkane (MAR)"
+age = 36
+caps = 52
+
+[[player]]
+num = 13
+name = "Zakaria El Ouahdi"
+pos = "DF"
+club = "Genk (BEL)"
+age = 24
+caps = 3
+
+[[player]]
+num = 14
+name = "Issa Diop"
+pos = "DF"
+club = "Fulham (ENG)"
+age = 28
+caps = 4
+
+[[player]]
+num = 15
+name = "Samir El Mourabet"
+pos = "MF"
+club = "Strasbourg (FRA)"
+age = 20
+caps = 4
+
+[[player]]
+num = 16
+name = "Gessime Yassine"
+pos = "MF"
+club = "Strasbourg (FRA)"
+age = 20
+caps = 4
+
+[[player]]
+num = 17
+name = "Amine Sbaïf"
+pos = "FW"
+club = "Angers (FRA)"
+age = 25
+caps = 2
+
+[[player]]
+num = 18
+name = "Chadi Riad"
+pos = "DF"
+club = "Crystal Palace (ENG)"
+age = 22
+caps = 6
+
+[[player]]
+num = 19
+name = "Youssef Belammari"
+pos = "DF"
+club = "Al Ahly (EGY)"
+age = 27
+caps = 18
+
+[[player]]
+num = 20
+name = "Ayoub El Kaabi"
+pos = "FW"
+club = "Olympiacos (GRE)"
+age = 32
+caps = 71
+
+[[player]]
+num = 21
+name = "Ayoube Amaimouni"
+pos = "FW"
+club = "Eintracht Frankfurt (GER)"
+age = 21
+caps = 2
+
+[[player]]
+num = 22
+name = "Ahmed Reda Tagnaouti"
+pos = "GK"
+club = "AS FAR (MAR)"
+age = 29
+caps = 3
+
+[[player]]
+num = 23
+name = "Bilal El Khannouss"
+pos = "MF"
+club = "VfB Stuttgart (GER)"
+age = 21
+caps = 37
+
+[[player]]
+num = 24
+name = "Neil El Aynaoui"
+pos = "MF"
+club = "Roma (ITA)"
+age = 24
+caps = 16
+
+[[player]]
+num = 25
+name = "Redouane Halhal"
+pos = "DF"
+club = "Mechelen (BEL)"
+age = 22
+caps = 3
+
+[[player]]
+num = 26
+name = "Anass Salah-Eddine"
+pos = "DF"
+club = "PSV Eindhoven (NED)"
+age = 23
+caps = 9

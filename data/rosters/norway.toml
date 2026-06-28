@@ -1,0 +1,211 @@
+# Norway — 26-man squad, 2026 FIFA World Cup.
+slug = "norway"
+
+[[player]]
+num = 1
+name = "Ørjan Nyland"
+pos = "GK"
+club = "Sevilla (ESP)"
+age = 35
+caps = 71
+
+[[player]]
+num = 2
+name = "Morten Thorsby"
+pos = "MF"
+club = "Cremonese (ITA)"
+age = 29
+caps = 31
+
+[[player]]
+num = 3
+name = "Kristoffer Ajer"
+pos = "DF"
+club = "Brentford (ENG)"
+age = 27
+caps = 52
+
+[[player]]
+num = 4
+name = "Leo Østigård"
+pos = "DF"
+club = "Genoa (ITA)"
+age = 26
+caps = 38
+
+[[player]]
+num = 5
+name = "David Møller Wolfe"
+pos = "DF"
+club = "Wolverhampton Wanderers (ENG)"
+age = 23
+caps = 22
+
+[[player]]
+num = 6
+name = "Patrick Berg"
+pos = "MF"
+club = "Bodø/Glimt (NOR)"
+age = 28
+caps = 43
+
+[[player]]
+num = 7
+name = "Alexander Sørloth"
+pos = "FW"
+club = "Atlético Madrid (ESP)"
+age = 30
+caps = 72
+
+[[player]]
+num = 8
+name = "Sander Berge"
+pos = "MF"
+club = "Fulham (ENG)"
+age = 27
+caps = 66
+
+[[player]]
+num = 9
+name = "Erling Haaland"
+pos = "FW"
+club = "Manchester City (ENG)"
+age = 25
+caps = 50
+
+[[player]]
+num = 10
+name = "Martin Ødegaard"
+pos = "MF"
+club = "Arsenal (ENG)"
+age = 27
+caps = 68
+captain = true
+
+[[player]]
+num = 11
+name = "Jørgen Strand Larsen"
+pos = "FW"
+club = "Crystal Palace (ENG)"
+age = 25
+caps = 28
+
+[[player]]
+num = 12
+name = "Sander Tangvik"
+pos = "GK"
+club = "Hamburger SV (GER)"
+age = 23
+caps = 0
+
+[[player]]
+num = 13
+name = "Egil Selvik"
+pos = "GK"
+club = "Watford (ENG)"
+age = 28
+caps = 7
+
+[[player]]
+num = 14
+name = "Fredrik Aursnes"
+pos = "MF"
+club = "Benfica (POR)"
+age = 30
+caps = 22
+
+[[player]]
+num = 15
+name = "Fredrik André Bjørkan"
+pos = "DF"
+club = "Bodø/Glimt (NOR)"
+age = 27
+caps = 21
+
+[[player]]
+num = 16
+name = "Marcus Holmgren Pedersen"
+pos = "DF"
+club = "Torino (ITA)"
+age = 25
+caps = 32
+
+[[player]]
+num = 17
+name = "Torbjørn Heggem"
+pos = "DF"
+club = "Bologna (ITA)"
+age = 26
+caps = 15
+
+[[player]]
+num = 18
+name = "Kristian Thorstvedt"
+pos = "MF"
+club = "Sassuolo (ITA)"
+age = 26
+caps = 37
+
+[[player]]
+num = 19
+name = "Thelo Aasgaard"
+pos = "MF"
+club = "Rangers (SCO)"
+age = 23
+caps = 8
+
+[[player]]
+num = 20
+name = "Antonio Nusa"
+pos = "MF"
+club = "RB Leipzig (GER)"
+age = 20
+caps = 24
+
+[[player]]
+num = 21
+name = "Andreas Schjelderup"
+pos = "MF"
+club = "Benfica (POR)"
+age = 21
+caps = 12
+
+[[player]]
+num = 22
+name = "Oscar Bobb"
+pos = "MF"
+club = "Fulham (ENG)"
+age = 22
+caps = 20
+
+[[player]]
+num = 23
+name = "Jens Petter Hauge"
+pos = "MF"
+club = "Bodø/Glimt (NOR)"
+age = 26
+caps = 15
+
+[[player]]
+num = 24
+name = "Sondre Langås"
+pos = "DF"
+club = "Derby County (ENG)"
+age = 24
+caps = 3
+
+[[player]]
+num = 25
+name = "Henrik Falchener"
+pos = "DF"
+club = "Viking (NOR)"
+age = 22
+caps = 1
+
+[[player]]
+num = 26
+name = "Julian Ryerson"
+pos = "DF"
+club = "Borussia Dortmund (GER)"
+age = 28
+caps = 43

@@ -1,0 +1,212 @@
+# Switzerland — 26-man squad, 2026 FIFA World Cup.
+# Source: en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads (section: Switzerland).
+slug = "switzerland"
+
+[[player]]
+num = 1
+name = "Gregor Kobel"
+pos = "GK"
+club = "Borussia Dortmund (GER)"
+age = 28
+caps = 21
+
+[[player]]
+num = 2
+name = "Miro Muheim"
+pos = "DF"
+club = "Hamburger SV (GER)"
+age = 28
+caps = 10
+
+[[player]]
+num = 3
+name = "Silvan Widmer"
+pos = "DF"
+club = "Mainz 05 (GER)"
+age = 32
+caps = 60
+
+[[player]]
+num = 4
+name = "Nico Elvedi"
+pos = "DF"
+club = "Borussia Mönchengladbach (GER)"
+age = 29
+caps = 67
+
+[[player]]
+num = 5
+name = "Manuel Akanji"
+pos = "DF"
+club = "Inter Milan (ITA)"
+age = 30
+caps = 81
+
+[[player]]
+num = 6
+name = "Denis Zakaria"
+pos = "MF"
+club = "Monaco (FRA)"
+age = 29
+caps = 65
+
+[[player]]
+num = 7
+name = "Breel Embolo"
+pos = "FW"
+club = "Rennes (FRA)"
+age = 28
+caps = 86
+
+[[player]]
+num = 8
+name = "Remo Freuler"
+pos = "MF"
+club = "Bologna (ITA)"
+age = 33
+caps = 88
+
+[[player]]
+num = 9
+name = "Johan Manzambi"
+pos = "MF"
+club = "SC Freiburg (GER)"
+age = 20
+caps = 12
+
+[[player]]
+num = 10
+name = "Granit Xhaka"
+pos = "MF"
+club = "Sunderland (ENG)"
+age = 33
+caps = 146
+captain = true
+
+[[player]]
+num = 11
+name = "Dan Ndoye"
+pos = "FW"
+club = "Nottingham Forest (ENG)"
+age = 25
+caps = 31
+
+[[player]]
+num = 12
+name = "Yvon Mvogo"
+pos = "GK"
+club = "Lorient (FRA)"
+age = 31
+caps = 13
+
+[[player]]
+num = 13
+name = "Ricardo Rodríguez"
+pos = "DF"
+club = "Real Betis (ESP)"
+age = 33
+caps = 138
+
+[[player]]
+num = 14
+name = "Ardon Jashari"
+pos = "MF"
+club = "Milan (ITA)"
+age = 23
+caps = 8
+
+[[player]]
+num = 15
+name = "Djibril Sow"
+pos = "MF"
+club = "Sevilla (ESP)"
+age = 28
+caps = 52
+
+[[player]]
+num = 16
+name = "Christian Fassnacht"
+pos = "FW"
+club = "Young Boys (SUI)"
+age = 32
+caps = 23
+
+[[player]]
+num = 17
+name = "Rubén Vargas"
+pos = "FW"
+club = "Sevilla (ESP)"
+age = 27
+caps = 61
+
+[[player]]
+num = 18
+name = "Eray Cömert"
+pos = "DF"
+club = "Valencia (ESP)"
+age = 27
+caps = 22
+
+[[player]]
+num = 19
+name = "Noah Okafor"
+pos = "FW"
+club = "Leeds United (ENG)"
+age = 25
+caps = 25
+
+[[player]]
+num = 20
+name = "Michel Aebischer"
+pos = "MF"
+club = "Pisa (ITA)"
+age = 28
+caps = 40
+
+[[player]]
+num = 21
+name = "Marvin Keller"
+pos = "GK"
+club = "Young Boys (SUI)"
+age = 23
+caps = 1
+
+[[player]]
+num = 22
+name = "Fabian Rieder"
+pos = "MF"
+club = "FC Augsburg (GER)"
+age = 23
+caps = 28
+
+[[player]]
+num = 23
+name = "Zeki Amdouni"
+pos = "FW"
+club = "Burnley (ENG)"
+age = 25
+caps = 29
+
+[[player]]
+num = 24
+name = "Aurèle Amenda"
+pos = "DF"
+club = "Eintracht Frankfurt (GER)"
+age = 22
+caps = 7
+
+[[player]]
+num = 25
+name = "Luca Jaquez"
+pos = "DF"
+club = "VfB Stuttgart (GER)"
+age = 22
+caps = 3
+
+[[player]]
+num = 26
+name = "Cédric Itten"
+pos = "FW"
+club = "Fortuna Düsseldorf (GER)"
+age = 29
+caps = 15

@@ -1,0 +1,210 @@
+slug = "belgium"
+
+[[player]]
+num = 1
+name = "Thibaut Courtois"
+pos = "GK"
+club = "Real Madrid (ESP)"
+age = 33
+caps = 109
+
+[[player]]
+num = 2
+name = "Zeno Debast"
+pos = "DF"
+club = "Sporting CP (POR)"
+age = 22
+caps = 26
+
+[[player]]
+num = 3
+name = "Arthur Theate"
+pos = "DF"
+club = "Eintracht Frankfurt (GER)"
+age = 25
+caps = 33
+
+[[player]]
+num = 4
+name = "Brandon Mechele"
+pos = "DF"
+club = "Club Brugge (BEL)"
+age = 32
+caps = 9
+
+[[player]]
+num = 5
+name = "Maxim De Cuyper"
+pos = "DF"
+club = "Brighton & Hove Albion (ENG)"
+age = 25
+caps = 19
+
+[[player]]
+num = 6
+name = "Axel Witsel"
+pos = "MF"
+club = "Girona (ESP)"
+age = 36
+caps = 138
+
+[[player]]
+num = 7
+name = "Kevin De Bruyne"
+pos = "MF"
+club = "Napoli (ITA)"
+age = 34
+caps = 119
+
+[[player]]
+num = 8
+name = "Youri Tielemans"
+pos = "MF"
+club = "Aston Villa (ENG)"
+age = 28
+caps = 85
+captain = true
+
+[[player]]
+num = 9
+name = "Romelu Lukaku"
+pos = "FW"
+club = "Napoli (ITA)"
+age = 32
+caps = 126
+
+[[player]]
+num = 10
+name = "Leandro Trossard"
+pos = "FW"
+club = "Arsenal (ENG)"
+age = 31
+caps = 51
+
+[[player]]
+num = 11
+name = "Jérémy Doku"
+pos = "FW"
+club = "Manchester City (ENG)"
+age = 23
+caps = 43
+
+[[player]]
+num = 12
+name = "Senne Lammens"
+pos = "GK"
+club = "Manchester United (ENG)"
+age = 23
+caps = 2
+
+[[player]]
+num = 13
+name = "Mike Penders"
+pos = "GK"
+club = "Strasbourg (FRA)"
+age = 20
+caps = 0
+
+[[player]]
+num = 14
+name = "Dodi Lukébakio"
+pos = "FW"
+club = "Benfica (POR)"
+age = 28
+caps = 30
+
+[[player]]
+num = 15
+name = "Thomas Meunier"
+pos = "DF"
+club = "Lille (FRA)"
+age = 34
+caps = 80
+
+[[player]]
+num = 16
+name = "Koni De Winter"
+pos = "DF"
+club = "Milan (ITA)"
+age = 23
+caps = 8
+
+[[player]]
+num = 17
+name = "Charles De Ketelaere"
+pos = "FW"
+club = "Atalanta (ITA)"
+age = 24
+caps = 30
+
+[[player]]
+num = 18
+name = "Joaquin Seys"
+pos = "DF"
+club = "Club Brugge (BEL)"
+age = 20
+caps = 5
+
+[[player]]
+num = 19
+name = "Diego Moreira"
+pos = "MF"
+club = "Strasbourg (FRA)"
+age = 21
+caps = 3
+
+[[player]]
+num = 20
+name = "Hans Vanaken"
+pos = "MF"
+club = "Club Brugge (BEL)"
+age = 33
+caps = 34
+
+[[player]]
+num = 21
+name = "Timothy Castagne"
+pos = "DF"
+club = "Fulham (ENG)"
+age = 30
+caps = 63
+
+[[player]]
+num = 22
+name = "Alexis Saelemaekers"
+pos = "MF"
+club = "Milan (ITA)"
+age = 26
+caps = 24
+
+[[player]]
+num = 23
+name = "Nicolas Raskin"
+pos = "MF"
+club = "Rangers (SCO)"
+age = 24
+caps = 13
+
+[[player]]
+num = 24
+name = "Amadou Onana"
+pos = "MF"
+club = "Aston Villa (ENG)"
+age = 24
+caps = 29
+
+[[player]]
+num = 25
+name = "Nathan Ngoy"
+pos = "DF"
+club = "Lille (FRA)"
+age = 22
+caps = 4
+
+[[player]]
+num = 26
+name = "Matias Fernandez-Pardo"
+pos = "FW"
+club = "Lille (FRA)"
+age = 20
+caps = 2

@@ -1,0 +1,210 @@
+slug = "spain"
+
+[[player]]
+num = 1
+name = "David Raya"
+pos = "GK"
+club = "Arsenal (ENG)"
+age = 30
+caps = 13
+
+[[player]]
+num = 2
+name = "Marc Pubill"
+pos = "DF"
+club = "Atlético Madrid (ESP)"
+age = 22
+caps = 2
+
+[[player]]
+num = 3
+name = "Álex Grimaldo"
+pos = "DF"
+club = "Bayer Leverkusen (GER)"
+age = 30
+caps = 14
+
+[[player]]
+num = 4
+name = "Eric García"
+pos = "DF"
+club = "Barcelona (ESP)"
+age = 25
+caps = 21
+
+[[player]]
+num = 5
+name = "Marcos Llorente"
+pos = "DF"
+club = "Atlético Madrid (ESP)"
+age = 30
+caps = 24
+
+[[player]]
+num = 6
+name = "Mikel Merino"
+pos = "MF"
+club = "Arsenal (ENG)"
+age = 29
+caps = 43
+
+[[player]]
+num = 7
+name = "Ferran Torres"
+pos = "FW"
+club = "Barcelona (ESP)"
+age = 25
+caps = 57
+
+[[player]]
+num = 8
+name = "Fabián Ruiz"
+pos = "MF"
+club = "Paris Saint-Germain (FRA)"
+age = 29
+caps = 42
+
+[[player]]
+num = 9
+name = "Gavi"
+pos = "MF"
+club = "Barcelona (ESP)"
+age = 21
+caps = 30
+
+[[player]]
+num = 10
+name = "Dani Olmo"
+pos = "FW"
+club = "Barcelona (ESP)"
+age = 27
+caps = 50
+
+[[player]]
+num = 11
+name = "Yéremy Pino"
+pos = "FW"
+club = "Crystal Palace (ENG)"
+age = 23
+caps = 23
+
+[[player]]
+num = 12
+name = "Pedro Porro"
+pos = "DF"
+club = "Tottenham Hotspur (ENG)"
+age = 26
+caps = 18
+
+[[player]]
+num = 13
+name = "Joan Garcia"
+pos = "GK"
+club = "Barcelona (ESP)"
+age = 24
+caps = 2
+
+[[player]]
+num = 14
+name = "Aymeric Laporte"
+pos = "DF"
+club = "Athletic Bilbao (ESP)"
+age = 31
+caps = 46
+
+[[player]]
+num = 15
+name = "Álex Baena"
+pos = "MF"
+club = "Atlético Madrid (ESP)"
+age = 24
+caps = 17
+
+[[player]]
+num = 16
+name = "Rodri"
+pos = "MF"
+club = "Manchester City (ENG)"
+age = 29
+caps = 62
+captain = true
+
+[[player]]
+num = 17
+name = "Nico Williams"
+pos = "FW"
+club = "Athletic Bilbao (ESP)"
+age = 23
+caps = 30
+
+[[player]]
+num = 18
+name = "Martín Zubimendi"
+pos = "MF"
+club = "Arsenal (ENG)"
+age = 26
+caps = 26
+
+[[player]]
+num = 19
+name = "Lamine Yamal"
+pos = "FW"
+club = "Barcelona (ESP)"
+age = 18
+caps = 25
+
+[[player]]
+num = 20
+name = "Pedri"
+pos = "MF"
+club = "Barcelona (ESP)"
+age = 23
+caps = 41
+
+[[player]]
+num = 21
+name = "Mikel Oyarzabal"
+pos = "FW"
+club = "Real Sociedad (ESP)"
+age = 28
+caps = 53
+
+[[player]]
+num = 22
+name = "Pau Cubarsí"
+pos = "DF"
+club = "Barcelona (ESP)"
+age = 18
+caps = 12
+
+[[player]]
+num = 23
+name = "Unai Simón"
+pos = "GK"
+club = "Athletic Bilbao (ESP)"
+age = 28
+caps = 58
+
+[[player]]
+num = 24
+name = "Marc Cucurella"
+pos = "DF"
+club = "Chelsea (ENG)"
+age = 27
+caps = 24
+
+[[player]]
+num = 25
+name = "Víctor Muñoz"
+pos = "FW"
+club = "Osasuna (ESP)"
+age = 22
+caps = 2
+
+[[player]]
+num = 26
+name = "Borja Iglesias"
+pos = "FW"
+club = "Celta Vigo (ESP)"
+age = 32
+caps = 8

@@ -1,0 +1,212 @@
+# France — 26-man squad, 2026 FIFA World Cup.
+# Source: en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads (section: France).
+slug = "france"
+
+[[player]]
+num = 1
+name = "Brice Samba"
+pos = "GK"
+club = "Stade Rennais (FRA)"
+age = 31
+caps = 4
+
+[[player]]
+num = 2
+name = "Malo Gusto"
+pos = "DF"
+club = "Chelsea (ENG)"
+age = 22
+caps = 11
+
+[[player]]
+num = 3
+name = "Lucas Digne"
+pos = "DF"
+club = "Aston Villa (ENG)"
+age = 32
+caps = 58
+
+[[player]]
+num = 4
+name = "Dayot Upamecano"
+pos = "DF"
+club = "Bayern Munich (GER)"
+age = 27
+caps = 38
+
+[[player]]
+num = 5
+name = "Jules Koundé"
+pos = "DF"
+club = "Barcelona (ESP)"
+age = 27
+caps = 48
+
+[[player]]
+num = 6
+name = "Manu Koné"
+pos = "MF"
+club = "Roma (ITA)"
+age = 24
+caps = 14
+
+[[player]]
+num = 7
+name = "Ousmane Dembélé"
+pos = "FW"
+club = "Paris Saint-Germain (FRA)"
+age = 28
+caps = 59
+
+[[player]]
+num = 8
+name = "Aurélien Tchouaméni"
+pos = "MF"
+club = "Real Madrid (ESP)"
+age = 25
+caps = 46
+
+[[player]]
+num = 9
+name = "Marcus Thuram"
+pos = "FW"
+club = "Inter Milan (ITA)"
+age = 28
+caps = 34
+
+[[player]]
+num = 10
+name = "Kylian Mbappé"
+pos = "FW"
+club = "Real Madrid (ESP)"
+age = 27
+caps = 98
+captain = true
+
+[[player]]
+num = 11
+name = "Michael Olise"
+pos = "FW"
+club = "Bayern Munich (GER)"
+age = 24
+caps = 17
+
+[[player]]
+num = 12
+name = "Bradley Barcola"
+pos = "FW"
+club = "Paris Saint-Germain (FRA)"
+age = 23
+caps = 20
+
+[[player]]
+num = 13
+name = "N'Golo Kanté"
+pos = "MF"
+club = "Fenerbahçe (TUR)"
+age = 34
+caps = 69
+
+[[player]]
+num = 14
+name = "Adrien Rabiot"
+pos = "MF"
+club = "AC Milan (ITA)"
+age = 30
+caps = 59
+
+[[player]]
+num = 15
+name = "Ibrahima Konaté"
+pos = "DF"
+club = "Liverpool (ENG)"
+age = 26
+caps = 28
+
+[[player]]
+num = 16
+name = "Mike Maignan"
+pos = "GK"
+club = "AC Milan (ITA)"
+age = 30
+caps = 40
+
+[[player]]
+num = 17
+name = "William Saliba"
+pos = "DF"
+club = "Arsenal (ENG)"
+age = 24
+caps = 32
+
+[[player]]
+num = 18
+name = "Warren Zaïre-Emery"
+pos = "MF"
+club = "Paris Saint-Germain (FRA)"
+age = 19
+caps = 11
+
+[[player]]
+num = 19
+name = "Théo Hernandez"
+pos = "DF"
+club = "Al Hilal (KSA)"
+age = 28
+caps = 44
+
+[[player]]
+num = 20
+name = "Désiré Doué"
+pos = "FW"
+club = "Paris Saint-Germain (FRA)"
+age = 20
+caps = 7
+
+[[player]]
+num = 21
+name = "Lucas Hernandez"
+pos = "DF"
+club = "Paris Saint-Germain (FRA)"
+age = 29
+caps = 42
+
+[[player]]
+num = 22
+name = "Jean-Philippe Mateta"
+pos = "FW"
+club = "Crystal Palace (ENG)"
+age = 28
+caps = 4
+
+[[player]]
+num = 23
+name = "Robin Risser"
+pos = "GK"
+club = "Lens (FRA)"
+age = 21
+caps = 0
+
+[[player]]
+num = 24
+name = "Rayan Cherki"
+pos = "MF"
+club = "Manchester City (ENG)"
+age = 22
+caps = 7
+
+[[player]]
+num = 25
+name = "Maghnes Akliouche"
+pos = "MF"
+club = "Monaco (FRA)"
+age = 23
+caps = 9
+
+[[player]]
+num = 26
+name = "Maxence Lacroix"
+pos = "DF"
+club = "Crystal Palace (ENG)"
+age = 25
+caps = 4

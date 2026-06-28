@@ -1,0 +1,211 @@
+# Colombia — 26-man squad, 2026 FIFA World Cup.
+slug = "colombia"
+
+[[player]]
+num = 1
+name = "David Ospina"
+pos = "GK"
+club = "Atlético Nacional (COL)"
+age = 37
+caps = 130
+
+[[player]]
+num = 12
+name = "Camilo Vargas"
+pos = "GK"
+club = "Atlas (MEX)"
+age = 36
+caps = 42
+
+[[player]]
+num = 24
+name = "Álvaro Montero"
+pos = "GK"
+club = "Vélez Sarsfield (ARG)"
+age = 30
+caps = 12
+
+[[player]]
+num = 2
+name = "Daniel Muñoz"
+pos = "DF"
+club = "Crystal Palace (ENG)"
+age = 29
+caps = 46
+
+[[player]]
+num = 3
+name = "Jhon Lucumí"
+pos = "DF"
+club = "Bologna (ITA)"
+age = 27
+caps = 37
+
+[[player]]
+num = 4
+name = "Santiago Arias"
+pos = "DF"
+club = "Independiente (ARG)"
+age = 34
+caps = 68
+
+[[player]]
+num = 13
+name = "Yerry Mina"
+pos = "DF"
+club = "Cagliari (ITA)"
+age = 31
+caps = 54
+
+[[player]]
+num = 14
+name = "Gustavo Puerta"
+pos = "DF"
+club = "Racing Santander (ESP)"
+age = 22
+caps = 6
+
+[[player]]
+num = 17
+name = "Johan Mojica"
+pos = "DF"
+club = "Mallorca (ESP)"
+age = 33
+caps = 45
+
+[[player]]
+num = 18
+name = "Willer Ditta"
+pos = "DF"
+club = "Cruz Azul (MEX)"
+age = 27
+caps = 5
+
+[[player]]
+num = 22
+name = "Deiver Machado"
+pos = "DF"
+club = "Nantes (FRA)"
+age = 32
+caps = 15
+
+[[player]]
+num = 23
+name = "Davinson Sánchez"
+pos = "DF"
+club = "Galatasaray (TUR)"
+age = 29
+caps = 79
+
+[[player]]
+num = 5
+name = "Kevin Castaño"
+pos = "MF"
+club = "River Plate (ARG)"
+age = 25
+caps = 25
+
+[[player]]
+num = 6
+name = "Richard Ríos"
+pos = "MF"
+club = "Benfica (POR)"
+age = 25
+caps = 32
+
+[[player]]
+num = 8
+name = "Jorge Carrascal"
+pos = "MF"
+club = "Flamengo (BRA)"
+age = 27
+caps = 24
+
+[[player]]
+num = 10
+name = "James Rodríguez"
+pos = "MF"
+club = "Minnesota United (USA)"
+age = 34
+caps = 126
+captain = true
+
+[[player]]
+num = 11
+name = "Jhon Arias"
+pos = "MF"
+club = "Palmeiras (BRA)"
+age = 28
+caps = 38
+
+[[player]]
+num = 15
+name = "Juan Portilla"
+pos = "MF"
+club = "Athletico Paranaense (BRA)"
+age = 27
+caps = 10
+
+[[player]]
+num = 16
+name = "Jefferson Lerma"
+pos = "MF"
+club = "Crystal Palace (ENG)"
+age = 31
+caps = 65
+
+[[player]]
+num = 20
+name = "Juan Fernando Quintero"
+pos = "MF"
+club = "River Plate (ARG)"
+age = 32
+caps = 49
+
+[[player]]
+num = 7
+name = "Luis Díaz"
+pos = "FW"
+club = "Bayern Munich (GER)"
+age = 29
+caps = 74
+
+[[player]]
+num = 9
+name = "Jhon Córdoba"
+pos = "FW"
+club = "Krasnodar (RUS)"
+age = 32
+caps = 21
+
+[[player]]
+num = 19
+name = "Cucho Hernández"
+pos = "FW"
+club = "Real Betis (ESP)"
+age = 26
+caps = 9
+
+[[player]]
+num = 21
+name = "Jaminton Campaz"
+pos = "FW"
+club = "Rosario Central (ARG)"
+age = 25
+caps = 10
+
+[[player]]
+num = 25
+name = "Luis Suárez"
+pos = "FW"
+club = "Sporting CP (POR)"
+age = 28
+caps = 12
+
+[[player]]
+num = 26
+name = "Andrés Gómez"
+pos = "FW"
+club = "Vasco da Gama (BRA)"
+age = 23
+caps = 8
