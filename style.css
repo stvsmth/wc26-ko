@@ -117,6 +117,8 @@ footer a{color:var(--ink-dim);text-decoration:underline;text-underline-offset:2p
 .fact .k{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint)}
 .fact .v{margin-top:6px;font-size:17px;font-weight:600}
 .fact .v small{display:block;font-size:12px;color:var(--ink-dim);font-weight:400;margin-top:3px}
+.fixture-link{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .15s}
+.fixture-link:hover{border-bottom-color:currentColor}
 
 .squad-head{margin:44px 0 14px;display:flex;align-items:baseline;gap:14px}
 .squad-head h2{font-size:13px;letter-spacing:.26em;text-transform:uppercase;color:var(--ink-dim);font-weight:700}
