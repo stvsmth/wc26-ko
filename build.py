@@ -24,6 +24,19 @@ CONF_LABELS = {
     "caf": "CAF", "afc": "AFC", "ofc": "OFC",
 }
 
+# slug -> flag-icons code (ISO 3166-1 alpha-2, lowercase). England is not an ISO
+# country: its St George's Cross is the gb-eng subdivision flag, NOT gb (Union Jack).
+FLAG_CODES = {
+    "algeria": "dz", "argentina": "ar", "australia": "au", "austria": "at",
+    "belgium": "be", "bosnia": "ba", "brazil": "br", "canada": "ca",
+    "cape-verde": "cv", "colombia": "co", "congo-dr": "cd", "croatia": "hr",
+    "ecuador": "ec", "egypt": "eg", "england": "gb-eng", "france": "fr",
+    "germany": "de", "ghana": "gh", "ivory-coast": "ci", "japan": "jp",
+    "mexico": "mx", "morocco": "ma", "netherlands": "nl", "norway": "no",
+    "paraguay": "py", "portugal": "pt", "senegal": "sn", "south-africa": "za",
+    "spain": "es", "sweden": "se", "switzerland": "ch", "usa": "us",
+}
+
 
 def die(msg: str) -> None:
     sys.exit(f"build.py: error: {msg}")
@@ -39,6 +52,13 @@ def accent(conf: str) -> str:
 
 def conf_label(conf: str) -> str:
     return CONF_LABELS.get(conf, conf.upper())
+
+
+def flag(team: dict) -> str:
+    code = FLAG_CODES.get(team["slug"])
+    if not code:
+        die(f"no flag code for team slug {team['slug']!r} (add to FLAG_CODES)")
+    return f'<span class="fi fi-{code} flag" aria-hidden="true"></span>'
 
 
 # ---------- data loading + validation ----------
@@ -187,13 +207,13 @@ def render_match(match: dict, teams: dict, round_name: str) -> str:
     <div class="cmp-title">
       <div class="side" style="--accent:{accent(a['conf'])}">
         <div class="accentbar"></div>
-        <div class="conf">{esc(conf_label(a['conf']))} · #{esc(a['fifa_rank'])}</div>
+        <div class="conf">{flag(a)}{esc(conf_label(a['conf']))} · #{esc(a['fifa_rank'])}</div>
         <h1 class="display">{esc(a['name'])}</h1>
       </div>
       <div class="vs">vs</div>
       <div class="side right" style="--accent:{accent(b['conf'])}">
         <div class="accentbar"></div>
-        <div class="conf">{esc(conf_label(b['conf']))} · #{esc(b['fifa_rank'])}</div>
+        <div class="conf">{flag(b)}{esc(conf_label(b['conf']))} · #{esc(b['fifa_rank'])}</div>
         <h1 class="display">{esc(b['name'])}</h1>
       </div>
     </div>
@@ -230,12 +250,12 @@ def render_index(rounds: list, teams: dict) -> str:
                 '<div class="mc-teams">'
                 f'<div class="mc-side" style="--accent:{accent(a["conf"])}">'
                 f'<div class="mc-bar"></div>'
-                f'<div class="mc-rank">{esc(conf_label(a["conf"]))} · #{esc(a["fifa_rank"])}</div>'
+                f'<div class="mc-rank">{flag(a)}{esc(conf_label(a["conf"]))} · #{esc(a["fifa_rank"])}</div>'
                 f'<div class="mc-name display">{esc(a.get("short") or a["name"])}</div></div>'
                 '<div class="mc-vs">vs</div>'
                 f'<div class="mc-side right" style="--accent:{accent(b["conf"])}">'
                 f'<div class="mc-bar"></div>'
-                f'<div class="mc-rank">{esc(conf_label(b["conf"]))} · #{esc(b["fifa_rank"])}</div>'
+                f'<div class="mc-rank">{flag(b)}{esc(conf_label(b["conf"]))} · #{esc(b["fifa_rank"])}</div>'
                 f'<div class="mc-name display">{esc(b.get("short") or b["name"])}</div></div>'
                 '</div>'
                 f'<div class="mc-when">{when}</div></a>'

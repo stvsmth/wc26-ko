@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/flag-icons@7.5.0/css/flag-icons.min.css");
 :root{
   --night:#0a1230;
   --night-2:#111a3f;
@@ -33,6 +34,13 @@ body{
 }
 .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
 a{color:inherit;text-decoration:none}
+
+/* ---- Flags (flag-icons) ---- */
+.flag{display:inline-block;width:1.5em;height:1.125em;border-radius:2px;
+  box-shadow:0 0 0 1px var(--line);vertical-align:-.2em;margin-right:9px;
+  background-size:cover}
+.team-hero .flag{width:38px;height:28px;border-radius:3px;
+  margin:0 0 16px;vertical-align:baseline}
 
 /* ---- Display type ---- */
 .display{
