@@ -1,0 +1,4 @@
+[rules.MD013]
+line_length = 99
+code_blocks = false
+reflow = true
