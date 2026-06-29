@@ -335,7 +335,7 @@ profile     = "teams/cape-verde.html"
 blurb       = "An Atlantic archipelago of barely 525,000 people, the Blue Sharks are the smallest nation by population ever to reach a World Cup knockout stage — a fairytale debut. Coached since 2020 by Bubista and captained by all-time great Ryan Mendes, they drew with Spain, Uruguay and Saudi Arabia to finish second in Group H and set up a Round of 32 date with reigning champions Argentina."
 players = [
   { num = 1, name = "Vozinha", pos = "GK", club = "Chaves (POR)", age = 39, caps = 90, value = 50000 },
-  { num = 12, name = "Mário Rosa", pos = "GK", club = "Montana (BUL)", age = 28, caps = 11, value = 350000 },
+  { num = 12, name = "Márcio Rosa", pos = "GK", club = "Montana (BUL)", age = 29, caps = 11, value = 350000 },
   { num = 23, name = "CJ dos Santos", pos = "GK", club = "San Diego FC (USA)", age = 25, caps = 1, value = 1000000 },
   { num = 2, name = "Stopira", pos = "DF", club = "Torreense (POR)", age = 37, caps = 61, value = 50000 },
   { num = 3, name = "Diney", pos = "DF", club = "Al Bataeh (UAE)", age = 30, caps = 32, value = 900000 },
