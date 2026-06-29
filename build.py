@@ -263,7 +263,7 @@ def squad_html(team: Team) -> str:
         cap = '<span class="cap">(C)</span>' if p.get('captain') else ''
         v = p.get('value')
         val_cell = (
-            f'<td class="cs-value">{fmt_value(v)}</td>'
+            f'<td class="cs-value" data-eur="{v}">{fmt_value(v)}</td>'
             if v
             else '<td class="cs-value nodata">—</td>'
         )
@@ -271,7 +271,7 @@ def squad_html(team: Team) -> str:
             '<tr>'
             f'<td class="cs-shirt">{esc(p.get("num", ""))}</td>'
             f'<td><span class="pos pos-{esc(p["pos"])}">{esc(p["pos"])}</span></td>'
-            f'<td class="cs-name">{esc(p["name"])}{cap}'
+            f'<td class="cs-name" data-sort="{esc(p["name"].lower())}">{esc(p["name"])}{cap}'
             f'<div class="cs-club">{esc(p["club"])}</div></td>'
             f'<td class="cs-age">{esc(p.get("age", ""))}</td>'
             f'<td class="cs-caps">{esc(p.get("caps", 0))}</td>'
@@ -281,9 +281,12 @@ def squad_html(team: Team) -> str:
     return (
         f'<div class="cmp-squad" style="--accent:{accent(team["conf"])}">'
         f'<h2><span class="dot"></span>{esc(team["name"])} · squad ({len(players)})</h2>'
-        '<table><thead><tr><th class="th-shirt">#</th><th class="th-pos"></th><th>Player</th>'
-        '<th class="th-num">Age</th><th class="th-num">Caps</th>'
-        '<th class="th-num">Value</th></tr></thead>'
+        '<table class="sortable"><thead><tr>'
+        '<th class="th-shirt" data-sort-type="num">#</th><th class="th-pos"></th>'
+        '<th data-sort-type="text">Player</th>'
+        '<th class="th-num" data-sort-type="num">Age</th>'
+        '<th class="th-num" data-sort-type="num">Caps</th>'
+        '<th class="th-num" data-sort-type="num">Value</th></tr></thead>'
         f'<tbody>{"".join(rows)}</tbody></table>'
         f'<p class="cmp-profile"><a href="../{esc(team["profile"])}">'
         f'Full {esc(team["name"])} profile →</a></p></div>'
@@ -384,6 +387,7 @@ def render_match(match: Match, teams: Teams, round_name: str, footer: str) -> st
   {footer}
 </div>
 <script defer src="{asset_url('assets/times.js')}"></script>
+<script defer src="{asset_url('assets/sort.js')}"></script>
 </body></html>
 """
 

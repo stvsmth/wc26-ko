@@ -140,6 +140,13 @@ table.squad thead th{text-align:left;font-size:10.5px;letter-spacing:.14em;text-
   color:var(--ink-faint);font-weight:600;padding:0 14px 10px;border-bottom:1px solid var(--line-2)}
 table.squad td{padding:11px 14px;border-bottom:1px solid var(--line)}
 table.squad tbody tr:hover{background:rgba(255,255,255,.03)}
+
+/* Click-to-sort headers (assets/sort.js); shared by .squad and .cmp-squad tables. */
+table.sortable thead th[data-sort-type]{cursor:pointer;user-select:none}
+table.sortable thead th[data-sort-type]:hover{color:var(--ink-dim)}
+table.sortable thead th[aria-sort]::after{content:" \2195";opacity:.4}
+table.sortable thead th[aria-sort=ascending]::after{content:" \25B2";opacity:.8}
+table.sortable thead th[aria-sort=descending]::after{content:" \25BC";opacity:.8}
 .pos{display:inline-block;min-width:30px;font-size:10px;font-weight:700;letter-spacing:.08em;
   padding:3px 7px;border-radius:5px;text-align:center}
 .pos-GK{background:rgba(232,181,74,.16);color:var(--gold)}

@@ -94,7 +94,7 @@ def row_html(p: dict[str, Any]) -> str:
         '\n              '
         f'<td class="shirt-cell">{p["num"]}</td>'
         f'<td><span class="pos pos-{p["pos"]}">{p["pos"]}</span></td>'
-        f'<td class="pname">{esc(p["name"])}{cap}</td>'
+        f'<td class="pname" data-sort="{esc(p["name"].lower())}">{esc(p["name"])}{cap}</td>'
         f'<td class="club">{esc(p["club"])}</td>'
         f'<td class="age-cell">{p["age"]}</td>'
         f'<td class="num-cell">{p["caps"]}</td>'
@@ -108,9 +108,14 @@ def squad_block(players: list[dict[str, Any]]) -> str:
         '<div class="squad-head"><h2>Squad</h2>\n'
         '            <span class="note">Full 26-man squad · '
         'club at selection · senior caps</span></div>\n'
-        '          <table class="squad"><thead><tr>\n'
-        '            <th>#</th><th>Pos</th><th>Player</th>'
-        '<th>Club (league)</th><th>Age</th><th>Caps</th><th>Value</th>\n'
+        '          <table class="squad sortable"><thead><tr>\n'
+        '            <th data-sort-type="num">#</th>'
+        '<th data-sort-type="pos">Pos</th>'
+        '<th data-sort-type="text">Player</th>'
+        '<th data-sort-type="text">Club (league)</th>'
+        '<th data-sort-type="num">Age</th>'
+        '<th data-sort-type="num">Caps</th>'
+        '<th data-sort-type="num">Value</th>\n'
         f'          </tr></thead><tbody><tr>{rows}</tr></tbody></table>'
     )
 
@@ -165,6 +170,13 @@ def apply(path: Path) -> str:
         raw, vhits = AVG_FACT_FULL_RE.subn(lambda m: m.group(1) + fact, raw, count=1)
         if not vhits:
             problems.append('could not anchor squad-value factstrip')
+
+    # Load the column-sort enhancement. Team pages are otherwise script-free, so
+    # splice the tag in before </body> once (idempotent across re-runs).
+    if '/assets/sort.js' not in raw:
+        raw = raw.replace(
+            '</body>', '  <script defer src="../assets/sort.js"></script>\n</body>', 1
+        )
 
     target.write_text(raw, encoding='utf-8')
     flag = '  ⚠ ' + '; '.join(problems) if problems else ''
