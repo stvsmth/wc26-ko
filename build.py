@@ -258,6 +258,9 @@ def when_html(
 
 def squad_html(team: Team) -> str:
     players: list[dict[str, Any]] = team.get('players', [])
+    # Default sort is jersey number; sort.js reorders in place on header click,
+    # and the # header carries aria-sort="ascending" to match this render.
+    players = sorted(players, key=lambda p: (p.get('num') is None, p.get('num', 0)))
     rows = []
     for p in players:
         cap = '<span class="cap">(C)</span>' if p.get('captain') else ''
@@ -282,7 +285,8 @@ def squad_html(team: Team) -> str:
         f'<div class="cmp-squad" style="--accent:{accent(team["conf"])}">'
         f'<h2><span class="dot"></span>{esc(team["name"])} · squad ({len(players)})</h2>'
         '<table class="sortable"><thead><tr>'
-        '<th class="th-shirt" data-sort-type="num">#</th><th class="th-pos"></th>'
+        '<th class="th-shirt" data-sort-type="num" aria-sort="ascending">#</th>'
+        '<th class="th-pos"></th>'
         '<th data-sort-type="text">Player</th>'
         '<th class="th-num" data-sort-type="num">Age</th>'
         '<th class="th-num" data-sort-type="num">Caps</th>'

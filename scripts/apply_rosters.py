@@ -109,7 +109,7 @@ def squad_block(players: list[dict[str, Any]]) -> str:
         '            <span class="note">Full 26-man squad · '
         'club at selection · senior caps</span></div>\n'
         '          <table class="squad sortable"><thead><tr>\n'
-        '            <th data-sort-type="num">#</th>'
+        '            <th data-sort-type="num" aria-sort="ascending">#</th>'
         '<th data-sort-type="pos">Pos</th>'
         '<th data-sort-type="text">Player</th>'
         '<th data-sort-type="text">Club (league)</th>'
@@ -139,8 +139,9 @@ def apply(path: Path) -> str:
         if p['pos'] not in POS_ORDER:
             problems.append(f'bad pos {p["pos"]!r} for {p["name"]}')
 
-    # Stable display order: GK, DF, MF, FW, then shirt number within group.
-    players = sorted(players, key=lambda p: (POS_ORDER.get(p['pos'], 9), p['num']))
+    # Default display order is shirt number; the # header carries
+    # aria-sort="ascending" to match, and sort.js reorders on header click.
+    players = sorted(players, key=lambda p: p['num'])
 
     target = TEAMS_DIR / f'{slug}.html'
     if not target.exists():
