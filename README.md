@@ -1,4 +1,4 @@
-# wc26-ko ⚽
+# ⚽ wc26-ko
 
 A tiny static site for the **2026 FIFA World Cup knockout stage** — side-by-side
 team comparison pages for each match, plus a bracket index. 🏆
@@ -17,7 +17,7 @@ Running the build reads those files and writes one comparison page per match
 into `compare/`, plus `compare/index.html`. The script owns `compare/` and
 clears it on every run.
 
-## Build 🔨
+## 🔨 Build
 
 Requires Python 3.11+ (for `tomllib`). No dependencies to install.
 
@@ -27,7 +27,7 @@ python3 build.py
 
 Then open `index.html` (or `compare/index.html`) in a browser.
 
-## Tests 🧪
+## 🧪 Tests
 
 The build and scripts are stdlib-only, but the dev tooling (`pytest`, `ruff`,
 `ty`) lives in the `[dependency-groups]` dev group and is run via
@@ -44,7 +44,7 @@ Tests cover the logic that type-checking can't see — chiefly the
 and the flag-code completeness invariant. They don't assert exact rendered HTML
 (treat `compare/` as compiled output) or roster data accuracy.
 
-## Layout 📁
+## 📁 Layout
 
 | Path             | What's there                                  |
 | ---------------- | --------------------------------------------- |
@@ -56,6 +56,6 @@ and the flag-code completeness invariant. They don't assert exact rendered HTML
 | `assets/`        | CSS + JS                                       |
 | `tests/`         | pytest suite (run with `uv run pytest`)       |
 
-## License 📄
+## 📄 License
 
 MIT — see [LICENSE](LICENSE).
