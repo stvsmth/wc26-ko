@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="World Cup trophy">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6dd95"/>
+      <stop offset=".45" stop-color="#e8b54a"/>
+      <stop offset="1" stop-color="#a9781f"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#gold)">
+    <!-- globe held aloft -->
+    <circle cx="16" cy="7.2" r="4.7"/>
+    <!-- two figures: wide shoulders under the globe, spiralling to the stem -->
+    <path d="M9.6 12.4c-.6 4.1 2.9 5.8 4.6 8.2.7 1 .8 1.8.5 3h2.6c-.3-1.2-.2-2 .5-3 1.7-2.4 5.2-4.1 4.6-8.2z"/>
+    <!-- gold plinth -->
+    <rect x="10.5" y="23.4" width="11" height="1.8" rx=".6"/>
+    <!-- gold foot -->
+    <rect x="8.6" y="26.8" width="14.8" height="2.4" rx="1.1"/>
+  </g>
+  <!-- malachite base band -->
+  <rect x="9.5" y="25.1" width="13" height="1.8" fill="#15824e"/>
+</svg>

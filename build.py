@@ -360,6 +360,7 @@ def render_match(match: Match, teams: Teams, round_name: str, footer: str) -> st
 
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="{asset_url('favicon.svg')}">
 <title>{esc(a['name'])} vs {esc(b['name'])} — {esc(round_name)} · WC2026</title>
 {CONF_VARS_STYLE}{FLAG_ICONS_LINK}<link rel="stylesheet" href="{asset_url('style.css')}">
 <link rel="stylesheet" href="{asset_url('assets/compare.css')}"></head><body>
@@ -420,6 +421,7 @@ def render_index(rounds: list[Round], teams: Teams, footer: str) -> str:
     round_titles = ' · '.join(r['round'] for r in rounds)
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="{asset_url('favicon.svg')}">
 <title>Match comparisons — WC2026</title>
 {CONF_VARS_STYLE}{FLAG_ICONS_LINK}<link rel="stylesheet" href="{asset_url('style.css')}">
 <link rel="stylesheet" href="{asset_url('assets/compare.css')}"></head><body>
