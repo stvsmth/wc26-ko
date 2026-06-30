@@ -86,8 +86,9 @@
 .cmp-squad .cs-caps{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink)}
 .cmp-squad .cs-value{text-align:right;font-variant-numeric:tabular-nums;color:var(--ink)}
 .cmp-note{margin:18px 0 0;font-size:12px;color:var(--ink-faint);letter-spacing:.02em}
-.cmp-profile{margin-top:12px;font-size:12px;letter-spacing:.04em}
-.cmp-profile a{color:var(--ink-dim);text-decoration:underline;text-underline-offset:2px}
+.cmp-squad h2 .cs-profile{color:inherit;text-decoration:underline;
+  text-decoration-color:var(--line-2);text-underline-offset:3px;transition:text-decoration-color .15s}
+.cmp-squad h2 .cs-profile:hover{text-decoration-color:var(--accent)}
 
 @media(max-width:720px){
   .cmp-squads{grid-template-columns:1fr}

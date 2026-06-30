@@ -80,6 +80,17 @@ a{color:inherit;text-decoration:none}
   color:var(--ink-faint);margin:54px 0 18px;display:flex;align-items:center;gap:16px}
 .section-label::after{content:"";flex:1;height:1px;background:var(--line)}
 
+/* Teams heading + sort toggle (assets/teams.js reorders the grid in place). */
+.teams-head{display:flex;align-items:center;gap:18px;margin:54px 0 18px;flex-wrap:wrap}
+.teams-head .section-label{flex:1;min-width:120px;margin:0}
+.sort-toggle{display:inline-flex;border:1px solid var(--line-2);border-radius:999px;overflow:hidden}
+.sort-toggle button{font:inherit;cursor:pointer;background:transparent;color:var(--ink-dim);
+  border:0;padding:7px 15px;font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.sort-toggle button+button{border-left:1px solid var(--line-2)}
+.sort-toggle button:hover{color:var(--ink)}
+.sort-toggle button.is-active{background:var(--card);color:var(--ink)}
+.sort-toggle button:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:14px}
 .team-card{
   position:relative;display:block;background:var(--card);

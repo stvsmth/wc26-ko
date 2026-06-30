@@ -283,7 +283,9 @@ def squad_html(team: Team) -> str:
         )
     return (
         f'<div class="cmp-squad" style="--accent:{accent(team["conf"])}">'
-        f'<h2><span class="dot"></span>{esc(team["name"])} · squad ({len(players)})</h2>'
+        f'<h2><span class="dot"></span>'
+        f'<a class="cs-profile" href="../{esc(team["profile"])}">{esc(team["name"])}</a>'
+        f' · squad ({len(players)})</h2>'
         '<table class="sortable"><thead><tr>'
         '<th class="th-shirt" data-sort-type="num" aria-sort="ascending">#</th>'
         '<th class="th-pos"></th>'
@@ -291,9 +293,7 @@ def squad_html(team: Team) -> str:
         '<th class="th-num" data-sort-type="num">Age</th>'
         '<th class="th-num" data-sort-type="num">Caps</th>'
         '<th class="th-num" data-sort-type="num">Value</th></tr></thead>'
-        f'<tbody>{"".join(rows)}</tbody></table>'
-        f'<p class="cmp-profile"><a href="../{esc(team["profile"])}">'
-        f'Full {esc(team["name"])} profile →</a></p></div>'
+        f'<tbody>{"".join(rows)}</tbody></table></div>'
     )
 
 
