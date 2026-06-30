@@ -156,10 +156,10 @@ def squad_value(team: Team) -> tuple[int, int, int]:
     return sum(vals), len(vals), len(players)
 
 
-def mv_cell(tot: int, cov: int, n: int) -> str:
-    """One team's market-value comparison cell: the total with a 'cov of n'
-    coverage note, or '—' when Transfermarkt lists no values for the squad."""
-    return f'{fmt_value(tot)}<small>{cov} of {n}</small>' if cov else '—'
+def mv_cell(tot: int, cov: int) -> str:
+    """One team's market-value comparison cell: the squad total, or '—' when
+    Transfermarkt lists no values for the squad."""
+    return fmt_value(tot) if cov else '—'
 
 
 def flag(team: Team) -> str:
@@ -343,16 +343,16 @@ def render_match(match: Match, teams: Teams, round_name: str, footer: str) -> st
 
     # Squad market value: show the row only if at least one side has values, and
     # only declare a winner when *both* do (comparing against partial data lies).
-    a_tot, a_cov, a_n = squad_value(a)
-    b_tot, b_cov, b_n = squad_value(b)
+    a_tot, a_cov, _ = squad_value(a)
+    b_tot, b_cov, _ = squad_value(b)
     note = ''
     if a_cov or b_cov:
         comparable = bool(a_cov and b_cov)
         rows.append(
             h2h_row(
                 'Squad market value',
-                mv_cell(a_tot, a_cov, a_n),
-                mv_cell(b_tot, b_cov, b_n),
+                mv_cell(a_tot, a_cov),
+                mv_cell(b_tot, b_cov),
                 a_win=comparable and a_tot > b_tot,
                 b_win=comparable and b_tot > a_tot,
             )

@@ -95,24 +95,22 @@ def test_avg_age_factstrip_round_trip():
 
 
 def test_squad_value_factstrip_round_trip():
-    """The squad-value fact apply_rosters splices in is parsed back by parse_facts
-    and reports coverage (N of M) so a partial squad reads honestly."""
+    """The squad-value fact apply_rosters splices in is parsed back by parse_facts,
+    showing the squad total flagged as an estimate."""
     vals = [p['value'] for p in SQUAD if p.get('value')]
-    fragment = apply_rosters.value_fact_html(sum(vals), len(vals), len(SQUAD))
+    fragment = apply_rosters.value_fact_html(sum(vals))
 
     facts = extract_teams.parse_facts(soup(fragment))
     assert VALUE_FACT_KEY in facts, 'parse_facts no longer matches the squad-value fact'
-    value_disp, coverage = facts[VALUE_FACT_KEY]
+    value_disp, note = facts[VALUE_FACT_KEY]
     assert value_disp.startswith('€')
-    cov = re.search(r'(\d+) of (\d+)', coverage)
-    assert cov is not None
-    assert int(cov.group(1)) == len(vals) and int(cov.group(2)) == len(SQUAD)
+    assert note == 'est.'
 
 
 def test_value_fact_removal_is_idempotent():
     """VALUE_FACT_RE strips exactly the spliced fact, leaving avg-age intact."""
     avg_fact = f'{AVG_PREFIX}25.0\n          <small>4-player squad</small></div></div>'
-    spliced = avg_fact + apply_rosters.value_fact_html(100, 2, 4)
+    spliced = avg_fact + apply_rosters.value_fact_html(100)
     cleaned = apply_rosters.VALUE_FACT_RE.sub('', spliced)
     assert cleaned == avg_fact
     # A second pass is a no-op.

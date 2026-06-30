@@ -73,12 +73,12 @@ def fmt_value(v: int) -> str:
     return f'€{v}'
 
 
-def value_fact_html(total: int, ncov: int, n: int) -> str:
+def value_fact_html(total: int) -> str:
     """The 'Squad market value' factstrip block spliced after the avg-age fact."""
     return (
         f'\n        <div class="fact"><div class="k">{VALUE_FACT_KEY}</div>'
         f'<div class="v">{fmt_value(total)}\n'
-        f'          <small>est., {ncov} of {n}</small></div></div>'
+        f'          <small>est.</small></div></div>'
     )
 
 
@@ -167,7 +167,7 @@ def apply(path: Path) -> str:
     raw = VALUE_FACT_RE.sub('', raw)
     vals = [p['value'] for p in players if p.get('value')]
     if vals:
-        fact = value_fact_html(sum(vals), len(vals), n)
+        fact = value_fact_html(sum(vals))
         raw, vhits = AVG_FACT_FULL_RE.subn(lambda m: m.group(1) + fact, raw, count=1)
         if not vhits:
             problems.append('could not anchor squad-value factstrip')
