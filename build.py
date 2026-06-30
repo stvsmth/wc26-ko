@@ -359,7 +359,7 @@ def render_match(match: Match, teams: Teams, round_name: str, footer: str) -> st
         )
         note = (
             '<p class="cmp-note">Player values are Transfermarkt market-value '
-            f'estimates (EUR), as of {MV_SNAPSHOT}. “—” = no public listing.</p>'
+            f'estimates  as of {MV_SNAPSHOT}.'
         )
 
     return f"""<!doctype html><html lang="en"><head>
