@@ -338,7 +338,6 @@ def render_match(match: Match, teams: Teams, round_name: str, footer: str) -> st
         ),
         h2h_row('Group result', esc(a['group_result']), esc(b['group_result'])),
         h2h_row('Squad avg age', esc(a['avg_age']), esc(b['avg_age'])),
-        h2h_row('Squad size', esc(a['squad_size']), esc(b['squad_size'])),
     ]
 
     # Squad market value: show the row only if at least one side has values, and
